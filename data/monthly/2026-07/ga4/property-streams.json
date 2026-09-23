@@ -1,0 +1,30 @@
+{
+  "property": {
+    "name": "properties/546098812",
+    "parent": "accounts/401573323",
+    "createTime": "2026-07-19T10:32:28.982Z",
+    "updateTime": "2026-07-19T10:32:28.982Z",
+    "displayName": "Shahnawaz And Associates",
+    "industryCategory": "FINANCE",
+    "timeZone": "Asia/Calcutta",
+    "currencyCode": "INR",
+    "serviceLevel": "GOOGLE_ANALYTICS_STANDARD",
+    "account": "accounts/401573323",
+    "propertyType": "PROPERTY_TYPE_ORDINARY"
+  },
+  "dataStreams": {
+    "dataStreams": [
+      {
+        "name": "properties/546098812/dataStreams/15283518752",
+        "type": "WEB_DATA_STREAM",
+        "displayName": "Shahnawaz And Associates",
+        "createTime": "2026-07-19T10:32:54.477Z",
+        "updateTime": "2026-07-19T10:32:54.477Z",
+        "webStreamData": {
+          "measurementId": "G-1SFXZJSYYY",
+          "defaultUri": "https://cashahnawaz.com"
+        }
+      }
+    ]
+  }
+}

@@ -1,0 +1,600 @@
+{
+  "gsc": {
+    "data_start": "2026-05-28",
+    "data_end": "2026-08-25",
+    "total_90d": {
+      "clicks": 3744,
+      "impressions": 402561,
+      "ctr": 0.009300453844262112,
+      "weighted_position": 7.835058537712297
+    },
+    "first_30d": {
+      "clicks": 826,
+      "impressions": 98800,
+      "ctr": 0.008360323886639676,
+      "weighted_position": 8.602874493927125
+    },
+    "last_30d": {
+      "clicks": 1513,
+      "impressions": 147877,
+      "ctr": 0.01023147615924045,
+      "weighted_position": 7.827031925181062
+    },
+    "change_last_vs_first": {
+      "clicks": 0.8317191283292978,
+      "impressions": 0.49673076923076925,
+      "ctr": 0.22381337110527424,
+      "weighted_position": -0.7758425687460626
+    }
+  },
+  "gsc_brand_split_visible_query_rows": {
+    "branded": {
+      "clicks": 31,
+      "impressions": 614,
+      "ctr": 0.050488599348534204,
+      "weighted_position": 10.371335504885993
+    },
+    "nonbranded": {
+      "clicks": 527,
+      "impressions": 107972,
+      "ctr": 0.004880895046864002,
+      "weighted_position": 9.759289445411774
+    },
+    "note": "Query exports omit anonymized queries, so this split does not equal the complete Search Console totals."
+  },
+  "gsc_concentration": {
+    "top_10_page_click_share": 0.4514666666666667
+  },
+  "gsc_top_pages": [
+    {
+      "page": "https://cashahnawaz.com/",
+      "clicks": "432",
+      "impressions": "25813",
+      "ctr": "0.016735753302599465",
+      "position": "10.492116375469724"
+    },
+    {
+      "page": "https://cashahnawaz.com/itr-filing-for-healthcare-industry/",
+      "clicks": "219",
+      "impressions": "24871",
+      "ctr": "0.008805436050018094",
+      "position": "5.956937799043062"
+    },
+    {
+      "page": "https://cashahnawaz.com/itr-filing-for-food-and-beverage-industry/",
+      "clicks": "163",
+      "impressions": "15104",
+      "ctr": "0.010791843220338984",
+      "position": "5.216565148305085"
+    },
+    {
+      "page": "https://cashahnawaz.com/itr-filing-for-crypto-trading-in-india/",
+      "clicks": "149",
+      "impressions": "16124",
+      "ctr": "0.00924088315554453",
+      "position": "6.088935747953362"
+    },
+    {
+      "page": "https://cashahnawaz.com/due-date/july/",
+      "clicks": "142",
+      "impressions": "17837",
+      "ctr": "0.007960979985423557",
+      "position": "7.2890059987666085"
+    },
+    {
+      "page": "https://cashahnawaz.com/itr-filing-for-content-creators-influencers/",
+      "clicks": "131",
+      "impressions": "13672",
+      "ctr": "0.009581626682270333",
+      "position": "6.564511410181392"
+    },
+    {
+      "page": "https://cashahnawaz.com/madras-high-court-gst-notice-service-judgment/",
+      "clicks": "122",
+      "impressions": "2428",
+      "ctr": "0.05024711696869852",
+      "position": "7.269357495881384"
+    },
+    {
+      "page": "https://cashahnawaz.com/tax-guides/gst-itc-relief-supplier/",
+      "clicks": "113",
+      "impressions": "3942",
+      "ctr": "0.028665651953323185",
+      "position": "6.835870116692035"
+    },
+    {
+      "page": "https://cashahnawaz.com/when-can-i-expect-my-itr-refund/",
+      "clicks": "113",
+      "impressions": "53708",
+      "ctr": "0.0021039696134654054",
+      "position": "6.843840768600581"
+    },
+    {
+      "page": "https://cashahnawaz.com/tds-chart-for-fy-2026-27/",
+      "clicks": "109",
+      "impressions": "6683",
+      "ctr": "0.01631004040101751",
+      "position": "6.06254676043693"
+    },
+    {
+      "page": "https://cashahnawaz.com/itr-filing-for-beauty-wellness-industry/",
+      "clicks": "98",
+      "impressions": "9516",
+      "ctr": "0.010298444724674232",
+      "position": "5.655002101723413"
+    },
+    {
+      "page": "https://cashahnawaz.com/itr-filing-for-event-management-and-entertainment-professionals/",
+      "clicks": "92",
+      "impressions": "7406",
+      "ctr": "0.012422360248447204",
+      "position": "5.195922225222792"
+    },
+    {
+      "page": "https://cashahnawaz.com/income-tax-return-filing-in-mumbai/",
+      "clicks": "91",
+      "impressions": "8619",
+      "ctr": "0.010558069381598794",
+      "position": "6.3901844761573265"
+    },
+    {
+      "page": "https://cashahnawaz.com/tax-guides/fast-ds-foreign-assets-disclosure-scheme/",
+      "clicks": "84",
+      "impressions": "2386",
+      "ctr": "0.03520536462699078",
+      "position": "6.500838222967309"
+    },
+    {
+      "page": "https://cashahnawaz.com/itr-filing-for-real-estate-construction/",
+      "clicks": "80",
+      "impressions": "5517",
+      "ctr": "0.014500634402755121",
+      "position": "5.503897045495741"
+    },
+    {
+      "page": "https://cashahnawaz.com/june-2026-important-due-dates/",
+      "clicks": "79",
+      "impressions": "7615",
+      "ctr": "0.010374261326329612",
+      "position": "7.037820091923835"
+    },
+    {
+      "page": "https://cashahnawaz.com/itr-filing-for-nri-guide-for-non-resident-taxation/",
+      "clicks": "77",
+      "impressions": "10647",
+      "ctr": "0.007232084155161078",
+      "position": "8.731849347233963"
+    },
+    {
+      "page": "https://cashahnawaz.com/form-10ab-delay-condonation-80g-approval/",
+      "clicks": "73",
+      "impressions": "2531",
+      "ctr": "0.02884235480047412",
+      "position": "6.5483998419597"
+    },
+    {
+      "page": "https://cashahnawaz.com/12a-or-12aa-or-80g-registration-new-scheme/",
+      "clicks": "68",
+      "impressions": "11102",
+      "ctr": "0.006125022518465141",
+      "position": "9.78958746171861"
+    },
+    {
+      "page": "https://cashahnawaz.com/wp-content/uploads/2024/10/cbdt-income-tax-circular-13-2023.pdf",
+      "clicks": "64",
+      "impressions": "546",
+      "ctr": "0.11721611721611722",
+      "position": "8.296703296703296"
+    }
+  ],
+  "gsc_top_commercial_opportunities": [
+    {
+      "query": "july 2026 tax deadlines",
+      "clicks": "0",
+      "impressions": "3331",
+      "ctr": "0",
+      "position": "9.144701290903633",
+      "commercial_intent": true,
+      "opportunity_index": 1487.0433843859353,
+      "page": "https://cashahnawaz.com/due-date/july/",
+      "page_impressions": 3330.0
+    },
+    {
+      "query": "income tax refund",
+      "clicks": "0",
+      "impressions": "2333",
+      "ctr": "0",
+      "position": "4.734247749678525",
+      "commercial_intent": true,
+      "opportunity_index": 1447.514812499943,
+      "page": "https://cashahnawaz.com/when-can-i-expect-my-itr-refund/",
+      "page_impressions": 2333.0
+    },
+    {
+      "query": "ca in mumbai",
+      "clicks": "14",
+      "impressions": "749",
+      "ctr": "0.018691588785046728",
+      "position": "3.0093457943925235",
+      "commercial_intent": true,
+      "opportunity_index": 571.9855541749133,
+      "page": "https://cashahnawaz.com/",
+      "page_impressions": 748.0
+    },
+    {
+      "query": "ca",
+      "clicks": "0",
+      "impressions": "865",
+      "ctr": "0",
+      "position": "4.310982658959538",
+      "commercial_intent": true,
+      "opportunity_index": 562.421271642581,
+      "page": "https://cashahnawaz.com/",
+      "page_impressions": 865.0
+    },
+    {
+      "query": "when itr refund start",
+      "clicks": "0",
+      "impressions": "1317",
+      "ctr": "0",
+      "position": "10.385725132877752",
+      "commercial_intent": true,
+      "opportunity_index": 551.6976464295683,
+      "page": "https://cashahnawaz.com/when-can-i-expect-my-itr-refund/",
+      "page_impressions": 1317.0
+    },
+    {
+      "query": "accounting services",
+      "clicks": "5",
+      "impressions": "904",
+      "ctr": "0.0055309734513274336",
+      "position": "7.6084070796460175",
+      "commercial_intent": true,
+      "opportunity_index": 439.99383331545306,
+      "page": "https://cashahnawaz.com/accounting-services/",
+      "page_impressions": 903.0
+    },
+    {
+      "query": "tds chart for fy 2026-27",
+      "clicks": "30",
+      "impressions": "715",
+      "ctr": "0.04195804195804196",
+      "position": "8.16083916083916",
+      "commercial_intent": true,
+      "opportunity_index": 323.71060742368616,
+      "page": "https://cashahnawaz.com/tds-chart-for-fy-2026-27/",
+      "page_impressions": 715.0
+    },
+    {
+      "query": "gst penalty typographical error relief",
+      "clicks": "0",
+      "impressions": "555",
+      "ctr": "0",
+      "position": "11.942342342342343",
+      "commercial_intent": true,
+      "opportunity_index": 216.81133985389835,
+      "page": "https://cashahnawaz.com/kerala-high-court-gst-itc-reporting-error-section-73-relief/",
+      "page_impressions": 555.0
+    },
+    {
+      "query": "itr filing in mumbai",
+      "clicks": "7",
+      "impressions": "249",
+      "ctr": "0.028112449799196786",
+      "position": "3.032128514056225",
+      "commercial_intent": true,
+      "opportunity_index": 187.61835861681084,
+      "page": "https://cashahnawaz.com/income-tax-return-filing-in-mumbai/",
+      "page_impressions": 204.0
+    },
+    {
+      "query": "gst compliance advisories july 2026",
+      "clicks": "3",
+      "impressions": "334",
+      "ctr": "0.008982035928143712",
+      "position": "5.922155688622754",
+      "commercial_intent": true,
+      "opportunity_index": 183.6207902119988,
+      "page": "https://cashahnawaz.com/due-date/july/",
+      "page_impressions": 334.0
+    },
+    {
+      "query": "tax consultant",
+      "clicks": "8",
+      "impressions": "450",
+      "ctr": "0.017777777777777778",
+      "position": "10.70888888888889",
+      "commercial_intent": true,
+      "opportunity_index": 182.34078979525765,
+      "page": "https://cashahnawaz.com/",
+      "page_impressions": 450.0
+    },
+    {
+      "query": "tds rate chart for fy 2026 27",
+      "clicks": "2",
+      "impressions": "217",
+      "ctr": "0.009216589861751152",
+      "position": "3.013824884792627",
+      "commercial_intent": true,
+      "opportunity_index": 167.19112542155094,
+      "page": "https://cashahnawaz.com/tds-chart-for-fy-2026-27/",
+      "page_impressions": 217.0
+    },
+    {
+      "query": "online tax consultant",
+      "clicks": "1",
+      "impressions": "367",
+      "ctr": "0.0027247956403269754",
+      "position": "10.61307901907357",
+      "commercial_intent": true,
+      "opportunity_index": 151.66806814044,
+      "page": "https://cashahnawaz.com/",
+      "page_impressions": 367.0
+    },
+    {
+      "query": "12a registration online",
+      "clicks": "3",
+      "impressions": "306",
+      "ctr": "0.00980392156862745",
+      "position": "7.928104575163399",
+      "commercial_intent": true,
+      "opportunity_index": 145.27527692677114,
+      "page": "https://cashahnawaz.com/12a-or-12aa-or-80g-registration-new-scheme/",
+      "page_impressions": 306.0
+    },
+    {
+      "query": "accounting services in mumbai",
+      "clicks": "0",
+      "impressions": "247",
+      "ctr": "0",
+      "position": "5.279352226720648",
+      "commercial_intent": true,
+      "opportunity_index": 145.12438846354246,
+      "page": "https://cashahnawaz.com/accounting-services/",
+      "page_impressions": 234.0
+    },
+    {
+      "query": "income tax return filing mumbai",
+      "clicks": "0",
+      "impressions": "233",
+      "ctr": "0",
+      "position": "4.721030042918455",
+      "commercial_intent": true,
+      "opportunity_index": 144.76757761855885,
+      "page": "https://cashahnawaz.com/income-tax-return-filing-in-mumbai/",
+      "page_impressions": 222.0
+    },
+    {
+      "query": "gst filing services",
+      "clicks": "3",
+      "impressions": "380",
+      "ctr": "0.007894736842105263",
+      "position": "13.728947368421053",
+      "commercial_intent": true,
+      "opportunity_index": 137.35880334661576,
+      "page": "https://cashahnawaz.com/gst-return-filing/",
+      "page_impressions": 380.0
+    },
+    {
+      "query": "tax consultant mumbai",
+      "clicks": "8",
+      "impressions": "282",
+      "ctr": "0.028368794326241134",
+      "position": "7.329787234042553",
+      "commercial_intent": true,
+      "opportunity_index": 136.62766530238187,
+      "page": "https://cashahnawaz.com/",
+      "page_impressions": 282.0
+    },
+    {
+      "query": "july features multiple crucial income tax and gst compliance deadlines",
+      "clicks": "4",
+      "impressions": "182",
+      "ctr": "0.02197802197802198",
+      "position": "3.258241758241758",
+      "commercial_intent": true,
+      "opportunity_index": 133.1257655133205,
+      "page": "https://cashahnawaz.com/due-date/july/",
+      "page_impressions": 182.0
+    },
+    {
+      "query": "tax consultant in mumbai",
+      "clicks": "7",
+      "impressions": "250",
+      "ctr": "0.028",
+      "position": "6.452",
+      "commercial_intent": true,
+      "opportunity_index": 129.14953972540252,
+      "page": "https://cashahnawaz.com/",
+      "page_impressions": 250.0
+    },
+    {
+      "query": "business accounting services",
+      "clicks": "0",
+      "impressions": "287",
+      "ctr": "0",
+      "position": "10.045296167247386",
+      "commercial_intent": true,
+      "opportunity_index": 122.24589722627772,
+      "page": "https://cashahnawaz.com/accounting-services/",
+      "page_impressions": 287.0
+    },
+    {
+      "query": "beauty parlour business code in income tax",
+      "clicks": "1",
+      "impressions": "210",
+      "ctr": "0.004761904761904762",
+      "position": "5.6761904761904765",
+      "commercial_intent": true,
+      "opportunity_index": 118.42723081066796,
+      "page": "https://cashahnawaz.com/itr-filing-for-beauty-wellness-industry/",
+      "page_impressions": 210.0
+    },
+    {
+      "query": "itr filing charges in mumbai",
+      "clicks": "2",
+      "impressions": "199",
+      "ctr": "0.010050251256281407",
+      "position": "5.557788944723618",
+      "commercial_intent": true,
+      "opportunity_index": 112.81035590399607,
+      "page": "https://cashahnawaz.com/income-tax-return-filing-in-mumbai/",
+      "page_impressions": 199.0
+    },
+    {
+      "query": "tax consultancy",
+      "clicks": "3",
+      "impressions": "237",
+      "ctr": "0.012658227848101266",
+      "position": "8.818565400843882",
+      "commercial_intent": true,
+      "opportunity_index": 106.37771461854273,
+      "page": "https://cashahnawaz.com/",
+      "page_impressions": 237.0
+    },
+    {
+      "query": "best time to file itr",
+      "clicks": "2",
+      "impressions": "180",
+      "ctr": "0.011111111111111112",
+      "position": "5.133333333333334",
+      "commercial_intent": true,
+      "opportunity_index": 106.06058976499565,
+      "page": "https://cashahnawaz.com/best-time-to-file-itr/",
+      "page_impressions": 180.0
+    },
+    {
+      "query": "tds payment due date for june 2026",
+      "clicks": "1",
+      "impressions": "221",
+      "ctr": "0.004524886877828055",
+      "position": "8.180995475113122",
+      "commercial_intent": true,
+      "opportunity_index": 103.83729667810086,
+      "page": "https://cashahnawaz.com/june-2026-important-due-dates/",
+      "page_impressions": 221.0
+    },
+    {
+      "query": "fy 2026-27 commission tds rules",
+      "clicks": "0",
+      "impressions": "219",
+      "ctr": "0",
+      "position": "8.287671232876711",
+      "commercial_intent": true,
+      "opportunity_index": 102.69791489188327,
+      "page": "https://cashahnawaz.com/tds-chart-for-fy-2026-27/",
+      "page_impressions": 219.0
+    },
+    {
+      "query": "form 8 and form 11 of llp",
+      "clicks": "2",
+      "impressions": "237",
+      "ctr": "0.008438818565400843",
+      "position": "9.60759493670886",
+      "commercial_intent": true,
+      "opportunity_index": 102.35151806880123,
+      "page": "https://cashahnawaz.com/manage-business/llp-roc-return-filing-form-11-form-8/",
+      "page_impressions": 237.0
+    },
+    {
+      "query": "tax consultant in india",
+      "clicks": "2",
+      "impressions": "305",
+      "ctr": "0.006557377049180328",
+      "position": "16.350819672131145",
+      "commercial_intent": true,
+      "opportunity_index": 101.15949032570146,
+      "page": "https://cashahnawaz.com/",
+      "page_impressions": 305.0
+    },
+    {
+      "query": "gst return filing services",
+      "clicks": "0",
+      "impressions": "270",
+      "ctr": "0",
+      "position": "13.862962962962962",
+      "commercial_intent": true,
+      "opportunity_index": 97.89702657341323,
+      "page": "https://cashahnawaz.com/gst-return-filing/",
+      "page_impressions": 270.0
+    }
+  ],
+  "ga4": {
+    "data_start": "2026-07-19",
+    "data_end": "2026-08-25",
+    "organic_sessions": 2533.0,
+    "total_sessions": 3102.0,
+    "organic_session_share": 0.8165699548678272,
+    "organic_engagement_rate": 0.568495854717726,
+    "organic_average_session_duration_seconds": 151.6151698314252,
+    "organic_key_events_reported": 360.0,
+    "events": {
+      "page_view": {
+        "event_count": 4258.0,
+        "users": 2469.0,
+        "key_events": 0.0
+      },
+      "session_start": {
+        "event_count": 3233.0,
+        "users": 2468.0,
+        "key_events": 0.0
+      },
+      "first_visit": {
+        "event_count": 2597.0,
+        "users": 2467.0,
+        "key_events": 0.0
+      },
+      "user_engagement": {
+        "event_count": 2203.0,
+        "users": 1590.0,
+        "key_events": 0.0
+      },
+      "scroll": {
+        "event_count": 652.0,
+        "users": 424.0,
+        "key_events": 0.0
+      },
+      "whatsapp_click": {
+        "event_count": 587.0,
+        "users": 204.0,
+        "key_events": 585.0
+      },
+      "click": {
+        "event_count": 55.0,
+        "users": 43.0,
+        "key_events": 0.0
+      },
+      "file_download": {
+        "event_count": 42.0,
+        "users": 33.0,
+        "key_events": 0.0
+      },
+      "video_progress": {
+        "event_count": 17.0,
+        "users": 7.0,
+        "key_events": 0.0
+      },
+      "form_start": {
+        "event_count": 12.0,
+        "users": 8.0,
+        "key_events": 0.0
+      },
+      "phone_click": {
+        "event_count": 7.0,
+        "users": 6.0,
+        "key_events": 5.0
+      },
+      "video_complete": {
+        "event_count": 7.0,
+        "users": 6.0,
+        "key_events": 0.0
+      },
+      "video_start": {
+        "event_count": 7.0,
+        "users": 7.0,
+        "key_events": 0.0
+      }
+    },
+    "measurement_warning": "Published GTM WhatsApp link-click trigger has no filter; whatsapp_click and aggregate key-event metrics are not reliable conversion counts."
+  }
+}

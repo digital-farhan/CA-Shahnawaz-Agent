@@ -1,0 +1,4 @@
+interface:
+  display_name: "Internal Linking Optimization"
+  short_description: "Evidence-led internal linking audits"
+  default_prompt: "Use $internal-linking-optimization to audit internal linking and prepare a client-ready implementation brief."

@@ -1,0 +1,14 @@
+﻿eventName,eventCount,totalUsers,keyEvents
+page_view,1488,907,0
+session_start,1171,907,0
+first_visit,942,906,0
+user_engagement,769,570,0
+scroll,227,168,0
+whatsapp_click,180,76,178
+click,27,18,0
+video_progress,17,7,0
+file_download,8,6,0
+form_start,8,4,0
+video_complete,7,6,0
+video_start,7,7,0
+phone_click,4,3,2

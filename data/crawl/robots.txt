@@ -1,0 +1,5 @@
+User-agent: *
+Disallow: /wp-admin/
+Disallow: /wp-admin/admin-ajax.php
+
+Sitemap: https://cashahnawaz.com/sitemap_index.xml

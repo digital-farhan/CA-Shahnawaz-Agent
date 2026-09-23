@@ -1,0 +1,96 @@
+{
+  "sites": {
+    "siteEntry": [
+      {
+        "siteUrl": "https://cashahnawaz.com/",
+        "permissionLevel": "siteRestrictedUser"
+      }
+    ]
+  },
+  "sitemaps": {
+    "sitemap": [
+      {
+        "path": "https://cashahnawaz.com/sitemap_index.xml",
+        "lastSubmitted": "2026-06-23T08:19:38.453Z",
+        "isPending": false,
+        "isSitemapsIndex": true,
+        "lastDownloaded": "2026-08-28T09:29:37.828Z",
+        "warnings": "0",
+        "errors": "0",
+        "contents": [
+          {
+            "type": "web",
+            "submitted": "108",
+            "indexed": "0"
+          },
+          {
+            "type": "image",
+            "submitted": "314",
+            "indexed": "0"
+          }
+        ]
+      },
+      {
+        "path": "https://cashahnawaz.com/page-sitemap.xml",
+        "lastSubmitted": "2026-06-23T08:19:09.997Z",
+        "isPending": false,
+        "isSitemapsIndex": false,
+        "type": "sitemap",
+        "lastDownloaded": "2026-08-26T10:12:04.070Z",
+        "warnings": "0",
+        "errors": "0",
+        "contents": [
+          {
+            "type": "web",
+            "submitted": "42",
+            "indexed": "0"
+          },
+          {
+            "type": "image",
+            "submitted": "134",
+            "indexed": "0"
+          }
+        ]
+      },
+      {
+        "path": "https://cashahnawaz.com/category-sitemap.xml",
+        "lastSubmitted": "2026-06-14T09:44:24.508Z",
+        "isPending": false,
+        "isSitemapsIndex": false,
+        "type": "sitemap",
+        "lastDownloaded": "2026-08-26T21:38:59.503Z",
+        "warnings": "0",
+        "errors": "0",
+        "contents": [
+          {
+            "type": "web",
+            "submitted": "8",
+            "indexed": "0"
+          }
+        ]
+      },
+      {
+        "path": "https://cashahnawaz.com/post-sitemap.xml",
+        "lastSubmitted": "2026-06-14T09:44:09.967Z",
+        "isPending": false,
+        "isSitemapsIndex": false,
+        "type": "sitemap",
+        "lastDownloaded": "2026-08-24T17:31:14.177Z",
+        "warnings": "0",
+        "errors": "0",
+        "contents": [
+          {
+            "type": "web",
+            "submitted": "58",
+            "indexed": "0"
+          },
+          {
+            "type": "image",
+            "submitted": "180",
+            "indexed": "0"
+          }
+        ]
+      }
+    ]
+  }
+}

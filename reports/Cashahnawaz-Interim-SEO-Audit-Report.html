@@ -1,0 +1,1119 @@
+<title>Interim SEO Audit Report — Cash Ahnawaz & Associates</title>
+<style>
+:root{
+  --navy:#1B3A5C; --forest:#2F5233; --gold:#C99B3B; --bg:#F7F8FA; --text:#1A1D23;
+  --critical:#B3261E; --high:#D2691E; --medium:#C99B3B; --low:#6B7280; --opportunity:#2F5233;
+  --completed:#1B7A43; --notstarted:#9CA3AF;
+  --border:#D9DEE5; --zebra:#F2F4F7;
+}
+*{box-sizing:border-box;}
+html,body{margin:0;padding:0;}
+body{
+  font-family:'Segoe UI',system-ui,Arial,sans-serif;
+  color:var(--text); background:#fff; font-size:10.3pt; line-height:1.55;
+  -webkit-print-color-adjust:exact; print-color-adjust:exact;
+}
+h1,h2,h3,h4{font-family:Cambria,Georgia,'Times New Roman',serif; color:var(--navy); line-height:1.28; margin:0 0 0.4em 0;}
+h1{font-size:22pt;} h2{font-size:16pt; border-bottom:2px solid var(--navy); padding-bottom:6px; margin-top:0;}
+h3{font-size:12.5pt; color:var(--navy); margin-top:1.4em;}
+h4{font-size:11pt; color:var(--navy); margin-top:1.2em;}
+p{margin:0 0 0.8em 0;}
+a{color:var(--navy);}
+ul,ol{margin:0 0 0.9em 0; padding-left:1.4em;}
+li{margin-bottom:0.35em;}
+code{font-family:'Consolas','SFMono-Regular',Menlo,monospace; font-size:0.92em; background:var(--zebra); border:1px solid var(--border); border-radius:3px; padding:0.05em 0.35em; word-break:break-word; color:#233; }
+strong{color:var(--text);}
+.wrap{max-width:100%;}
+
+/* ---------- badges ---------- */
+.sev{display:inline-block; font-family:'Segoe UI',system-ui,Arial,sans-serif; font-weight:700; font-size:8pt; letter-spacing:0.02em; color:#fff; padding:2.5px 9px; border-radius:10px; white-space:nowrap;}
+.sev.critical{background:var(--critical);}
+.sev.high{background:var(--high);}
+.sev.medium{background:var(--medium); color:#3a2c05;}
+.sev.low{background:var(--low);}
+.sev.opportunity{background:var(--opportunity);}
+.sev.completed{background:var(--completed);}
+.sev.notstarted{background:var(--notstarted); color:#2b2b2b;}
+
+.conf{display:inline-block; font-family:'Segoe UI',system-ui,Arial,sans-serif; font-weight:600; font-size:8pt; letter-spacing:0.02em; color:var(--navy); background:#EEF1F5; border:1px solid #C7D0DB; padding:2px 8px; border-radius:4px; white-space:nowrap;}
+
+/* ---------- cover page ---------- */
+.cover{page-break-after:always; min-height:257mm; display:flex; flex-direction:column; justify-content:space-between; background:var(--navy); color:#fff; margin:-20mm -18mm; padding:26mm 20mm; }
+.cover-top{border-top:3px solid var(--gold); padding-top:10mm;}
+.cover-kicker{letter-spacing:0.18em; font-size:9.5pt; text-transform:uppercase; color:#D9C48F; margin-bottom:10mm;}
+.cover-firm{font-family:Cambria,Georgia,serif; font-size:15pt; letter-spacing:0.06em; text-transform:uppercase; color:#fff; margin-bottom:4mm; opacity:0.92;}
+.cover-title{font-family:Cambria,Georgia,serif; font-size:30pt; line-height:1.2; margin:0 0 14mm 0; max-width:150mm;}
+.cover-meta{font-size:10.5pt; line-height:2.05; border-left:2px solid var(--gold); padding-left:6mm; max-width:140mm;}
+.cover-meta b{color:var(--gold); font-weight:600;}
+.cover-notice{margin-top:14mm; border:1px solid rgba(255,255,255,0.28); border-left:3px solid var(--gold); background:rgba(255,255,255,0.06); padding:5mm 6mm; font-size:9.5pt; line-height:1.6; max-width:150mm; color:#EDEFF2;}
+.cover-bottom{border-top:1px solid rgba(255,255,255,0.25); padding-top:5mm; font-size:8.5pt; color:#C7D2DE; display:flex; justify-content:space-between;}
+
+/* ---------- TOC ---------- */
+.toc-page{page-break-after:always;}
+.toc-list{list-style:none; padding:0; margin:0;}
+.toc-list li{border-bottom:1px dotted var(--border); padding:6px 0; display:flex; justify-content:space-between; font-size:10.5pt;}
+.toc-list a{text-decoration:none; color:var(--text); font-weight:600;}
+.toc-list a:hover{color:var(--navy);}
+.toc-num{display:inline-block; width:26px; color:var(--navy); font-weight:700;}
+
+/* ---------- sections ---------- */
+.section-block{page-break-before:always; padding-top:2mm;}
+.section-eyebrow{color:var(--gold); font-weight:700; font-size:9pt; letter-spacing:0.14em; text-transform:uppercase; margin-bottom:2px;}
+
+/* ---------- blockquote / callout ---------- */
+blockquote,.callout{border-left:3px solid var(--gold); background:var(--bg); margin:0 0 1em 0; padding:4mm 6mm; font-size:9.8pt; color:#3a3f47; border-radius:0 4px 4px 0;}
+blockquote p,.callout p{margin:0;}
+
+/* ---------- tables ---------- */
+table{width:100%; border-collapse:collapse; margin:0 0 1.1em 0; font-size:9.3pt; break-inside:auto;}
+table.compact{font-size:8.3pt;}
+thead th{background:var(--navy); color:#fff; text-align:left; font-weight:600; padding:6px 8px; border:1px solid var(--navy); font-size:0.95em;}
+tbody td{padding:5px 8px; border:1px solid var(--border); vertical-align:top; word-wrap:break-word; overflow-wrap:break-word;}
+tbody tr:nth-child(even){background:var(--zebra);}
+tbody tr{break-inside:avoid;}
+table.fixed{table-layout:fixed;}
+caption.tbl-cap{caption-side:top; text-align:left; font-weight:700; color:var(--navy); font-size:9.5pt; padding:0 0 4px 0; font-family:Cambria,Georgia,serif;}
+
+/* ---------- stat cards ---------- */
+.stat-row{display:flex; gap:8px; margin:10px 0 16px 0; flex-wrap:wrap;}
+.stat-card{flex:1 1 0; min-width:70px; border:1px solid var(--border); border-top:3px solid var(--gold); background:#fff; padding:9px 8px; text-align:center; border-radius:3px;}
+.stat-card .n{font-family:Cambria,Georgia,serif; font-size:19pt; color:var(--navy); font-weight:700; line-height:1;}
+.stat-card .l{font-size:7.6pt; text-transform:uppercase; letter-spacing:0.06em; color:#555; margin-top:4px;}
+.stat-card.total{border-top-color:var(--navy); background:var(--bg);}
+
+/* ---------- finding blocks ---------- */
+.finding{border:1px solid var(--border); border-left:4px solid var(--low); border-radius:0 4px 4px 0; margin:0 0 12px 0; padding:8px 10px 9px 10px; break-inside:avoid;}
+.finding.critical{border-left-color:var(--critical);}
+.finding.high{border-left-color:var(--high);}
+.finding.medium{border-left-color:var(--medium);}
+.finding.low{border-left-color:var(--low);}
+.finding-head{display:flex; align-items:baseline; gap:8px; margin-bottom:6px; flex-wrap:wrap;}
+.finding-id{font-weight:700; color:var(--navy); font-size:9.6pt; letter-spacing:0.02em;}
+.finding-title{font-weight:700; font-size:10.2pt; color:var(--text);}
+dl.ffields{margin:0; display:grid; grid-template-columns:150px 1fr; gap:3px 10px; font-size:9.3pt;}
+dl.ffields dt{font-weight:700; color:var(--navy); grid-column:1;}
+dl.ffields dd{margin:0; grid-column:2;}
+
+/* ---------- funnel diagram ---------- */
+.funnel{display:flex; flex-direction:column; gap:0; margin:14px 0; align-items:center;}
+.funnel-step{width:100%; max-width:340px; background:var(--navy); color:#fff; text-align:center; padding:7px 10px; border-radius:3px; font-size:9.6pt; font-weight:600;}
+.funnel-arrow{color:var(--gold); font-size:13pt; line-height:1; margin:1px 0;}
+
+/* ---------- quick wins ---------- */
+.qw{border:1px solid var(--border); border-top:3px solid var(--forest); border-radius:0 0 4px 4px; padding:9px 11px; margin-bottom:12px; break-inside:avoid;}
+.qw h4{margin-top:0; color:var(--forest);}
+.qw .lbl{font-weight:700; color:var(--navy);}
+
+/* ---------- misc ---------- */
+hr.rule{border:none; border-top:1px solid var(--border); margin:18px 0;}
+.small{font-size:8.6pt; color:#555;}
+.tbl-scroll{overflow-x:auto;}
+
+/* ---------- print ---------- */
+@page{ size:A4; margin:20mm 18mm; }
+@media print{
+  .section-block{page-break-before:always;}
+  .cover{page-break-after:always;}
+  a{color:var(--text); text-decoration:none;}
+  thead{display:table-header-group;}
+  tr{break-inside:avoid;}
+  .finding,.qw,.stat-card{break-inside:avoid;}
+}
+</style>
+
+<!-- ============================= COVER ============================= -->
+<div class="cover">
+  <div class="cover-top">
+    <div class="cover-kicker">Interim Website &amp; SEO Audit Report</div>
+    <div class="cover-firm">Cash Ahnawaz &amp; Associates</div>
+    <h1 class="cover-title">Interim Website &amp; SEO Audit Report</h1>
+    <div class="cover-meta">
+      <div><b>Website:</b> https://cashahnawaz.com/</div>
+      <div><b>Prepared for:</b> Website SEO Review &amp; Manual Implementation</div>
+      <div><b>Audit Scope:</b> Phases 0, 1A and 1B</div>
+      <div><b>Report Date:</b> 2026-08-27</div>
+    </div>
+    <div class="cover-notice">This is an interim audit report based on the completed audit phases. Additional analysis may be added following Internal Linking, Schema, Performance, Competitor, Local SEO, CRO and analytics audits.</div>
+  </div>
+  <div class="cover-bottom">
+    <span>Cash Ahnawaz &amp; Associates — Interim SEO Audit Report</span>
+    <span>Confidential — Prepared for internal review</span>
+  </div>
+</div>
+
+<!-- ============================= TOC ============================= -->
+<div class="toc-page">
+  <h2 style="margin-top:6mm;">Table of Contents</h2>
+  <ul class="toc-list">
+    <li><span><span class="toc-num">1.</span><a href="#section-1">Executive Summary</a></span></li>
+    <li><span><span class="toc-num">2.</span><a href="#section-2">Audit Objectives</a></span></li>
+    <li><span><span class="toc-num">3.</span><a href="#section-3">Audit Scope &amp; Methodology</a></span></li>
+    <li><span><span class="toc-num">4.</span><a href="#section-4">Website Discovery Overview</a></span></li>
+    <li><span><span class="toc-num">5.</span><a href="#section-5">Technical SEO Findings</a></span></li>
+    <li><span><span class="toc-num">6.</span><a href="#section-6">WordPress SEO Findings</a></span></li>
+    <li><span><span class="toc-num">7.</span><a href="#section-7">On-Page SEO Findings</a></span></li>
+    <li><span><span class="toc-num">8.</span><a href="#section-8">Content Audit</a></span></li>
+    <li><span><span class="toc-num">9.</span><a href="#section-9">Priority Service Coverage</a></span></li>
+    <li><span><span class="toc-num">10.</span><a href="#section-10">Top SEO Issues &amp; Opportunities</a></span></li>
+    <li><span><span class="toc-num">11.</span><a href="#section-11">Quick Wins — Manual Implementation</a></span></li>
+    <li><span><span class="toc-num">12.</span><a href="#section-12">Manual Implementation Roadmap</a></span></li>
+    <li><span><span class="toc-num">13.</span><a href="#section-13">30/60/90 Day Roadmap</a></span></li>
+    <li><span><span class="toc-num">14.</span><a href="#section-14">Data Limitations</a></span></li>
+    <li><span><span class="toc-num">15.</span><a href="#section-15">Next Audit Phases</a></span></li>
+    <li><span><span class="toc-num">16.</span><a href="#section-16">Final Conclusion</a></span></li>
+  </ul>
+</div>
+
+<!-- ============================= SECTION 1 ============================= -->
+<section class="section-block" id="section-1">
+  <div class="section-eyebrow">Section 1</div>
+  <h2>Executive Summary</h2>
+
+  <p>This report consolidates every audit finding produced to date for <strong>https://cashahnawaz.com/</strong>, a WordPress-based Chartered Accountancy / tax / compliance firm site, across three completed phases:</p>
+  <ul>
+    <li><strong>Phase 0 — Discovery:</strong> full sitemap enumeration, technology fingerprinting, and baseline capability assessment.</li>
+    <li><strong>Phase 1A — Technical &amp; WordPress SEO:</strong> crawlability, indexation, sitemap structure, and WordPress/plugin/theme audit.</li>
+    <li><strong>Phase 1B — On-Page &amp; Content Audit:</strong> title/heading/CTA mechanics, content depth and accuracy, priority-service coverage, and content overlap analysis.</li>
+  </ul>
+  <p>No live-site changes have been made or will be made by Claude at any point in this project (see CLAUDE.md's Implementation Policy). Every finding below traces to actual evidence gathered from the live site this session — no keyword, ranking, traffic, conversion, or backlink data exists anywhere in this project, and none is claimed.</p>
+
+  <h3>Overall characterization</h3>
+  <p>The website sits on a <strong>clean, low-risk technical and WordPress foundation</strong> with <strong>real, addressable content-accuracy and service-coverage gaps</strong>. These are two different categories of problem, and this report keeps them distinct throughout:</p>
+  <ul>
+    <li><strong>Phase 1A (technical/WordPress) found zero CRITICAL and zero HIGH severity issues.</strong> All 8 Phase 1A findings are <span class="sev medium">MEDIUM</span> or <span class="sev low">LOW</span> — sitemap hygiene items, a footer-link cleanup, and one template-consistency note. Rank Math is confirmed as the sole active SEO plugin with no evidence of a conflicting second SEO plugin, the sitemap is well-formed and correctly segmented, and <code>robots.txt</code> has no accidental blocking.</li>
+    <li><strong>All 8 CRITICAL and all 12 HIGH severity findings come from Phase 1B (content and on-page).</strong> These are not structural technical failures — they are content-accuracy issues (stale dates/deadlines presented as current, one wrong firm name in a live FAQ, a self-contradicting figure) and service-coverage gaps (several CLAUDE.md priority services, most notably Private Limited Company Registration, have no dedicated page).</li>
+  </ul>
+
+  <h3>Findings by severity (39 total tracked findings)</h3>
+  <div class="stat-row">
+    <div class="stat-card"><div class="n" style="color:var(--critical);">8</div><div class="l">Critical</div></div>
+    <div class="stat-card"><div class="n" style="color:var(--high);">12</div><div class="l">High</div></div>
+    <div class="stat-card"><div class="n" style="color:var(--medium);">14</div><div class="l">Medium</div></div>
+    <div class="stat-card"><div class="n" style="color:var(--low);">5</div><div class="l">Low</div></div>
+    <div class="stat-card"><div class="n" style="color:var(--opportunity);">0</div><div class="l">Opportunity (formal)</div></div>
+    <div class="stat-card total"><div class="n">39</div><div class="l">Total tracked</div></div>
+  </div>
+  <div class="tbl-scroll">
+  <table>
+    <thead><tr><th>Severity</th><th>Count</th><th>Phase 1A (Technical/WordPress)</th><th>Phase 1B (On-Page/Content)</th></tr></thead>
+    <tbody>
+      <tr><td><span class="sev critical">CRITICAL</span></td><td>8</td><td>0</td><td>8</td></tr>
+      <tr><td><span class="sev high">HIGH</span></td><td>12</td><td>0</td><td>12</td></tr>
+      <tr><td><span class="sev medium">MEDIUM</span></td><td>14</td><td>4</td><td>10</td></tr>
+      <tr><td><span class="sev low">LOW</span></td><td>5</td><td>4</td><td>1</td></tr>
+      <tr><td><span class="sev opportunity">OPPORTUNITY (formal)</span></td><td>0</td><td>0</td><td>0</td></tr>
+      <tr><td><strong>Total</strong></td><td><strong>39</strong></td><td><strong>8</strong></td><td><strong>31</strong></td></tr>
+    </tbody>
+  </table>
+  </div>
+  <p>8 additional <strong>informal enhancement opportunities</strong> (not defects, not formal findings) are documented in <code>implementation/CONTENT-ACTION-PLAN.md</code>'s Opportunity tier — e.g., a possible standalone Bookkeeping page, a Tax Audit/Statutory Audit title-tag consideration. These are separate from the 39 tracked findings.</p>
+
+  <h3>Genuine strengths (verified, not assumed)</h3>
+  <ul>
+    <li><strong>CMS and SEO plugin are clean and unambiguous.</strong> WordPress (CONFIRMED), Rank Math SEO (CONFIRMED, sole active SEO plugin — no second-plugin conflict signature found).</li>
+    <li><strong>Sitemap structure is well-formed.</strong> <code>sitemap_index.xml</code> correctly segments 108 URLs across <code>page-sitemap.xml</code>, <code>post-sitemap.xml</code>, and <code>category-sitemap.xml</code>; <code>robots.txt</code> blocks nothing it shouldn't.</li>
+    <li><strong>No priority service page was found noindexed, blocked, or in an error state.</strong></li>
+    <li><strong>Strong content depth on several flagship pages:</strong> GST Registration (documents table, 5-Q&amp;A FAQ, and the site's clearest published fee — the only pages this transparent are 2 of 13); NRI Taxation (15 H2 sections covering DTAA treaties, FEMA, residential-status determination, and case law); the Section 8 Company + 12A/80G pair, which accurately maps the real two-step NGO formation-then-exemption lifecycle.</li>
+    <li><strong>Accounting and Audit are cleanly differentiated</strong> — confirmed zero cross-mentions of Tax/Statutory/Internal Audit on the Accounting Services page, clearing a conflation risk common on thin CA-firm sites.</li>
+    <li><strong>All 13 Tier 1 (highest-commercial-value) pages received full content-quality review</strong> — the highest-confidence coverage tier in this audit.</li>
+  </ul>
+
+  <h3>Main areas requiring attention</h3>
+  <ol>
+    <li><strong>Content accuracy on regulated/financial content.</strong> 15 items across the site carry a <code>PROFESSIONAL / CURRENT REGULATORY VERIFICATION REQUIRED</code> flag — dates, deadlines, and thresholds that are either confirmed stale or lack a currency signal. This is the single largest concentration of risk in the audit.</li>
+    <li><strong>Priority service coverage gaps.</strong> Of the services named in CLAUDE.md, 12 have no dedicated page — most severely <strong>Private Limited Company Registration</strong>, the dominant entity type for Indian SMEs, which has zero coverage despite less-common entity types (Public Limited, Section 8) being fully built out.</li>
+    <li><strong>Trust-signal gaps.</strong> No individually named, checkable CA/CS credential exists anywhere on the site; the homepage's own "TESTIMONIALS" section renders empty; 8 of 13 Tier 1 pages carry no testimonials at all.</li>
+    <li><strong>Minor technical hygiene.</strong> A likely page/taxonomy slug collision, outdated footer links, and two thin category archives — all MEDIUM or LOW, all straightforward to fix.</li>
+  </ol>
+
+  <h3>Immediate priorities</h3>
+  <ol>
+    <li>Correct the wrong firm name ("TAXZONA Consultancy") published in the Accounting Services FAQ — a single-sentence fix with outsized trust impact.</li>
+    <li>Route the three stale Tier 1 compliance pages (ITR Mumbai, LLP Annual Filing, 12A/80G) and three stale Tier 3 due-date articles to a qualified CA/tax professional for verification and relabeling.</li>
+    <li>Resolve the Public Limited Company page's self-contradicting paid-up-capital figures.</li>
+    <li>Begin scoping a dedicated Private Limited Company Registration page — the highest-priority content gap identified.</li>
+  </ol>
+</section>
+
+<!-- ============================= SECTION 2 ============================= -->
+<section class="section-block" id="section-2">
+  <div class="section-eyebrow">Section 2</div>
+  <h2>Audit Objectives</h2>
+  <p>Per CLAUDE.md's Main SEO Goal, this audit (and the eventual implementation it supports) exists to help the firm:</p>
+  <ul>
+    <li>Rank higher in Google for its priority services.</li>
+    <li>Increase qualified organic traffic.</li>
+    <li>Improve website engagement and user numbers.</li>
+    <li>Increase form submissions and genuine (non-spam) enquiries.</li>
+    <li>Improve phone and WhatsApp contacts.</li>
+    <li>Improve visibility and conversion for all 25 priority services named in CLAUDE.md, including registration and compliance services.</li>
+  </ul>
+  <p>Every finding in this report is mapped to the stage(s) of the site's success funnel it affects, so recommendations tie to a business outcome rather than a technical checkbox in isolation:</p>
+  <div class="funnel">
+    <div class="funnel-step">Organic Visibility</div>
+    <div class="funnel-arrow">&#8595;</div>
+    <div class="funnel-step">Qualified Traffic</div>
+    <div class="funnel-arrow">&#8595;</div>
+    <div class="funnel-step">Relevant Service Page</div>
+    <div class="funnel-arrow">&#8595;</div>
+    <div class="funnel-step">Trust &amp; Engagement</div>
+    <div class="funnel-arrow">&#8595;</div>
+    <div class="funnel-step">Contact / Form Submission</div>
+    <div class="funnel-arrow">&#8595;</div>
+    <div class="funnel-step">Genuine Enquiry</div>
+  </div>
+  <p>A technical crawlability issue typically affects the top of this funnel (Organic Visibility). A stale FAQ or a self-contradicting figure typically affects the middle-to-bottom (Trust &amp; Engagement, Genuine Enquiry) — a visitor who already found the page loses confidence at the exact point they would otherwise convert. A missing service page affects the very top — the visitor never reaches the site at all for that query.</p>
+</section>
+
+<!-- ============================= SECTION 3 ============================= -->
+<section class="section-block" id="section-3">
+  <div class="section-eyebrow">Section 3</div>
+  <h2>Audit Scope &amp; Methodology</h2>
+  <p><strong>Method used throughout:</strong> WebFetch (AI-summarized HTML→markdown extraction) against live URLs — no browser automation, no raw HTTP header inspection, no guaranteed JavaScript rendering. PowerShell was used only for local file operations, never against the live site. No GSC, GA4, GTM, WordPress Admin, or hosting connector was available in any session to date; each was independently re-verified as unavailable rather than assumed (see <code>reports/00-capability-check.md</code>).</p>
+  <div class="tbl-scroll">
+  <table class="compact">
+    <thead><tr><th>Audit Area</th><th>Status</th><th>Coverage</th></tr></thead>
+    <tbody>
+      <tr><td>Website Discovery</td><td>Completed</td><td>111 URLs discovered (108 sitemap + 3 footer-only), full sitemap enumeration</td></tr>
+      <tr><td>Technical SEO</td><td>Completed (Phase 1A)</td><td>53/111 URLs (48%) individually fetched this phase; 100% of Tier 1 + Tier 2; Tier 3 sampled 15/66 (23%)</td></tr>
+      <tr><td>WordPress SEO</td><td>Completed (Phase 1A)</td><td>Fingerprint-only evidence (public REST API + sitemap comments) — no admin access</td></tr>
+      <tr><td>On-Page SEO</td><td>Completed (Phase 1B)</td><td>Tier 1: 13/13 (100%) full content-quality review; Tier 2: title-level only (1/15 content-quality pass); Tier 3: partial sample</td></tr>
+      <tr><td>Content Audit</td><td>Completed (Phase 1B)</td><td>Same coverage pattern as On-Page SEO above</td></tr>
+      <tr><td>Service Coverage</td><td>Completed (Phase 1B)</td><td>All named CLAUDE.md priority services classified (see Section 9)</td></tr>
+      <tr><td>GSC</td><td><span class="conf">DATA NOT AVAILABLE</span></td><td>No connector this session</td></tr>
+      <tr><td>GA4</td><td><span class="conf">DATA NOT AVAILABLE</span></td><td>No connector this session</td></tr>
+      <tr><td>GTM</td><td><span class="conf">DATA NOT AVAILABLE</span></td><td>No connector this session</td></tr>
+      <tr><td>Performance / Core Web Vitals</td><td><span class="conf">DATA NOT AVAILABLE</span></td><td>No testing tool this session</td></tr>
+      <tr><td>Internal Linking</td><td>Not Yet Audited</td><td>Scheduled next phase</td></tr>
+      <tr><td>Schema</td><td>Not Yet Fully Audited</td><td>JSON-LD presence not visible this session (tool limitation, not confirmed absence)</td></tr>
+      <tr><td>Competitor Analysis</td><td>Not Yet Audited</td><td>Scheduled future phase</td></tr>
+      <tr><td>Local SEO</td><td>Not Yet Audited</td><td>Scheduled future phase</td></tr>
+      <tr><td>CRO</td><td>Not Yet Fully Audited</td><td>Content-alignment only checked (Section 9 of <code>reports/03-on-page-seo.md</code>); design/UX-level CRO not performed</td></tr>
+    </tbody>
+  </table>
+  </div>
+  <p><strong>Cumulative individual-fetch coverage across both phases: 62 of 111 URLs (56%).</strong> Tier 1 (13 URLs) is at 100% depth on both technical and content-quality dimensions — the highest-confidence tier in this audit. Tier 2 (15 URLs) is at 100% title-level verification but only 1 of 15 received a full content-quality pass. Tier 3 (66 blog/article URLs) is a disclosed 35% sample (23 of 66), not a full crawl.</p>
+  <p><strong>Key limitation carried through every phase:</strong> WebFetch's HTML→markdown conversion does not reliably surface <code>&lt;head&gt;</code>/<code>&lt;script&gt;</code>-level content. Meta robots tags, canonical tag targets, and JSON-LD structured data were <code>NOT VISIBLE</code> on effectively every fetch this session, sitewide — this is treated throughout as a tool limitation, never as evidence that these elements are absent. See Section 14 for the full limitations list.</p>
+</section>
+
+<!-- ============================= SECTION 4 ============================= -->
+<section class="section-block" id="section-4">
+  <div class="section-eyebrow">Section 4</div>
+  <h2>Website Discovery Overview</h2>
+  <div class="tbl-scroll">
+  <table class="compact">
+    <thead><tr><th>Item</th><th>Finding</th><th>Confidence</th></tr></thead>
+    <tbody>
+      <tr><td>CMS</td><td>WordPress</td><td><span class="conf">CONFIRMED</span> — public <code>/wp-json/</code> REST discovery document; site name "Shahnawaz and Associates," description "Chartered Accountant"</td></tr>
+      <tr><td>SEO plugin</td><td>Rank Math SEO</td><td><span class="conf">CONFIRMED</span> — named explicitly in an XML comment inside <code>sitemap_index.xml</code> and all 3 child sitemaps, corroborated by <code>rankmath/v1</code> REST namespaces. No second SEO plugin's namespace (Yoast, AIOSEO) found — <span class="conf">LIKELY</span> not a plugin-conflict situation</td></tr>
+      <tr><td>Page builder</td><td>Elementor + Elementor Pro + Elementor AI</td><td><span class="conf">CONFIRMED</span> — REST namespaces present; popup CTAs use Elementor Pro popup-action URL parameters</td></tr>
+      <tr><td>Theme</td><td>OceanWP</td><td><span class="conf">LIKELY</span> — REST namespace only, not admin-confirmed</td></tr>
+      <tr><td>Caching</td><td>LiteSpeed Cache</td><td><span class="conf">LIKELY</span> — REST namespace only</td></tr>
+      <tr><td>Form plugin</td><td>Contact Form 7 and/or Forminator</td><td><span class="conf">POSSIBLE, ambiguous</span> — both namespaces present in <code>/wp-json/</code>; which actually renders the live enquiry form (or whether it's native Elementor Forms) could not be determined</td></tr>
+      <tr><td>GTM container / JSON-LD schema</td><td>Not detected in any fetch</td><td><span class="conf">NOT DETERMINED</span> — actively searched for, not found; this is a known WebFetch blind spot, not confirmed absence</td></tr>
+    </tbody>
+  </table>
+  </div>
+  <p><strong>Sitemap:</strong> <code>sitemap_index.xml</code> confirmed live and Rank Math-generated. Lists 3 child sitemaps: <code>page-sitemap.xml</code> (42 URLs), <code>post-sitemap.xml</code> (58 URLs), <code>category-sitemap.xml</code> (8 URLs) — 108 URLs total. <code>sitemap.xml</code> and <code>wp-sitemap.xml</code> return identical content, likely aliases, but the exact mechanism (redirect vs. multiple live origins vs. tool normalization) is <code>RAW HEADER / REDIRECT VERIFICATION NOT AVAILABLE</code>.</p>
+  <p><strong>Total URL inventory: 111</strong> (108 sitemap-listed + 3 footer-linked URLs absent from every sitemap). One duplicate is present: <code>/trademark-registration/</code> appears as both a page and a category-archive entry (see TECH-001, Section 5).</p>
+  <h3>Coverage tier breakdown</h3>
+  <div class="tbl-scroll">
+  <table>
+    <thead><tr><th>Tier</th><th>URLs</th><th>Individually Verified</th></tr></thead>
+    <tbody>
+      <tr><td>Tier 1 — Critical Commercial</td><td>13</td><td>13/13 (100%)</td></tr>
+      <tr><td>Tier 2 — Supporting</td><td>15</td><td>15/15 title-level (100%); 1/15 content-quality</td></tr>
+      <tr><td>Tier 3 — Blog/Article</td><td>66</td><td>23/66 (35%), disclosed sample</td></tr>
+      <tr><td>Not Prioritized (legal/tools/archives)</td><td>18</td><td>Sitemap metadata only</td></tr>
+    </tbody>
+  </table>
+  </div>
+  <p><strong>URLs individually fetched across both phases: 62 of 111 (56%).</strong> The remaining 44% rely on XML sitemap metadata (URL + lastmod) only, with no independently confirmed live content, status, or on-page elements.</p>
+</section>
+
+<!-- ============================= SECTION 5 ============================= -->
+<section class="section-block" id="section-5">
+  <div class="section-eyebrow">Section 5</div>
+  <h2>Technical SEO Findings</h2>
+  <p><strong>7 TECH findings total (from Phase 1A). 0 CRITICAL, 0 HIGH — all TECH findings are MEDIUM or LOW.</strong> No priority service page was found noindexed, blocked, or in an error state.</p>
+
+  <h3>A. Confirmed Issues</h3>
+
+  <div class="finding medium">
+    <div class="finding-head"><span class="sev medium">MEDIUM</span><span class="finding-id">TECH-003</span><span class="finding-title">Two thin, single-item category archives indexed via the sitemap</span></div>
+    <dl class="ffields">
+      <dt>Confidence</dt><dd><span class="conf">CONFIRMED</span></dd>
+      <dt>Affected Area</dt><dd><code>https://cashahnawaz.com/mca/</code>, <code>https://cashahnawaz.com/donation/</code></dd>
+      <dt>Evidence Summary</dt><dd>Both are listed in <code>category-sitemap.xml</code> but each resolves to exactly one post, with no pagination — versus 8–10 items on the site's other 5 checked category archives.</dd>
+      <dt>SEO Impact</dt><dd>Crawlability/Indexability. Thin single-item archives are classic low-value indexed content that can dilute overall site quality signals; "MCA" also maps to a priority-service group, so this is an under-built opportunity as well as a hygiene issue.</dd>
+      <dt>Recommended Fix</dt><dd>Exclude both taxonomies from the XML sitemap, merge each single article into a broader category with a redirect, or build out substantive content for <code>/mca/</code> given its priority-service relevance.</dd>
+      <dt>Manual Implementation Guide</dt><dd>In Rank Math → Sitemap Settings → Taxonomies, toggle off sitemap inclusion for the <code>mca</code> and <code>donation</code> terms; alternatively, in Rank Math → Titles &amp; Meta → Taxonomies, set a noindex directive on these two terms while keeping the archive reachable to visitors.</dd>
+      <dt>Validation</dt><dd>Re-fetch <code>category-sitemap.xml</code> and confirm the toggled term(s) no longer appear.</dd>
+      <dt>Evidence Source</dt><dd><code>data/crawl/_batch-b-archives-footer.md</code></dd>
+    </dl>
+  </div>
+
+  <div class="finding medium">
+    <div class="finding-head"><span class="sev medium">MEDIUM</span><span class="finding-id">TECH-004</span><span class="finding-title">Stale, deadline-specific compliance content live and indexed with no visible currency update</span></div>
+    <dl class="ffields">
+      <dt>Confidence</dt><dd><span class="conf">CONFIRMED</span></dd>
+      <dt>Affected Area</dt><dd><code>https://cashahnawaz.com/gst-amnesty-scheme-2023/</code>, <code>https://cashahnawaz.com/big-relief-for-taxpayers-whose-gst-number-got-canceled-due-to-non-filing-of-gst-returns/</code></dd>
+      <dt>Evidence Summary</dt><dd>The GST amnesty article's title, H1, and body are entirely anchored to a window its own text states closed 30 June 2023, with no visible revision — yet its sitemap <code>lastmod</code> (2026-05-06) is roughly 3 years newer than the deadline it describes as closed.</dd>
+      <dt>SEO Impact</dt><dd>Organic Visibility and Qualified Traffic. Indexed pages describing expired deadlines without an "ended" notice risk misleading a searcher landing via a stale ranking.</dd>
+      <dt>Recommended Fix</dt><dd>Add a clear "this scheme window has closed" notice at the top of both articles; route to a full content-currency review.</dd>
+      <dt>Manual Implementation Guide</dt><dd>In the WordPress/Elementor editor, add a dated update notice block at the top of each article's content before any other page edits.</dd>
+      <dt>Validation</dt><dd>Re-fetch both URLs and confirm the notice is visible in the rendered content.</dd>
+      <dt>Evidence Source</dt><dd><code>data/crawl/_batch-c-tier3-sample.md</code></dd>
+    </dl>
+  </div>
+
+  <div class="finding low">
+    <div class="finding-head"><span class="sev low">LOW</span><span class="finding-id">TECH-006</span><span class="finding-title">Mixed <code>http://</code>/<code>https://</code> scheme in internal link hrefs</span></div>
+    <dl class="ffields">
+      <dt>Confidence</dt><dd><span class="conf">CONFIRMED</span></dd>
+      <dt>Affected Area</dt><dd>Sitewide (footer links specifically confirmed; broader scope not independently verified)</dd>
+      <dt>Evidence Summary</dt><dd>Multiple internal links (e.g., footer links to Contact Us, Accounting Services) use a literal <code>http://</code> scheme despite the site serving exclusively over HTTPS.</dd>
+      <dt>SEO Impact</dt><dd>Crawlability. Each <code>http://</code> link forces an extra redirect hop (assuming HTTPS enforcement is in place, itself unconfirmed), diluting link equity slightly and adding avoidable crawl overhead.</dd>
+      <dt>Recommended Fix</dt><dd>Bulk-update all internal hrefs to <code>https://</code>.</dd>
+      <dt>Manual Implementation Guide</dt><dd>Use a database-safe search-and-replace tool (e.g., "Better Search Replace" plugin, safe for serialized Elementor JSON) to replace <code>http://cashahnawaz.com</code> with <code>https://cashahnawaz.com</code> across post/page content and Elementor templates; separately review Appearance → Menus for manually-entered <code>http://</code> URLs.</dd>
+      <dt>Validation</dt><dd>Re-fetch the footer and main navigation and confirm all internal hrefs now read <code>https://</code>.</dd>
+      <dt>Evidence Source</dt><dd><code>data/crawl/site-inventory-notes.md</code>; <code>data/crawl/_batch-b-archives-footer.md</code></dd>
+    </dl>
+  </div>
+
+  <h3>B. Likely Risks</h3>
+
+  <div class="finding medium">
+    <div class="finding-head"><span class="sev medium">MEDIUM</span><span class="finding-id">TECH-001</span><span class="finding-title"><code>/trademark-registration/</code> page/taxonomy slug collision in the sitemap</span></div>
+    <dl class="ffields">
+      <dt>Confidence</dt><dd><span class="conf">LIKELY</span></dd>
+      <dt>Affected Area</dt><dd><code>https://cashahnawaz.com/trademark-registration/</code></dd>
+      <dt>Evidence Summary</dt><dd>The identical URL is listed in both <code>page-sitemap.xml</code> (lastmod 2026-07-22) and <code>category-sitemap.xml</code> (lastmod 2026-05-06), with conflicting freshness signals. Live content resolves as single-article-style, not a multi-item taxonomy listing.</dd>
+      <dt>SEO Impact</dt><dd>Crawlability/Indexability. Conflicting sitemap signals for one URL can confuse how Google associates freshness/content-type with the page.</dd>
+      <dt>Recommended Fix</dt><dd>Confirm the collision in WordPress Admin, then rename the taxonomy term's slug and redirect if it was ever independently indexed.</dd>
+      <dt>Manual Implementation Guide</dt><dd>In WordPress Admin, check Pages/Posts and Categories/Taxonomies for a <code>trademark-registration</code> slug on both. If both exist, rename the taxonomy term's slug (e.g., <code>trademark-registration-articles</code>) via the standard category-edit screen; if the old slug was ever separately indexed, add a redirect via Rank Math → Redirections (module must be enabled first under Rank Math → Dashboard → Modules).</dd>
+      <dt>Validation</dt><dd>Re-fetch <code>category-sitemap.xml</code> and confirm <code>/trademark-registration/</code> no longer appears there under the renamed term.</dd>
+      <dt>Evidence Source</dt><dd><code>data/crawl/sitemap-discovery.md</code>; <code>data/crawl/phase-1a-sitemap-audit.md</code> Section 4</dd>
+    </dl>
+  </div>
+
+  <div class="finding medium">
+    <div class="finding-head"><span class="sev medium">MEDIUM</span><span class="finding-id">TECH-002</span><span class="finding-title">Three footer-linked URLs point to outdated/mistyped slugs not present in the XML sitemap</span></div>
+    <dl class="ffields">
+      <dt>Confidence</dt><dd><span class="conf">LIKELY</span></dd>
+      <dt>Affected Area</dt><dd><code>http://cashahnawaz.com/project-business/trademark-registration/</code>, <code>http://cashahnawaz.com/income-tax-return-filling-in-mumbai/</code> (typo "filling"), <code>http://cashahnawaz.com/online-tds-return-filing/</code></dd>
+      <dt>Evidence Summary</dt><dd>All three load live content matching an existing, correctly-slugged sitemap page, but whether they are separate live duplicate pages or silently redirect could not be confirmed (no raw HTTP header tool available).</dd>
+      <dt>SEO Impact</dt><dd>Crawlability/Indexability, and potentially Duplicate Content. A sitewide, high-frequency link position (the footer) is spending link equity on outdated URLs.</dd>
+      <dt>Recommended Fix</dt><dd>Update footer hrefs to the current, correctly-slugged <code>https://</code> URLs; separately confirm via WordPress Admin whether the old slugs still resolve to live content (redirect/noindex if so).</dd>
+      <dt>Manual Implementation Guide</dt><dd>In WordPress Admin → Appearance → Menus (or the Elementor footer template), locate the three footer links and update their hrefs to <code>https://cashahnawaz.com/trademark-registration/</code>, <code>https://cashahnawaz.com/income-tax-return-filing-in-mumbai/</code>, and <code>https://cashahnawaz.com/tds-return-filing-services/</code> respectively.</dd>
+      <dt>Validation</dt><dd>Re-fetch the site footer and confirm all links use <code>https://</code> and current slugs; re-fetch the three old URLs and confirm they either 301 to the correct page or return a clean 404/410.</dd>
+      <dt>Evidence Source</dt><dd><code>data/crawl/site-inventory-notes.md</code>; <code>data/crawl/_batch-b-archives-footer.md</code> Part 2</dd>
+    </dl>
+  </div>
+
+  <h3>C. Possible Risks</h3>
+
+  <div class="finding low">
+    <div class="finding-head"><span class="sev low">LOW</span><span class="finding-id">TECH-005</span><span class="finding-title">Possible keyword cannibalization: GST registration blog article vs. Tier 1 service page</span></div>
+    <dl class="ffields">
+      <dt>Confidence</dt><dd><span class="conf">POSSIBLE</span></dd>
+      <dt>Affected Area</dt><dd><code>https://cashahnawaz.com/how-to-file-gst-registration-process-benefits-penalty/</code> (blog, lastmod 2022-10-31) vs. <code>https://cashahnawaz.com/gst-registration-online/</code> (Tier 1, lastmod 2026-06-18)</dd>
+      <dt>Evidence Summary</dt><dd>Both cover the same threshold/documents/process/penalty topics for the same core "how to register for GST" intent, with the older article offering no clearly distinct angle.</dd>
+      <dt>SEO Impact</dt><dd>Organic Visibility. If both target similar intent, they may split ranking signals — a content-overlap observation, not a confirmed ranking-dilution finding (no GSC query data available).</dd>
+      <dt>Recommended Fix</dt><dd>Route to a content-strategy decision: differentiate the blog article's intent explicitly, or merge/redirect it into the service page.</dd>
+      <dt>Validation</dt><dd>Once GSC query-level data becomes available, check whether both URLs appear for overlapping queries.</dd>
+      <dt>Evidence Source</dt><dd><code>data/crawl/_batch-c-tier3-sample.md</code></dd>
+    </dl>
+  </div>
+
+  <div class="finding low">
+    <div class="finding-head"><span class="sev low">LOW</span><span class="finding-id">TECH-007</span><span class="finding-title"><code>/tax-case-law/</code> index page may be under-populated relative to sitemap-listed case-law articles</span></div>
+    <dl class="ffields">
+      <dt>Confidence</dt><dd><span class="conf">POSSIBLE</span></dd>
+      <dt>Affected Area</dt><dd><code>https://cashahnawaz.com/tax-case-law/</code></dd>
+      <dt>Evidence Summary</dt><dd>The index page fetch surfaced only 1 case-law item, while the sitemap lists approximately 19 distinct case-law URLs. Could reflect a genuine content gap or a fetch/extraction limitation.</dd>
+      <dt>SEO Impact</dt><dd>Crawlability (internal linking specifically) — if genuinely under-populated, ~18 case-law articles rely entirely on the sitemap and category archive for discovery.</dd>
+      <dt>Recommended Fix</dt><dd>Manually re-check the page in a browser to confirm whether more items exist below the fold; if genuinely under-populated, add the missing articles to the index.</dd>
+      <dt>Validation</dt><dd>Direct browser or raw-HTML re-check of the page.</dd>
+      <dt>Evidence Source</dt><dd><code>data/crawl/_batch-a-tier1-tier2.md</code></dd>
+    </dl>
+  </div>
+
+  <h3>D. Technical Limitations (sitewide, <code>DATA NOT AVAILABLE</code> this session)</h3>
+  <div class="tbl-scroll">
+  <table>
+    <thead><tr><th>Data source</th><th>Status</th></tr></thead>
+    <tbody>
+      <tr><td>Raw HTTP response headers (status codes, <code>X-Robots-Tag</code>, redirects)</td><td><span class="conf">DATA NOT AVAILABLE</span></td></tr>
+      <tr><td>Browser automation / rendered screenshots</td><td><span class="conf">DATA NOT AVAILABLE</span></td></tr>
+      <tr><td>Meta robots tag content (sitewide)</td><td><span class="conf">NOT VISIBLE (tool limitation)</span></td></tr>
+      <tr><td>Canonical tag target (sitewide)</td><td><span class="conf">NOT VISIBLE (tool limitation)</span></td></tr>
+      <tr><td>JSON-LD / structured data presence (sitewide)</td><td><span class="conf">NOT VISIBLE (tool limitation)</span></td></tr>
+      <tr><td>JS-rendered / client-side-injected content</td><td><span class="conf">DATA NOT AVAILABLE</span></td></tr>
+      <tr><td>GSC / GA4 / GTM</td><td><span class="conf">DATA NOT AVAILABLE</span></td></tr>
+      <tr><td>WordPress Admin / hosting access</td><td><span class="conf">DATA NOT AVAILABLE</span></td></tr>
+      <tr><td>Lighthouse / PageSpeed / Core Web Vitals</td><td><span class="conf">DATA NOT AVAILABLE</span></td></tr>
+    </tbody>
+  </table>
+  </div>
+  <p><code>robots.txt</code> (confirmed, for contrast — this one item IS fully verified):</p>
+  <pre style="background:var(--zebra); border:1px solid var(--border); border-radius:4px; padding:8px 12px; font-size:9pt; font-family:Consolas,monospace; overflow-x:auto;">User-agent: *
+Disallow: /wp-admin/
+Disallow: /wp-admin/admin-ajax.php
+
+Sitemap: https://cashahnawaz.com/sitemap_index.xml</pre>
+  <p>No accidental blocking of content/service paths was found.</p>
+</section>
+
+<!-- ============================= SECTION 6 ============================= -->
+<section class="section-block" id="section-6">
+  <div class="section-eyebrow">Section 6</div>
+  <h2>WordPress SEO Findings</h2>
+  <p><strong>Access mode: fingerprint-only.</strong> No WordPress Admin login was attempted or available in any session — every fact below is inferred from public live-site evidence (the <code>/wp-json/</code> REST discovery document, sitemap XML comments, and rendered page content), never from confirmed admin access.</p>
+
+  <h3>Rank Math (SEO Plugin)</h3>
+  <p><strong>Identity: CONFIRMED.</strong> No second SEO plugin's namespace (Yoast, AIOSEO) was found among 48 REST namespaces — <span class="conf">LIKELY</span> NOT a plugin-conflict situation, though not admin-confirmed.</p>
+  <div class="tbl-scroll">
+  <table class="compact">
+    <thead><tr><th>Item</th><th>Status</th><th>Confidence</th></tr></thead>
+    <tbody>
+      <tr><td>Sitemap config (page/post/taxonomy correctly separated)</td><td>Page/post/taxonomy sitemaps cleanly split</td><td><span class="conf">CONFIRMED</span></td></tr>
+      <tr><td>Taxonomy sitemap inclusion</td><td>Present, but includes 2 thin single-item archives (see TECH-003)</td><td><span class="conf">CONFIRMED</span></td></tr>
+      <tr><td>Schema output (JSON-LD)</td><td>Not surfaced on any of 53+ fetches despite Rank Math injecting schema by default</td><td><span class="conf">NOT VISIBLE — tool limitation, not confirmed absence</span></td></tr>
+      <tr><td>Canonical output</td><td>Not surfaced on any fetch</td><td><span class="conf">NOT VISIBLE — tool limitation</span></td></tr>
+      <tr><td>Robots meta output</td><td>Not surfaced on any fetch</td><td><span class="conf">NOT VISIBLE — tool limitation</span></td></tr>
+      <tr><td>Breadcrumb signals</td><td>No breadcrumb trail reported in any fetch</td><td><span class="conf">NOT DETERMINED</span></td></tr>
+      <tr><td>Duplicate schema risk (theme vs. plugin)</td><td>Cannot be assessed without visible schema output</td><td><span class="conf">NOT DETERMINED</span></td></tr>
+    </tbody>
+  </table>
+  </div>
+  <p><strong>Modular-plugin note:</strong> Rank Math ships modularly — its Redirections and Schema Generator modules must be individually enabled under Rank Math → Dashboard → Modules before the corresponding menu items exist. This should be confirmed before executing any Implementation Step above that references Redirections.</p>
+
+  <h3>Elementor (Page Builder)</h3>
+  <p><strong>Identity: CONFIRMED</strong> (<code>elementor/v1</code>, <code>elementor-pro/v1</code>, <code>elementor-ai/v1</code> namespaces; popup CTAs use Elementor Pro popup-action URL parameters). Likely add-ons: ElementsKit, JetKit — <span class="conf">LIKELY</span>, not admin-confirmed.</p>
+
+  <div class="finding low">
+    <div class="finding-head"><span class="sev low">LOW</span><span class="finding-id">WP-001</span><span class="finding-title">Inconsistent content template across ITR industry-specific pages</span></div>
+    <dl class="ffields">
+      <dt>Confidence</dt><dd><span class="conf">CONFIRMED</span></dd>
+      <dt>Affected URLs</dt><dd><code>https://cashahnawaz.com/itr-filing-for-event-management-and-entertainment-professionals/</code>, <code>https://cashahnawaz.com/itr-filing-for-content-creators-influencers/</code></dd>
+      <dt>Evidence Summary</dt><dd>2 of the 9 industry-specific ITR filing pages use an older, shorter Elementor template ("Introduction / Who Should File / 5 Important Case Laws / Practical Checklist") than the other 7, which share a newer, more comprehensive template referencing "Income Tax Act 2025," presumptive taxation, MSME compliance, and compliance calendars.</dd>
+      <dt>SEO Impact</dt><dd>Organic Visibility and Engagement. The 2 outlier pages likely offer thinner topical coverage than their 7 siblings.</dd>
+      <dt>Recommended Fix</dt><dd>Rebuild the 2 outlier pages using the 7-page family's template/section structure.</dd>
+      <dt>Manual Implementation Guide</dt><dd>In Elementor, open one of the 7 up-to-date pages, use "Save as Template" (Elementor Pro), then apply that template to the 2 outlier pages, replacing content section-by-section with industry-specific detail.</dd>
+      <dt>Validation</dt><dd>Re-fetch both outlier URLs and confirm the H2 structure matches the 7-page family's pattern.</dd>
+      <dt>Evidence Source</dt><dd><code>data/crawl/_batch-a-tier1-tier2.md</code></dd>
+    </dl>
+  </div>
+
+  <h3>Theme, Caching, and Forms</h3>
+  <div class="tbl-scroll">
+  <table class="compact">
+    <thead><tr><th>Component</th><th>Status</th><th>Confidence</th></tr></thead>
+    <tbody>
+      <tr><td>Theme (OceanWP)</td><td>REST namespace only, not admin-confirmed</td><td><span class="conf">LIKELY</span></td></tr>
+      <tr><td>Caching (LiteSpeed Cache)</td><td>REST namespace only; plugin presence alone cannot confirm actual performance impact</td><td><span class="conf">LIKELY</span></td></tr>
+      <tr><td>Form plugin (Contact Form 7 vs. Forminator vs. native Elementor Forms)</td><td>Both CF7 and Forminator namespaces present in <code>/wp-json/</code>; no distinguishing CSS class surfaced on any of 53+ fetches; namespace presence proves installation, not which plugin (if either) actually renders the live form</td><td><span class="conf">POSSIBLE, ambiguous</span></td></tr>
+      <tr><td>Permalink structure</td><td>Clean "post name"-style permalinks sitewide, no <code>?p=123</code> seen</td><td><span class="conf">LIKELY (not admin-confirmed)</span></td></tr>
+      <tr><td>Live chat (Chatway)</td><td>Namespace present; no widget visually confirmed</td><td><span class="conf">POSSIBLE</span></td></tr>
+      <tr><td>Notification bar</td><td>Namespace present; no bar observed</td><td><span class="conf">POSSIBLE</span></td></tr>
+      <tr><td>GTM container (<code>GTM-N2LHGRCX</code> per CLAUDE.md)</td><td>Not detected in any fetch</td><td><span class="conf">NOT DETERMINED — not a confirmed absence</span></td></tr>
+    </tbody>
+  </table>
+  </div>
+  <p><strong>Why this matters for implementation:</strong> The form-plugin ambiguity must be resolved via WordPress Admin (Plugins list + inspecting a live form's rendered HTML class names) before any form-specific step (e.g., a GTM form-submission trigger keyed to a specific plugin's event) is attempted — this is an explicit blocker for the future GTM Conversion Audit phase.</p>
+
+  <h3>Items requiring WordPress Admin verification</h3>
+  <ul>
+    <li>Theme identity (OceanWP → CONFIRMED)</li>
+    <li>Form plugin identity (CF7 vs. Forminator vs. native Elementor Forms)</li>
+    <li>The TECH-001 trademark-registration slug collision</li>
+    <li>The OP-002 "LLP Registration" nav-link label/target</li>
+    <li>Whether Rank Math's Redirections and Schema Generator modules are enabled</li>
+    <li>Actual Rank Math schema/canonical/robots-meta output (requires raw-HTML or admin view)</li>
+  </ul>
+</section>
+
+<!-- ============================= SECTION 7 ============================= -->
+<section class="section-block" id="section-7">
+  <div class="section-eyebrow">Section 7</div>
+  <h2>On-Page SEO Findings</h2>
+  <p><strong>Coverage:</strong> All 13 Tier 1 pages received a full content-quality deep review this phase, on top of Phase 1A's title/H1-level check — the highest-confidence tier in this audit. Tier 2 remains at title-level only (1 of 15 pages received a content-quality pass). Tier 3 remains a 35% sample.</p>
+  <p><strong>No keyword volume, ranking, or GSC/GA4 data was available or used anywhere in this section.</strong> Every search-intent statement is labeled <code>LIKELY USER SEARCH INTENT</code>; <code>SEARCH DEMAND DATA NOT AVAILABLE</code> applies wherever keyword-volume evidence would otherwise be needed.</p>
+
+  <h3>Strengths observed across Tier 1</h3>
+  <ul>
+    <li>Logical, scannable H2/H3 structure on nearly every page; FAQ sections present on 12 of 13 pages.</li>
+    <li>Strong internal linking from the 9 industry ITR pages, NRI Taxation, and TDS pages into the main ITR Mumbai hub.</li>
+    <li>Two pages (Audit Services, LLP Annual Filing) show genuinely good practice not replicated elsewhere: Audit Services carries an explicit disclaimer; LLP Annual Filing has the only "Why us" trust section in the batch.</li>
+  </ul>
+
+  <h3>Common weaknesses across Tier 1</h3>
+  <ul>
+    <li><strong>Pricing disclosure is inconsistent with no discernible logic</strong> — only 2 of 13 pages state an actual price (OP-003).</li>
+    <li><strong>Trust signals are thin and uneven</strong> — no individually named, checkable credential anywhere; testimonials are duplicated near-verbatim across 4 pages while 8 of 13 pages have none at all (OP-005).</li>
+    <li><strong>The enquiry form is never pre-contextualized per page</strong> — the same generic Name/Email/Mobile/City/Service-dropdown form appears everywhere, never defaulting to the page's own service.</li>
+    <li><strong>Title/meta/canonical/JSON-LD content is <code>NOT VISIBLE</code></strong> on every fetch this session (tool limitation) — no on-page finding in this report asserts a specific title tag, meta description, or canonical target beyond what was directly captured for a small number of pages (noted per-page below where available).</li>
+  </ul>
+
+  <h3>Tier 1 Page-by-Page Summary</h3>
+  <div class="tbl-scroll">
+  <table class="compact fixed">
+    <colgroup><col style="width:16%"><col style="width:15%"><col style="width:12%"><col style="width:35%"><col style="width:22%"></colgroup>
+    <thead><tr><th>URL</th><th>Primary Service</th><th>Current Status</th><th>Main Issue / Opportunity</th><th>Recommended Action</th></tr></thead>
+    <tbody>
+      <tr><td><code>/</code> (Homepage)</td><td>Brand/navigational hub</td><td>ADEQUATE</td><td>Empty "TESTIMONIALS" section (OP-004); top CTA strip omits GST Registration, GST Return Filing, Audit Services (OP-006)</td><td>KEEP AND OPTIMIZE</td></tr>
+      <tr><td><code>/gst-registration-online/</code></td><td>GST Registration</td><td>STRONG</td><td>Misplaced return-filing sentence (OP-008); rupee figures lack a currency date-stamp (CONT-012)</td><td>KEEP AND OPTIMIZE</td></tr>
+      <tr><td><code>/gst-return-filing/</code></td><td>GST Return Filing</td><td>ADEQUATE</td><td>"Get a Free Quote" CTA with zero pricing content anywhere on the page; unverified anchor target (CONT-023)</td><td>EXPAND EXISTING PAGE</td></tr>
+      <tr><td><code>/income-tax-return-filing-in-mumbai/</code></td><td>Income Tax Return Filing</td><td>NEEDS IMPROVEMENT</td><td>Stale "Assessment Year 2020-21" FAQ reference (CONT-002, <span class="sev critical">CRITICAL</span>)</td><td>PROFESSIONAL ACCURACY REVIEW REQUIRED</td></tr>
+      <tr><td><code>/itr-filing-for-nri-guide-for-non-resident-taxation/</code></td><td>NRI Taxation</td><td>NEEDS IMPROVEMENT</td><td>No FAQ, no pricing, zero testimonials for the most trust-barrier-sensitive audience on the site; Act-2025 citations need review (CONT-011)</td><td>EXPAND EXISTING PAGE / PROFESSIONAL ACCURACY REVIEW REQUIRED</td></tr>
+      <tr><td><code>/accounting-services/</code></td><td>Accounting</td><td>NEEDS IMPROVEMENT</td><td>Wrong firm name "TAXZONA Consultancy" in live FAQ (CONT-001, <span class="sev critical">CRITICAL</span>)</td><td>KEEP AND OPTIMIZE — fix firm name immediately</td></tr>
+      <tr><td><code>/audit-services/</code></td><td>Tax Audit / Statutory Audit</td><td>ADEQUATE</td><td>Internal Audit reduced to a one-row table mention (CONT-017); zero testimonials; unattributed "UDIN-verified" credential; Act-2025 citations need review (CONT-011)</td><td>PROFESSIONAL ACCURACY REVIEW REQUIRED</td></tr>
+      <tr><td><code>/startup-registration-india/</code></td><td>Startup Registration</td><td>ADEQUATE</td><td>No trust signals at all; unqualified ₹100 crore / 10-year eligibility figures</td><td>KEEP AND OPTIMIZE; verify figures</td></tr>
+      <tr><td><code>/section-8-company-registration/</code></td><td>NGO Registration (formation)</td><td>STRONG</td><td>No trust signals; unqualified penalty figures; no reciprocal link to 12A/80G</td><td>KEEP AND OPTIMIZE; verify figures</td></tr>
+      <tr><td><code>/public-limited-company/</code></td><td>Company Registration</td><td>NEEDS IMPROVEMENT</td><td>Self-contradicting minimum paid-up-capital figures (OP-001, <span class="sev high">HIGH</span>); also evidences the <span class="sev critical">CRITICAL</span> Private Ltd Co coverage gap (CONT-014)</td><td>PROFESSIONAL ACCURACY REVIEW REQUIRED</td></tr>
+      <tr><td><code>/llp-annual-filing/</code></td><td>ROC/Annual Compliance (LLP)</td><td>NEEDS IMPROVEMENT</td><td>"Final Year 2021-22" table presented as current (CONT-003, <span class="sev critical">CRITICAL</span>); possible mislabeled nav link (OP-002, <span class="sev high">HIGH</span>)</td><td>PROFESSIONAL ACCURACY REVIEW REQUIRED</td></tr>
+      <tr><td><code>/tds-return-filing-services/</code></td><td>TDS Return Filing</td><td>ADEQUATE</td><td>Claims rates vary but never shows a rate table (one exists unlinked on a separate blog article); no trust signals</td><td>KEEP AND OPTIMIZE</td></tr>
+      <tr><td><code>/12a-or-12aa-or-80g-registration-new-scheme/</code></td><td>NGO Registration (tax exemption)</td><td>NEEDS IMPROVEMENT</td><td>Passed 2021–2022 transitional deadlines shown without historical framing (CONT-004, <span class="sev critical">CRITICAL</span>); H1 narrower than actual page scope (OP-007)</td><td>PROFESSIONAL ACCURACY REVIEW REQUIRED</td></tr>
+    </tbody>
+  </table>
+  </div>
+
+  <h3>On-Page Findings Index (OP-001–OP-008)</h3>
+  <div class="tbl-scroll">
+  <table class="compact fixed">
+    <colgroup><col style="width:8%"><col style="width:9%"><col style="width:10%"><col style="width:38%"><col style="width:35%"></colgroup>
+    <thead><tr><th>ID</th><th>Severity</th><th>Confidence</th><th>Finding</th><th>Recommended Fix</th></tr></thead>
+    <tbody>
+      <tr><td>OP-001</td><td><span class="sev high">HIGH</span></td><td><span class="conf">CONFIRMED</span></td><td>Public Limited Company page states two contradictory minimum paid-up capital figures ("Rs 5 lakhs" vs. "no minimum")</td><td>Verify current rule with a qualified professional; reconcile both sections to one figure</td></tr>
+      <tr><td>OP-002</td><td><span class="sev high">HIGH</span></td><td><span class="conf">LIKELY</span></td><td>Possible mislabeled nav link "Limited Liability Partnership Registration" resolves to the compliance-only LLP Annual Filing page</td><td>Verify the nav link's actual label/target in WP Admin; relabel or retarget</td></tr>
+      <tr><td>OP-003</td><td><span class="sev medium">MEDIUM</span></td><td><span class="conf">CONFIRMED</span></td><td>Inconsistent pricing disclosure across Tier 1 pages — only 2 of 13 show a price, no discernible logic</td><td>Make one deliberate sitewide pricing-disclosure decision and apply it consistently</td></tr>
+      <tr><td>OP-004</td><td><span class="sev high">HIGH</span></td><td><span class="conf">LIKELY</span></td><td>Homepage's own "TESTIMONIALS" section renders with no populated content</td><td>Confirm via live browser check; populate with existing real testimonials if genuinely empty</td></tr>
+      <tr><td>OP-005</td><td><span class="sev medium">MEDIUM</span></td><td><span class="conf">CONFIRMED</span></td><td>Same 6 testimonials reused near-verbatim across 4 pages; NRI Taxation and Audit Services have zero</td><td>Add genuine testimonials to NRI/Audit pages; vary selection across pages</td></tr>
+      <tr><td>OP-006</td><td><span class="sev medium">MEDIUM</span></td><td><span class="conf">CONFIRMED</span></td><td>Homepage top CTA strip omits GST Registration, GST Return Filing, and Audit Services</td><td>Expand the CTA strip to represent all 5 CLAUDE.md priority groups at parity</td></tr>
+      <tr><td>OP-007</td><td><span class="sev medium">MEDIUM</span></td><td><span class="conf">CONFIRMED</span></td><td>12A/80G page's H1 ("12A Registration Online") is narrower than its actual scope (also covers 80G/12AA)</td><td>Update H1 to reflect the full scope</td></tr>
+      <tr><td>OP-008</td><td><span class="sev low">LOW</span></td><td><span class="conf">CONFIRMED</span></td><td>Misplaced sentence on GST Registration page describing GST Return Filing turnaround</td><td>Remove or correct the misplaced sentence</td></tr>
+    </tbody>
+  </table>
+  </div>
+  <p class="small">Full evidence, SEO Impact, and step-by-step Manual Implementation Guide for each finding above is preserved in <code>reports/03-on-page-seo.md</code> and <code>implementation/MASTER-ISSUE-TRACKER.md</code>.</p>
+</section>
+
+<!-- ============================= SECTION 8 ============================= -->
+<section class="section-block" id="section-8">
+  <div class="section-eyebrow">Section 8</div>
+  <h2>Content Audit</h2>
+  <p><strong>Coverage discipline:</strong> This section owns content depth, freshness/accuracy, coverage gaps, cannibalization/overlap, and trust/E-E-A-T substance. Title/meta/heading mechanics belong to Section 7. No specific tax rate, due date, threshold, or legal figure is asserted as currently correct or incorrect anywhere in this report — every staleness finding quotes the exact on-page evidence and routes to professional verification.</p>
+
+  <h3>Strong content areas (named specifically)</h3>
+  <ul>
+    <li><strong>GST Registration:</strong> a documents-required table, a 5-question FAQ, and the site's clearest published fee (Rs 1,500) — the only page besides ITR Mumbai this transparent on pricing.</li>
+    <li><strong>NRI Taxation:</strong> 15 H2 sections including Residential Status Determination, NRO/NRE/FCNR matrix, DTAA Treaties, NRI TDS Matrix, FEMA &amp; Banking Regulations, and case law — genuinely NRI-specific, not a generic ITR reskin.</li>
+    <li><strong>Section 8 Company Registration:</strong> the deepest ongoing-compliance content in the batch, going beyond formation into post-registration obligations.</li>
+    <li><strong>The Section 8 ↔ 12A/80G pair:</strong> accurately represents the real two-step NGO lifecycle (form the company, then obtain tax exemption) — genuinely complementary coverage, not artificial splitting.</li>
+    <li><strong>Accounting Services:</strong> cleanly differentiated from Audit (zero cross-mentions confirmed), with dedicated sections for Bookkeeping, Financial Reporting, and Outsourced Accounting that fully satisfy those three CLAUDE.md priority services without a separate page.</li>
+  </ul>
+
+  <h3>Content freshness — 15 items requiring professional verification</h3>
+  <p><code>LIKELY OUTDATED</code> (8 items) — passed deadlines/years presented without historical framing:</p>
+  <div class="tbl-scroll">
+  <table class="compact fixed">
+    <colgroup><col style="width:5%"><col style="width:34%"><col style="width:61%"></colgroup>
+    <thead><tr><th>#</th><th>URL</th><th>Issue</th></tr></thead>
+    <tbody>
+      <tr><td>1</td><td><code>/gst-amnesty-scheme-2023/</code></td><td>Deadline closed 30 June 2023, lastmod ~3 years newer, no revision visible (TECH-004)</td></tr>
+      <tr><td>2</td><td><code>/big-relief-for-taxpayers-whose-gst-number-got-canceled.../</code></td><td>Deadline closed 30 June 2023 (TECH-004)</td></tr>
+      <tr><td>3</td><td><code>/gst-new-update-due-dates-for-october-2021/</code></td><td>October 2021 dates, ~5 years stale, no disclaimer (CONT-005)</td></tr>
+      <tr><td>4</td><td><code>/due-date-calendar-for-the-month-of-november-2022/</code></td><td>November 2022 dates, no disclaimer (CONT-006)</td></tr>
+      <tr><td>5</td><td><code>/waiver-of-late-fees-for-gst-annual-return/</code></td><td>Article's own text confirms the waiver window closed 31 March 2025 (CONT-007)</td></tr>
+      <tr><td>6</td><td><code>/income-tax-return-filing-in-mumbai/</code> (FAQ)</td><td>Cites "Assessment Year 2020-21" inside FY2025-26/2026-27-framed content (CONT-002)</td></tr>
+      <tr><td>7</td><td><code>/llp-annual-filing/</code></td><td>H2 titled "LLP Compliance (The Final Year 2021-22)"; AY2021-22 threshold framing (CONT-003)</td></tr>
+      <tr><td>8</td><td><code>/12a-or-12aa-or-80g-registration-new-scheme/</code></td><td>Passed 2021–2022 transitional deadlines shown without historical framing (CONT-004)</td></tr>
+    </tbody>
+  </table>
+  </div>
+  <p><code>TIME-SENSITIVE — REVIEW REQUIRED</code> (9 items) — a figure/date present but currency not confirmable from the page alone: <code>/key-recommendations-of-45th-gst-council-meeting/</code> (CONT-008), <code>/june-2026-important-due-dates/</code> (CONT-009), <code>/old-vs-new-tax-regime-.../</code> slab table with no FY/AY label (CONT-010), plus unqualified monetary thresholds/penalties on GST Registration, GST Return Filing, Startup Registration, Section 8 Company, TDS Return Filing, and Public Limited Company (consolidated as CONT-012).</p>
+  <p><code>PROFESSIONAL / CURRENT REGULATORY VERIFICATION REQUIRED</code> (1 consolidated item): ITR Mumbai, NRI Taxation, and Audit Services all cite the "New Income Tax Act 2025" alongside old Income Tax Act 1961 section numbers in direct cross-mappings — the highest-density regulatory-risk pattern in the audit, formalized as one consolidated review item (CONT-011) rather than three separate checks.</p>
+  <p><code>CURRENTLY APPEARS EVERGREEN</code> (2 items — positive controls): <code>/tds-chart-for-fy-2026-27/</code> and <code>/accounting-services/</code> are both internally date-consistent — included as contrast, not as confirmation that their underlying figures are currently correct.</p>
+
+  <h3>Pages needing improvement</h3>
+  <p>Accounting Services (firm-name fix, CONT-001), ITR Mumbai / LLP Annual Filing / 12A-80G (stale-reference fixes), Public Limited Company (contradiction fix), Homepage (testimonials/CTA strip), GST Return Filing (pricing/anchor verification). No Tier 1 page warrants replacement — all 13 are recommended for optimization in place.</p>
+
+  <h3>Commercial content gaps (Section 6A)</h3>
+  <p>Every <code>NO DEDICATED PAGE FOUND</code> gap is detailed in full in Section 9 below. In content terms, the most consequential gaps are: <strong>Private Limited Company Registration</strong> (CONT-014, <span class="sev critical">CRITICAL</span> — the single most severe gap in the entire audit, given this is the dominant Indian SME entity type with zero coverage while less-common types are fully built out), <strong>LLP Registration formation</strong> (CONT-015), <strong>Proprietorship Registration</strong> (CONT-016), <strong>Internal Audit depth</strong> (CONT-017, present only as a one-row table mention), and <strong>company-side ROC/Annual Compliance</strong> (CONT-018, directly evidenced by enquiry-dropdown options with zero matching landing page).</p>
+
+  <h3>Informational content gaps (Section 6B)</h3>
+  <ul>
+    <li>The 12A/80G page's FAQ heading "Due Dates to Apply in Form 10AB" has no populated answer beneath it.</li>
+    <li>NRI Taxation is the only Tier 1 page with no FAQ at all, despite arguably generating the most repeat practical questions.</li>
+    <li>Section 8 Company and Startup Registration never state the firm's own typical incorporation turnaround (contrast: Public Limited Company states "seven working days").</li>
+    <li>GST Return Filing explains what a return <em>is</em> but not what a client must <em>hand over</em> — no documents checklist, unlike GST Registration.</li>
+    <li>A TDS rate table already exists on a separate blog article (<code>/tds-chart-for-fy-2026-27/</code>) but is not linked from the TDS service page.</li>
+    <li>The 12A/80G page links to Section 8; the reverse link was not observed.</li>
+  </ul>
+
+  <h3>Cannibalization and overlap</h3>
+  <p><strong>9 pairs investigated: 1 <code>LIKELY CANNIBALIZATION RISK</code>, 5 <code>POSSIBLE OVERLAP</code>, 3 <code>NO MEANINGFUL OVERLAP FOUND</code>, 0 <code>CONFIRMED CONTENT DUPLICATION</code>.</strong> No claim of actual SERP-level cannibalization is made anywhere — that requires GSC query-level data, which is <code>DATA NOT AVAILABLE</code>.</p>
+  <ul>
+    <li><strong>LIKELY:</strong> GST Registration Online vs. the 2022 "How to File GST Registration" blog article (extends TECH-005).</li>
+    <li><strong>POSSIBLE (5):</strong> GST cancellation/revocation sub-topic spread across 3 URLs; the 8-article accounting blog cluster vs. Accounting Services; Section 8 vs. the Section 8/Trust comparative blog; TDS Chart vs. TDS service page; Accounting package bundling vs. GST/TDS service pages.</li>
+    <li><strong>No meaningful overlap:</strong> The 9 industry ITR pages vs. the main ITR Mumbai page (genuinely differentiated); <code>/trademark-registration/</code> (no competing page exists); Accounting vs. Audit (cleanly separated).</li>
+    <li><strong>New unverified item (CONT-023, MEDIUM/POSSIBLE):</strong> An in-body anchor on the GST Return Filing page resolves to <code>https://cashahnawaz.com/gst-registration-services-india-a-guide-to-gst/</code>, a URL absent from the 111-row site inventory — its live status could not be confirmed this session.</li>
+  </ul>
+
+  <h3>Trust, expertise, and credibility (E-E-A-T)</h3>
+  <p><strong><code>CONFIRMED TRUST GAP</code> items:</strong> No individually-named, checkable CA/CS credential anywhere sitewide (CONT-013) — every trust statement is firm-level only. No testimonials on 8 of 13 Tier 1 pages (OP-005). Homepage's "TESTIMONIALS" heading renders empty (OP-004). Wrong firm name in a live FAQ (CONT-001) — the most severe single trust defect found this phase. A minor NAP address-format inconsistency on the 12A/80G page (flagged for a future Local SEO pass, not scored as its own formal finding here).</p>
+  <p><strong><code>TRUST OPPORTUNITY</code> items</strong> (not defects, concrete low-effort additions): Attaching the existing "ICAI Practising CA UDIN-verified" claim on Audit Services to one named person is identified as the single highest-leverage trust addition in the entire batch, since the positioning work is already done.</p>
+
+  <h3>Content-Audit Findings Index (CONT-001–CONT-023)</h3>
+  <div class="tbl-scroll">
+  <table class="compact fixed">
+    <colgroup><col style="width:8%"><col style="width:9%"><col style="width:10%"><col style="width:38%"><col style="width:35%"></colgroup>
+    <thead><tr><th>ID</th><th>Severity</th><th>Confidence</th><th>Finding</th><th>Recommended Fix</th></tr></thead>
+    <tbody>
+      <tr><td>CONT-001</td><td><span class="sev critical">CRITICAL</span></td><td><span class="conf">CONFIRMED</span></td><td>Wrong firm name ("TAXZONA Consultancy") in Accounting Services FAQ</td><td>Correct the firm name; audit rest of page for other un-customized template content</td></tr>
+      <tr><td>CONT-002</td><td><span class="sev critical">CRITICAL</span></td><td><span class="conf">CONFIRMED</span></td><td>ITR Mumbai FAQ cites stale "Assessment Year 2020-21"</td><td>Route to qualified professional for verification and current framing</td></tr>
+      <tr><td>CONT-003</td><td><span class="sev critical">CRITICAL</span></td><td><span class="conf">CONFIRMED</span></td><td>LLP Annual Filing presents "Final Year 2021-22" table/threshold as current</td><td>Route to qualified professional; relabel to current or explicitly historical</td></tr>
+      <tr><td>CONT-004</td><td><span class="sev critical">CRITICAL</span></td><td><span class="conf">CONFIRMED</span></td><td>12A/80G page presents passed 2021–2022 transitional deadlines without historical framing</td><td>Route to qualified professional; relabel; complete missing 10AB FAQ answer</td></tr>
+      <tr><td>CONT-005</td><td><span class="sev critical">CRITICAL</span></td><td><span class="conf">CONFIRMED</span></td><td><code>/gst-new-update-due-dates-for-october-2021/</code> — no disclaimer, ~5 years stale</td><td>Add historical-reference notice</td></tr>
+      <tr><td>CONT-006</td><td><span class="sev critical">CRITICAL</span></td><td><span class="conf">CONFIRMED</span></td><td><code>/due-date-calendar-for-the-month-of-november-2022/</code> — no disclaimer</td><td>Add historical-reference notice</td></tr>
+      <tr><td>CONT-007</td><td><span class="sev critical">CRITICAL</span></td><td><span class="conf">CONFIRMED</span></td><td><code>/waiver-of-late-fees-for-gst-annual-return/</code> — window closed March 2025</td><td>Add closed-window notice</td></tr>
+      <tr><td>CONT-008</td><td><span class="sev high">HIGH</span></td><td><span class="conf">CONFIRMED</span></td><td><code>/key-recommendations-of-45th-gst-council-meeting/</code> lacks historical-record framing</td><td>Add "historical record" framing note or archive</td></tr>
+      <tr><td>CONT-009</td><td><span class="sev medium">MEDIUM</span></td><td><span class="conf">CONFIRMED</span></td><td><code>/june-2026-important-due-dates/</code> still featured ~2 months past relevance</td><td>Rotate featured-post selection; establish monthly rotation process</td></tr>
+      <tr><td>CONT-010</td><td><span class="sev high">HIGH</span></td><td><span class="conf">CONFIRMED</span></td><td>Tax-regime comparison table has no FY/AY label anywhere</td><td>Verify applicable year with professional; add explicit label</td></tr>
+      <tr><td>CONT-011</td><td><span class="sev high">HIGH</span></td><td><span class="conf">LIKELY</span></td><td>Consolidated: "Income Tax Act 2025" section cross-references need professional verification across 3 pages</td><td>One consolidated professional review session</td></tr>
+      <tr><td>CONT-012</td><td><span class="sev high">HIGH</span></td><td><span class="conf">CONFIRMED</span></td><td>5 Tier 1 pages state monetary thresholds/penalties with no currency date-stamp</td><td>Verify figures; add "current as of [date]" notes</td></tr>
+      <tr><td>CONT-013</td><td><span class="sev medium">MEDIUM</span></td><td><span class="conf">CONFIRMED</span></td><td>Sitewide E-E-A-T gap — no individually-named CA credential</td><td>Add named practitioner bio with ICAI membership number</td></tr>
+      <tr><td>CONT-014</td><td><span class="sev critical">CRITICAL</span></td><td><span class="conf">CONFIRMED</span></td><td>No Private Limited Company Registration page despite dominant entity type</td><td>Content brief + build page; add dropdown option</td></tr>
+      <tr><td>CONT-015</td><td><span class="sev high">HIGH</span></td><td><span class="conf">CONFIRMED</span></td><td>No LLP Registration (formation) page, distinct from LLP Annual Filing</td><td>Content brief + build page; cross-link with LLP Annual Filing</td></tr>
+      <tr><td>CONT-016</td><td><span class="sev high">HIGH</span></td><td><span class="conf">CONFIRMED</span></td><td>No Proprietorship Registration page or lead-capture category</td><td>Content brief + build page; add dropdown option</td></tr>
+      <tr><td>CONT-017</td><td><span class="sev high">HIGH</span></td><td><span class="conf">CONFIRMED</span></td><td>Internal Audit present only as a one-row table mention</td><td>Build a dedicated Internal Audit section on the existing Audit Services page</td></tr>
+      <tr><td>CONT-018</td><td><span class="sev high">HIGH</span></td><td><span class="conf">CONFIRMED</span></td><td>No company-side ROC/Company/Annual Compliance page despite confirmed demand</td><td>Consolidated pillar page + entity-specific subpages</td></tr>
+      <tr><td>CONT-019</td><td><span class="sev high">HIGH</span></td><td><span class="conf">CONFIRMED</span></td><td>No dedicated Tax Consultancy page or lead category</td><td>Content brief + build page distinguishing from ITR Filing</td></tr>
+      <tr><td>CONT-020</td><td><span class="sev medium">MEDIUM</span></td><td><span class="conf">CONFIRMED</span></td><td>Partnership Registration has only an informational article, no service page</td><td>Build dedicated service page; link existing article to it</td></tr>
+      <tr><td>CONT-021</td><td><span class="sev medium">MEDIUM</span></td><td><span class="conf">CONFIRMED</span></td><td>No dedicated page for GST Consultancy / GST Compliance</td><td>Content brief for consolidated GST Consultancy &amp; Compliance page</td></tr>
+      <tr><td>CONT-022</td><td><span class="sev medium">MEDIUM</span></td><td><span class="conf">CONFIRMED</span></td><td>No page distinguishing Income Tax Compliance from ITR Filing</td><td>Content brief, cross-linked with ITR Mumbai</td></tr>
+      <tr><td>CONT-023</td><td><span class="sev medium">MEDIUM</span></td><td><span class="conf">POSSIBLE</span></td><td>Unverified possible third GST-registration-related URL via in-body anchor</td><td>Verify target URL live status first, then act</td></tr>
+    </tbody>
+  </table>
+  </div>
+  <p class="small">Full evidence, SEO Impact, and step-by-step Manual Implementation Guide for each finding above is preserved in <code>reports/04-content-audit.md</code> and <code>implementation/MASTER-ISSUE-TRACKER.md</code>.</p>
+</section>
+
+<!-- ============================= SECTION 9 ============================= -->
+<section class="section-block" id="section-9">
+  <div class="section-eyebrow">Section 9</div>
+  <h2>Priority Service Coverage</h2>
+  <p><strong>Basis:</strong> <code>data/crawl/service-coverage-map.md</code> / <code>.csv</code>, built against CLAUDE.md's priority-service list. CLAUDE.md names 25 distinct service line items across 5 groups (some working files round this to "23" in prose; this table presents every named service from the coverage map without omission). No new page is recommended anywhere a genuinely adequate existing page already covers the service — the coverage map's own determinations are followed throughout.</p>
+
+  <h3>Classification summary</h3>
+  <div class="stat-row">
+    <div class="stat-card"><div class="n" style="color:var(--forest);">9</div><div class="l">Dedicated and Adequate</div></div>
+    <div class="stat-card"><div class="n" style="color:var(--medium);">5</div><div class="l">Exists Under Different Service/URL</div></div>
+    <div class="stat-card"><div class="n" style="color:var(--critical);">12</div><div class="l">No Dedicated Page Found</div></div>
+  </div>
+  <div class="tbl-scroll">
+  <table>
+    <thead><tr><th>Classification</th><th>Count</th></tr></thead>
+    <tbody>
+      <tr><td><code>DEDICATED AND ADEQUATE</code></td><td>9</td></tr>
+      <tr><td><code>EXISTS UNDER DIFFERENT SERVICE/URL</code></td><td>5 (one — Annual Compliance — split across two rows below for its LLP vs. non-LLP portions)</td></tr>
+      <tr><td><code>NO DEDICATED PAGE FOUND</code></td><td>12</td></tr>
+    </tbody>
+  </table>
+  </div>
+
+  <h3>Income Tax</h3>
+  <div class="tbl-scroll">
+  <table class="compact fixed">
+    <colgroup><col style="width:16%"><col style="width:18%"><col style="width:20%"><col style="width:10%"><col style="width:26%"><col style="width:10%"></colgroup>
+    <thead><tr><th>Service</th><th>Dedicated Page Status</th><th>Existing URL</th><th>Quality</th><th>Recommended Action</th><th>Priority</th></tr></thead>
+    <tbody>
+      <tr><td>Income Tax Return Filing</td><td>DEDICATED AND ADEQUATE</td><td><code>/income-tax-return-filing-in-mumbai/</code></td><td>Deep</td><td>No new page needed; maintain</td><td><span class="sev low">LOW</span></td></tr>
+      <tr><td>Tax Consultancy</td><td>NO DEDICATED PAGE FOUND</td><td>— (only generic boilerplate on ITR page)</td><td>N/A</td><td>Content brief for dedicated Tax Consultancy page; add dropdown option (CONT-019)</td><td><span class="sev high">HIGH</span></td></tr>
+      <tr><td>Income Tax Services</td><td>EXISTS UNDER DIFFERENT SERVICE/URL</td><td><code>/income-tax-return-filing-in-mumbai/</code> (de facto hub)</td><td>Adequate as hub</td><td>Consider a distinct pillar page linking to ITR Filing, Tax Consultancy, NRI, Income Tax Compliance</td><td><span class="sev medium">MEDIUM</span></td></tr>
+      <tr><td>NRI Taxation</td><td>DEDICATED AND ADEQUATE</td><td><code>/itr-filing-for-nri-guide-for-non-resident-taxation/</code></td><td>Deep — 15 H2 sections</td><td>No action needed</td><td><span class="sev low">LOW</span></td></tr>
+      <tr><td>Income Tax Compliance</td><td>NO DEDICATED PAGE FOUND</td><td>—</td><td>N/A</td><td>Content brief distinguishing ongoing compliance from annual filing (CONT-022)</td><td><span class="sev medium">MEDIUM</span></td></tr>
+    </tbody>
+  </table>
+  </div>
+
+  <h3>GST</h3>
+  <div class="tbl-scroll">
+  <table class="compact fixed">
+    <colgroup><col style="width:16%"><col style="width:18%"><col style="width:20%"><col style="width:10%"><col style="width:26%"><col style="width:10%"></colgroup>
+    <thead><tr><th>Service</th><th>Dedicated Page Status</th><th>Existing URL</th><th>Quality</th><th>Recommended Action</th><th>Priority</th></tr></thead>
+    <tbody>
+      <tr><td>GST Registration</td><td>DEDICATED AND ADEQUATE</td><td><code>/gst-registration-online/</code></td><td>Adequate-to-deep</td><td>No new page needed</td><td><span class="sev low">LOW</span></td></tr>
+      <tr><td>GST Return Filing</td><td>DEDICATED AND ADEQUATE</td><td><code>/gst-return-filing/</code></td><td>Adequate-to-deep</td><td>No new page needed</td><td><span class="sev low">LOW</span></td></tr>
+      <tr><td>GST Consultancy</td><td>NO DEDICATED PAGE FOUND</td><td>— (thin H2 mention on GST Return Filing)</td><td>N/A</td><td>Content brief for dedicated GST Consultancy/Advisory page (CONT-021)</td><td><span class="sev medium">MEDIUM</span></td></tr>
+      <tr><td>GST Compliance</td><td>NO DEDICATED PAGE FOUND</td><td>—</td><td>N/A</td><td>Content brief; consider merging with GST Consultancy (CONT-021)</td><td><span class="sev medium">MEDIUM</span></td></tr>
+    </tbody>
+  </table>
+  </div>
+
+  <h3>Accounting</h3>
+  <div class="tbl-scroll">
+  <table class="compact fixed">
+    <colgroup><col style="width:16%"><col style="width:18%"><col style="width:20%"><col style="width:10%"><col style="width:26%"><col style="width:10%"></colgroup>
+    <thead><tr><th>Service</th><th>Dedicated Page Status</th><th>Existing URL</th><th>Quality</th><th>Recommended Action</th><th>Priority</th></tr></thead>
+    <tbody>
+      <tr><td>Accounting</td><td>DEDICATED AND ADEQUATE</td><td><code>/accounting-services/</code></td><td>Adequate-to-deep</td><td>No new page needed</td><td><span class="sev low">LOW</span></td></tr>
+      <tr><td>Bookkeeping</td><td>EXISTS UNDER DIFFERENT SERVICE/URL</td><td><code>/accounting-services/</code> (dedicated H2)</td><td>Adequate</td><td>Optional standalone page as expansion opportunity, not a fix</td><td><span class="sev opportunity">OPPORTUNITY</span></td></tr>
+      <tr><td>Financial Reporting</td><td>EXISTS UNDER DIFFERENT SERVICE/URL</td><td><code>/accounting-services/</code></td><td>Adequate</td><td>Optional expansion only</td><td><span class="sev opportunity">OPPORTUNITY</span></td></tr>
+      <tr><td>Outsourced Accounting</td><td>EXISTS UNDER DIFFERENT SERVICE/URL</td><td><code>/accounting-services/</code> (dedicated H2, best-covered)</td><td>Adequate-to-deep</td><td>No action needed</td><td><span class="sev opportunity">OPPORTUNITY</span></td></tr>
+    </tbody>
+  </table>
+  </div>
+
+  <h3>Audit</h3>
+  <div class="tbl-scroll">
+  <table class="compact fixed">
+    <colgroup><col style="width:16%"><col style="width:18%"><col style="width:20%"><col style="width:10%"><col style="width:26%"><col style="width:10%"></colgroup>
+    <thead><tr><th>Service</th><th>Dedicated Page Status</th><th>Existing URL</th><th>Quality</th><th>Recommended Action</th><th>Priority</th></tr></thead>
+    <tbody>
+      <tr><td>Tax Audit</td><td>DEDICATED AND ADEQUATE</td><td><code>/audit-services/</code></td><td>Deep</td><td>No new page needed</td><td><span class="sev low">LOW</span></td></tr>
+      <tr><td>Statutory Audit</td><td>DEDICATED AND ADEQUATE</td><td><code>/audit-services/</code> (shares URL/title with Tax Audit)</td><td>Deep</td><td>No content gap; note shared-URL title-tag consideration for a future on-page-seo pass</td><td><span class="sev low">LOW</span></td></tr>
+      <tr><td>Internal Audit</td><td>NO DEDICATED PAGE FOUND</td><td>— (thin, one-row mention on <code>/audit-services/</code>)</td><td>Thin</td><td>Build a dedicated Internal Audit section on the existing Audit Services page (CONT-017)</td><td><span class="sev high">HIGH</span></td></tr>
+    </tbody>
+  </table>
+  </div>
+
+  <h3>Registration &amp; Compliance</h3>
+  <div class="tbl-scroll">
+  <table class="compact fixed">
+    <colgroup><col style="width:16%"><col style="width:18%"><col style="width:20%"><col style="width:10%"><col style="width:26%"><col style="width:10%"></colgroup>
+    <thead><tr><th>Service</th><th>Dedicated Page Status</th><th>Existing URL</th><th>Quality</th><th>Recommended Action</th><th>Priority</th></tr></thead>
+    <tbody>
+      <tr><td>Company Registration (Private Limited)</td><td>NO DEDICATED PAGE FOUND</td><td>— (<code>/public-limited-company/</code> and <code>/startup-registration-india/</code> both confirmed inadequate substitutes)</td><td>N/A</td><td>Content brief for a dedicated Private Limited Company Registration page; add dropdown option (CONT-014)</td><td><span class="sev critical"><strong>CRITICAL</strong></span></td></tr>
+      <tr><td>LLP Registration</td><td>NO DEDICATED PAGE FOUND</td><td>— (<code>/llp-annual-filing/</code> is compliance-only)</td><td>N/A</td><td>Content brief for a dedicated LLP Registration/formation page, cross-linked with LLP Annual Filing (CONT-015)</td><td><span class="sev high">HIGH</span></td></tr>
+      <tr><td>Partnership Registration</td><td>NO DEDICATED PAGE FOUND</td><td><code>/tax-guides/partnership-firm-registration-maharashtra/</code> (informational only)</td><td>N/A for a service page</td><td>Convert/supplement with a dedicated service page (CONT-020)</td><td><span class="sev medium">MEDIUM</span></td></tr>
+      <tr><td>Proprietorship Registration</td><td>NO DEDICATED PAGE FOUND</td><td>—</td><td>N/A</td><td>Content brief for a dedicated page; add dropdown option (CONT-016)</td><td><span class="sev high">HIGH</span></td></tr>
+      <tr><td>Startup Registration</td><td>DEDICATED AND ADEQUATE</td><td><code>/startup-registration-india/</code></td><td>Adequate</td><td>No gap</td><td><span class="sev low">LOW</span></td></tr>
+      <tr><td>NGO Registration</td><td>DEDICATED AND ADEQUATE</td><td><code>/section-8-company-registration/</code> and <code>/12a-or-12aa-or-80g-registration-new-scheme/</code></td><td>Deep on both</td><td>No gap</td><td><span class="sev low">LOW</span></td></tr>
+      <tr><td>ROC Compliance</td><td>NO DEDICATED PAGE FOUND (company-side)</td><td><code>/llp-annual-filing/</code> (LLP-side only)</td><td>Adequate for LLP only</td><td>Content brief for Company ROC Compliance, cross-linked with LLP Annual Filing (CONT-018)</td><td><span class="sev high">HIGH</span></td></tr>
+      <tr><td>Company Compliance</td><td>NO DEDICATED PAGE FOUND</td><td>— (dropdown-only demand evidence)</td><td>N/A</td><td>Content brief for a pillar page + Pvt Ltd/OPC/Section-8 subpages (CONT-018)</td><td><span class="sev high">HIGH</span></td></tr>
+      <tr><td>Annual Compliance</td><td>EXISTS UNDER DIFFERENT SERVICE/URL (LLP) / NO DEDICATED PAGE FOUND (other entities)</td><td><code>/llp-annual-filing/</code> (LLP portion only)</td><td>Adequate for LLP only</td><td>Consolidate with the Company Compliance content brief; cross-link with LLP Annual Filing (CONT-018)</td><td><span class="sev medium">MEDIUM</span></td></tr>
+    </tbody>
+  </table>
+  </div>
+  <p><strong>Overlap risks flagged in the coverage map:</strong> Income Tax Services vs. Income Tax Return Filing (title/keyword dilution); GST Consultancy vs. GST Return Filing's "Top Reasons to Hire a GST Consultant" H2; Tax Audit/Statutory Audit sharing one URL/title; ROC Compliance, Company Compliance, and Annual Compliance are recommended for <strong>consolidated planning as one content initiative</strong>, not three separate thin pages, to avoid creating a new cannibalization risk.</p>
+</section>
+
+<!-- ============================= SECTION 10 ============================= -->
+<section class="section-block" id="section-10">
+  <div class="section-eyebrow">Section 10</div>
+  <h2>Top SEO Issues &amp; Opportunities</h2>
+  <p>The table below ranks the audit's most consequential findings by business impact, combining all phases. CONFIRMED and LIKELY/POSSIBLE items are explicitly labeled — never blended.</p>
+  <div class="tbl-scroll">
+  <table class="compact fixed">
+    <colgroup><col style="width:5%"><col style="width:13%"><col style="width:11%"><col style="width:9%"><col style="width:9%"><col style="width:33%"><col style="width:20%"></colgroup>
+    <thead><tr><th>Priority</th><th>Finding</th><th>Type</th><th>Severity</th><th>Confidence</th><th>Business Impact</th><th>Recommended Action</th></tr></thead>
+    <tbody>
+      <tr><td>1</td><td>CONT-001</td><td>Content accuracy</td><td><span class="sev critical">CRITICAL</span></td><td><span class="conf">CONFIRMED</span></td><td>Wrong firm name in a live Tier 1 FAQ — direct, present-tense credibility failure</td><td>Fix immediately; single-sentence edit</td></tr>
+      <tr><td>2</td><td>CONT-014</td><td>Service coverage</td><td><span class="sev critical">CRITICAL</span></td><td><span class="conf">CONFIRMED</span></td><td>Zero coverage for the dominant Indian SME entity type</td><td>Content brief + build dedicated page</td></tr>
+      <tr><td>3</td><td>CONT-002</td><td>Content freshness</td><td><span class="sev critical">CRITICAL</span></td><td><span class="conf">CONFIRMED</span></td><td>Stale AY reference on the flagship Income Tax page</td><td>Route to professional review</td></tr>
+      <tr><td>4</td><td>CONT-003</td><td>Content freshness</td><td><span class="sev critical">CRITICAL</span></td><td><span class="conf">CONFIRMED</span></td><td>"Final Year 2021-22" table shown as current on LLP Annual Filing</td><td>Route to professional review</td></tr>
+      <tr><td>5</td><td>CONT-004</td><td>Content freshness</td><td><span class="sev critical">CRITICAL</span></td><td><span class="conf">CONFIRMED</span></td><td>Passed transitional deadlines shown as current on the site's only NGO tax-exemption page</td><td>Route to professional review</td></tr>
+      <tr><td>6</td><td>CONT-005/006/007</td><td>Content freshness</td><td><span class="sev critical">CRITICAL</span></td><td><span class="conf">CONFIRMED</span></td><td>Three indexed articles present long-expired deadlines with no disclaimer</td><td>Add historical/closed-window notices</td></tr>
+      <tr><td>7</td><td>OP-001</td><td>On-page accuracy</td><td><span class="sev high">HIGH</span></td><td><span class="conf">CONFIRMED</span></td><td>Public Limited Company page self-contradicts on a concrete capital figure</td><td>Reconcile after professional verification</td></tr>
+      <tr><td>8</td><td>OP-002</td><td>On-page/navigation</td><td><span class="sev high">HIGH</span></td><td><span class="conf">LIKELY</span></td><td>Possible nav-link mislabel silently misroutes LLP formation searchers</td><td>Verify label/target in WP Admin</td></tr>
+      <tr><td>9</td><td>OP-004</td><td>Trust/E-E-A-T</td><td><span class="sev high">HIGH</span></td><td><span class="conf">LIKELY</span></td><td>Homepage's own trust section renders empty</td><td>Confirm via browser check; populate</td></tr>
+      <tr><td>10</td><td>CONT-011</td><td>Content accuracy</td><td><span class="sev high">HIGH</span></td><td><span class="conf">LIKELY</span></td><td>High-density old/new Act citations across 3 priority pages unverified</td><td>One consolidated professional review</td></tr>
+      <tr><td>11</td><td>CONT-012</td><td>Content freshness</td><td><span class="sev high">HIGH</span></td><td><span class="conf">CONFIRMED</span></td><td>5 pages state monetary figures with no currency date-stamp</td><td>Verify and date-stamp</td></tr>
+      <tr><td>12</td><td>CONT-015/016/018/019</td><td>Service coverage</td><td><span class="sev high">HIGH</span></td><td><span class="conf">CONFIRMED</span></td><td>LLP Registration, Proprietorship, company-side Annual Compliance, and Tax Consultancy all have confirmed demand and zero content</td><td>Content-production batch</td></tr>
+      <tr><td>13</td><td>CONT-017</td><td>Service coverage</td><td><span class="sev high">HIGH</span></td><td><span class="conf">CONFIRMED</span></td><td>Internal Audit reduced to a one-row table mention</td><td>Build a dedicated section</td></tr>
+      <tr><td>14</td><td>CONT-008/010</td><td>Content freshness</td><td><span class="sev high">HIGH</span></td><td><span class="conf">CONFIRMED</span></td><td>Missing historical framing / missing FY label on 2 articles</td><td>Add framing/labels</td></tr>
+      <tr><td>15</td><td>TECH-001/002</td><td>Technical</td><td><span class="sev medium">MEDIUM</span></td><td><span class="conf">LIKELY</span></td><td>Slug collision + 3 outdated footer links</td><td>Confirm in Admin; update hrefs</td></tr>
+      <tr><td>16</td><td>TECH-003/004</td><td>Technical</td><td><span class="sev medium">MEDIUM</span></td><td><span class="conf">CONFIRMED</span></td><td>2 thin archives; stale GST amnesty content</td><td>Sitemap toggle; add notices</td></tr>
+      <tr><td>17</td><td>OP-003/005/006/007</td><td>On-page/trust</td><td><span class="sev medium">MEDIUM</span></td><td><span class="conf">CONFIRMED</span></td><td>Pricing inconsistency; testimonial duplication/absence; CTA-strip gap; H1 scope mismatch</td><td>Standardize per-item guidance</td></tr>
+      <tr><td>18</td><td>CONT-013</td><td>Trust/E-E-A-T</td><td><span class="sev medium">MEDIUM</span></td><td><span class="conf">CONFIRMED</span></td><td>No individually-named, checkable CA credential sitewide</td><td>Add named practitioner bio</td></tr>
+      <tr><td>19</td><td>CONT-020/021/022</td><td>Service coverage</td><td><span class="sev medium">MEDIUM</span></td><td><span class="conf">CONFIRMED</span></td><td>Partnership Registration, GST Consultancy/Compliance, Income Tax Compliance gaps</td><td>Content briefs, lower urgency</td></tr>
+      <tr><td>20</td><td>TECH-005/006/007, WP-001, OP-008, CONT-009/023</td><td>Technical/On-page</td><td><span class="sev low">LOW</span>/<span class="sev medium">MEDIUM</span></td><td><span class="conf">Mixed</span></td><td>Minor hygiene and possible-confidence items</td><td>Address opportunistically</td></tr>
+    </tbody>
+  </table>
+  </div>
+
+  <h3>Complete Finding Index (all 39 tracked findings)</h3>
+  <div class="tbl-scroll">
+  <table class="compact fixed">
+    <colgroup><col style="width:9%"><col style="width:9%"><col style="width:10%"><col style="width:40%"><col style="width:32%"></colgroup>
+    <thead><tr><th>ID</th><th>Severity</th><th>Confidence</th><th>Issue</th><th>Recommended Action</th></tr></thead>
+    <tbody>
+      <tr><td>TECH-001</td><td><span class="sev medium">MEDIUM</span></td><td><span class="conf">LIKELY</span></td><td><code>/trademark-registration/</code> page/taxonomy slug collision</td><td>Confirm in WP Admin; rename taxonomy slug</td></tr>
+      <tr><td>TECH-002</td><td><span class="sev medium">MEDIUM</span></td><td><span class="conf">LIKELY</span></td><td>3 footer links use outdated/mistyped slugs, <code>http://</code> scheme</td><td>Update footer hrefs; confirm old slugs' status</td></tr>
+      <tr><td>TECH-003</td><td><span class="sev medium">MEDIUM</span></td><td><span class="conf">CONFIRMED</span></td><td>2 thin single-item category archives indexed</td><td>Exclude from sitemap or build out content</td></tr>
+      <tr><td>TECH-004</td><td><span class="sev medium">MEDIUM</span></td><td><span class="conf">CONFIRMED</span></td><td>Stale, deadline-specific compliance content live with no update</td><td>Add "scheme closed" notice</td></tr>
+      <tr><td>TECH-005</td><td><span class="sev low">LOW</span></td><td><span class="conf">POSSIBLE</span></td><td>Possible cannibalization: GST blog article vs. Tier 1 page</td><td>Route to content-strategy decision</td></tr>
+      <tr><td>TECH-006</td><td><span class="sev low">LOW</span></td><td><span class="conf">CONFIRMED</span></td><td>Mixed http/https scheme in internal links</td><td>Bulk search-and-replace to https</td></tr>
+      <tr><td>TECH-007</td><td><span class="sev low">LOW</span></td><td><span class="conf">POSSIBLE</span></td><td><code>/tax-case-law/</code> index may be under-populated</td><td>Manual re-check; add missing articles</td></tr>
+      <tr><td>WP-001</td><td><span class="sev low">LOW</span></td><td><span class="conf">CONFIRMED</span></td><td>2 of 9 ITR industry pages use an older Elementor template</td><td>Rebuild using the 7-page family's template</td></tr>
+      <tr><td>OP-001</td><td><span class="sev high">HIGH</span></td><td><span class="conf">CONFIRMED</span></td><td>Public Ltd Co self-contradicts on paid-up capital</td><td>Reconcile after professional verification</td></tr>
+      <tr><td>OP-002</td><td><span class="sev high">HIGH</span></td><td><span class="conf">LIKELY</span></td><td>Possible mislabeled "LLP Registration" nav link</td><td>Verify label/target in WP Admin</td></tr>
+      <tr><td>OP-003</td><td><span class="sev medium">MEDIUM</span></td><td><span class="conf">CONFIRMED</span></td><td>Inconsistent pricing disclosure across Tier 1</td><td>Standardize sitewide policy</td></tr>
+      <tr><td>OP-004</td><td><span class="sev high">HIGH</span></td><td><span class="conf">LIKELY</span></td><td>Homepage testimonials section renders empty</td><td>Confirm and populate</td></tr>
+      <tr><td>OP-005</td><td><span class="sev medium">MEDIUM</span></td><td><span class="conf">CONFIRMED</span></td><td>Testimonials duplicated on 4 pages; absent on 2</td><td>Add/vary testimonials</td></tr>
+      <tr><td>OP-006</td><td><span class="sev medium">MEDIUM</span></td><td><span class="conf">CONFIRMED</span></td><td>Homepage CTA strip omits 3 of 5 priority groups</td><td>Expand CTA strip</td></tr>
+      <tr><td>OP-007</td><td><span class="sev medium">MEDIUM</span></td><td><span class="conf">CONFIRMED</span></td><td>12A/80G H1 narrower than page scope</td><td>Update H1</td></tr>
+      <tr><td>OP-008</td><td><span class="sev low">LOW</span></td><td><span class="conf">CONFIRMED</span></td><td>Misplaced GST return-filing sentence on Registration page</td><td>Correct or remove sentence</td></tr>
+      <tr><td>CONT-001</td><td><span class="sev critical">CRITICAL</span></td><td><span class="conf">CONFIRMED</span></td><td>Wrong firm name in Accounting FAQ</td><td>Correct firm name</td></tr>
+      <tr><td>CONT-002</td><td><span class="sev critical">CRITICAL</span></td><td><span class="conf">CONFIRMED</span></td><td>Stale AY2020-21 in ITR Mumbai FAQ</td><td>Professional review</td></tr>
+      <tr><td>CONT-003</td><td><span class="sev critical">CRITICAL</span></td><td><span class="conf">CONFIRMED</span></td><td>"Final Year 2021-22" table on LLP Annual Filing</td><td>Professional review</td></tr>
+      <tr><td>CONT-004</td><td><span class="sev critical">CRITICAL</span></td><td><span class="conf">CONFIRMED</span></td><td>Passed 2021-22 deadlines on 12A/80G page</td><td>Professional review</td></tr>
+      <tr><td>CONT-005</td><td><span class="sev critical">CRITICAL</span></td><td><span class="conf">CONFIRMED</span></td><td>Oct 2021 due dates, no disclaimer</td><td>Add historical notice</td></tr>
+      <tr><td>CONT-006</td><td><span class="sev critical">CRITICAL</span></td><td><span class="conf">CONFIRMED</span></td><td>Nov 2022 due dates, no disclaimer</td><td>Add historical notice</td></tr>
+      <tr><td>CONT-007</td><td><span class="sev critical">CRITICAL</span></td><td><span class="conf">CONFIRMED</span></td><td>Waiver window closed March 2025, no notice</td><td>Add closed-window notice</td></tr>
+      <tr><td>CONT-008</td><td><span class="sev high">HIGH</span></td><td><span class="conf">CONFIRMED</span></td><td>2021 GST Council meeting recap lacks framing</td><td>Add historical-record note</td></tr>
+      <tr><td>CONT-009</td><td><span class="sev medium">MEDIUM</span></td><td><span class="conf">CONFIRMED</span></td><td>June 2026 due-dates article still featured</td><td>Rotate featured post</td></tr>
+      <tr><td>CONT-010</td><td><span class="sev high">HIGH</span></td><td><span class="conf">CONFIRMED</span></td><td>Tax-regime table has no FY/AY label</td><td>Add year label after verification</td></tr>
+      <tr><td>CONT-011</td><td><span class="sev high">HIGH</span></td><td><span class="conf">LIKELY</span></td><td>Act-2025 section mappings unverified across 3 pages</td><td>Consolidated professional review</td></tr>
+      <tr><td>CONT-012</td><td><span class="sev high">HIGH</span></td><td><span class="conf">CONFIRMED</span></td><td>5 pages' monetary figures lack date-stamp</td><td>Verify and date-stamp</td></tr>
+      <tr><td>CONT-013</td><td><span class="sev medium">MEDIUM</span></td><td><span class="conf">CONFIRMED</span></td><td>No named, checkable CA credential sitewide</td><td>Add named practitioner bio</td></tr>
+      <tr><td>CONT-014</td><td><span class="sev critical">CRITICAL</span></td><td><span class="conf">CONFIRMED</span></td><td>No Private Limited Company Registration page</td><td>Build dedicated page</td></tr>
+      <tr><td>CONT-015</td><td><span class="sev high">HIGH</span></td><td><span class="conf">CONFIRMED</span></td><td>No LLP Registration (formation) page</td><td>Build dedicated page</td></tr>
+      <tr><td>CONT-016</td><td><span class="sev high">HIGH</span></td><td><span class="conf">CONFIRMED</span></td><td>No Proprietorship Registration page</td><td>Build dedicated page</td></tr>
+      <tr><td>CONT-017</td><td><span class="sev high">HIGH</span></td><td><span class="conf">CONFIRMED</span></td><td>Internal Audit is a one-row table mention only</td><td>Build dedicated section</td></tr>
+      <tr><td>CONT-018</td><td><span class="sev high">HIGH</span></td><td><span class="conf">CONFIRMED</span></td><td>No company-side ROC/Annual Compliance page</td><td>Build pillar + subpages</td></tr>
+      <tr><td>CONT-019</td><td><span class="sev high">HIGH</span></td><td><span class="conf">CONFIRMED</span></td><td>No Tax Consultancy page</td><td>Build dedicated page</td></tr>
+      <tr><td>CONT-020</td><td><span class="sev medium">MEDIUM</span></td><td><span class="conf">CONFIRMED</span></td><td>Partnership Registration lacks a service page</td><td>Build service page</td></tr>
+      <tr><td>CONT-021</td><td><span class="sev medium">MEDIUM</span></td><td><span class="conf">CONFIRMED</span></td><td>No GST Consultancy/Compliance page</td><td>Build consolidated page</td></tr>
+      <tr><td>CONT-022</td><td><span class="sev medium">MEDIUM</span></td><td><span class="conf">CONFIRMED</span></td><td>No Income Tax Compliance page</td><td>Build dedicated page</td></tr>
+      <tr><td>CONT-023</td><td><span class="sev medium">MEDIUM</span></td><td><span class="conf">POSSIBLE</span></td><td>Unverified third GST-related URL via anchor</td><td>Verify live status first</td></tr>
+    </tbody>
+  </table>
+  </div>
+</section>
+
+<!-- ============================= SECTION 11 ============================= -->
+<section class="section-block" id="section-11">
+  <div class="section-eyebrow">Section 11</div>
+  <h2>Quick Wins — Manual Implementation</h2>
+  <p>These are the genuinely low-effort, high-value items identified across both phases. Every step below is written for <strong>the user</strong> to perform — Claude does not implement any of these.</p>
+
+  <div class="qw">
+    <h4>Quick Win 1 — Correct the wrong firm name on Accounting Services (CONT-001)</h4>
+    <p><span class="lbl">Why it matters:</span> A live, Tier 1 commercial page tells a prospective client the wrong firm's name at the exact FAQ moment designed to build confidence before they enquire.</p>
+    <p><span class="lbl">Where to implement:</span> <code>/accounting-services/</code>, FAQ answer to "What are the Accounting services in Mumbai you provide?"</p>
+    <p><span class="lbl">Step-by-step:</span> (1) In WordPress Admin, open the Accounting Services page in Elementor. (2) Locate the FAQ widget/accordion for that question. (3) Replace "TAXZONA Consultancy" with "Shahnawaz and Associates" (or the firm's preferred exact name). (4) Read the rest of that FAQ answer and the page's other FAQs for any other un-customized third-party references. (5) Save and republish.</p>
+    <p><span class="lbl">Validation:</span> Re-fetch the live page and confirm the FAQ names the correct firm; search the rendered page for any remaining instance of "TAXZONA."</p>
+  </div>
+
+  <div class="qw">
+    <h4>Quick Win 2 — Reconcile the Public Limited Company capital contradiction (OP-001)</h4>
+    <p><span class="lbl">Why it matters:</span> The page states two different minimum paid-up capital figures in its own body copy — a material trust/decision-quality issue for figures a prospect would use to plan a real financial commitment.</p>
+    <p><span class="lbl">Where to implement:</span> <code>/public-limited-company/</code>, "Requirements" section and FAQ Q1.</p>
+    <p><span class="lbl">Step-by-step:</span> (1) Confirm the currently correct rule with a qualified CA/company-law professional. (2) In Elementor, edit both the "Requirements" section and the FAQ answer to state the same, verified figure (or explicitly frame one as historical if the rule changed at a known date). (3) Save and republish.</p>
+    <p><span class="lbl">Validation:</span> Re-fetch the live page and confirm both sections agree.</p>
+  </div>
+
+  <div class="qw">
+    <h4>Quick Win 3 — Add historical/closed-window notices to 3 stale due-date articles (CONT-005/006/007)</h4>
+    <p><span class="lbl">Why it matters:</span> These articles present long-expired or self-confirmed-closed deadlines with no disclaimer, on live, indexed pages.</p>
+    <p><span class="lbl">Where to implement:</span> <code>/gst-new-update-due-dates-for-october-2021/</code>, <code>/due-date-calendar-for-the-month-of-november-2022/</code>, <code>/waiver-of-late-fees-for-gst-annual-return/</code>.</p>
+    <p><span class="lbl">Step-by-step:</span> (1) Open each article in the WordPress editor. (2) Add a short, prominent notice block at the top (e.g., "This article describes [month/year] deadlines and is retained for historical reference" or, for the waiver article, "This waiver window closed 31 March 2025"). (3) Save and republish each.</p>
+    <p><span class="lbl">Validation:</span> Re-fetch each URL and confirm the notice is visible in the rendered content.</p>
+  </div>
+
+  <div class="qw">
+    <h4>Quick Win 4 — Populate or remove the homepage's empty "TESTIMONIALS" section (OP-004)</h4>
+    <p><span class="lbl">Why it matters:</span> The homepage is the site's highest-traffic entry point and primary trust surface; a labeled but empty proof section undercuts exactly the message it's meant to send.</p>
+    <p><span class="lbl">Where to implement:</span> Homepage <code>/</code>, "TESTIMONIALS" H2 / "What People Are Saying About Us."</p>
+    <p><span class="lbl">Step-by-step:</span> (1) Open the live homepage in a standard browser and scroll to the testimonials section to confirm whether it's genuinely empty (this could not be confirmed via this session's tools). (2) If empty, open the homepage in Elementor, locate the Testimonials widget, and either link it to the same data source as the service-page testimonial widget or manually add 2–3 of the real testimonials already displayed elsewhere on the site.</p>
+    <p><span class="lbl">Validation:</span> Re-view the homepage and confirm testimonial content now displays.</p>
+  </div>
+
+  <div class="qw">
+    <h4>Quick Win 5 — Fix the sitewide mixed http/https internal-link scheme (TECH-006)</h4>
+    <p><span class="lbl">Why it matters:</span> Every <code>http://</code> internal link forces an unnecessary redirect hop and dilutes link equity slightly, at scale, across a sitewide, high-frequency link position (footer).</p>
+    <p><span class="lbl">Where to implement:</span> Footer menu/widget and Elementor templates sitewide.</p>
+    <p><span class="lbl">Step-by-step:</span> (1) Install/use a database-safe search-and-replace plugin (e.g., "Better Search Replace," which safely handles serialized Elementor JSON). (2) Run a search-and-replace of <code>http://cashahnawaz.com</code> → <code>https://cashahnawaz.com</code> across post/page content and Elementor template data. (3) Separately check Appearance → Menus for any manually-entered <code>http://</code> URLs.</p>
+    <p><span class="lbl">Validation:</span> Re-fetch the footer and main navigation and confirm all internal hrefs read <code>https://</code>.</p>
+  </div>
+
+  <div class="qw">
+    <h4>Quick Win 6 — Update the 3 outdated footer links (TECH-002)</h4>
+    <p><span class="lbl">Where to implement:</span> Site footer (Appearance → Menus, or the Elementor footer template).</p>
+    <p><span class="lbl">Step-by-step:</span> (1) Locate the three footer links pointing to <code>http://cashahnawaz.com/project-business/trademark-registration/</code>, <code>http://cashahnawaz.com/income-tax-return-filling-in-mumbai/</code>, and <code>http://cashahnawaz.com/online-tds-return-filing/</code>. (2) Update each href to its current correct URL (<code>https://cashahnawaz.com/trademark-registration/</code>, <code>https://cashahnawaz.com/income-tax-return-filing-in-mumbai/</code>, <code>https://cashahnawaz.com/tds-return-filing-services/</code>). (3) Separately confirm in WordPress Admin whether the old slugs still resolve to live content.</p>
+    <p><span class="lbl">Validation:</span> Re-fetch the footer and confirm updated hrefs; re-fetch the old URLs and confirm a clean redirect or 404.</p>
+  </div>
+
+  <div class="qw">
+    <h4>Quick Win 7 — Exclude or noindex the 2 thin category archives (TECH-003)</h4>
+    <p><span class="lbl">Where to implement:</span> Rank Math → Sitemap Settings / Titles &amp; Meta → Taxonomies.</p>
+    <p><span class="lbl">Step-by-step:</span> (1) In Rank Math's Taxonomies settings, locate the <code>mca</code> and <code>donation</code> terms. (2) Toggle off sitemap inclusion, or set a noindex directive while keeping the archive reachable to visitors.</p>
+    <p><span class="lbl">Validation:</span> Re-fetch <code>category-sitemap.xml</code> and confirm the toggled term(s) no longer appear.</p>
+  </div>
+
+  <div class="qw">
+    <h4>Quick Win 8 — Add dropdown-only lead categories ahead of new pages</h4>
+    <p><span class="lbl">Why it matters:</span> Adding "Private Limited Company Registration" and "Proprietorship Registration" as enquiry-dropdown options — even before their landing pages exist — starts capturing trackable lead demand immediately, at near-zero cost.</p>
+    <p><span class="lbl">Where to implement:</span> The enquiry form's "Select Service" dropdown (coordinate with whichever plugin renders it — see Section 6's form-plugin ambiguity note).</p>
+    <p><span class="lbl">Step-by-step:</span> (1) Identify the form-builder plugin actually controlling the live dropdown (verify via WordPress Admin, since this remains ambiguous per this audit's tools). (2) Add "Private Limited Company Registration" and "Proprietorship Registration" as new dropdown options, matching the existing option format. (3) Save.</p>
+    <p><span class="lbl">Validation:</span> Re-fetch the live form and confirm the new options appear in the dropdown.</p>
+  </div>
+</section>
+
+<!-- ============================= SECTION 12 ============================= -->
+<section class="section-block" id="section-12">
+  <div class="section-eyebrow">Section 12</div>
+  <h2>Manual Implementation Roadmap</h2>
+  <p>Every item below is performed manually by the user. Expected Benefit is stated as High/Medium/Low only — this report makes no ranking or traffic guarantee.</p>
+
+  <h3>PHASE 1 — Immediate Priority</h3>
+  <div class="tbl-scroll">
+  <table class="compact">
+    <thead><tr><th>Action</th><th>Priority</th><th>Expected Benefit</th><th>Manual Implementation Area</th></tr></thead>
+    <tbody>
+      <tr><td>Fix wrong firm name (CONT-001)</td><td><span class="sev critical">CRITICAL</span></td><td>High</td><td>WordPress/Elementor FAQ edit</td></tr>
+      <tr><td>Route ITR Mumbai, LLP Annual Filing, 12A/80G stale content to professional review (CONT-002/003/004)</td><td><span class="sev critical">CRITICAL</span></td><td>High</td><td>Professional review + WordPress/Elementor content edit</td></tr>
+      <tr><td>Add historical/closed-window notices to 3 stale articles (CONT-005/006/007)</td><td><span class="sev critical">CRITICAL</span></td><td>Medium</td><td>WordPress editor</td></tr>
+      <tr><td>Reconcile Public Ltd Co capital contradiction (OP-001)</td><td><span class="sev high">HIGH</span></td><td>High</td><td>Professional review + Elementor edit</td></tr>
+      <tr><td>Begin Private Limited Company Registration content brief (CONT-014)</td><td><span class="sev critical">CRITICAL</span></td><td>High</td><td>Content commissioning (longest lead time in this tier)</td></tr>
+    </tbody>
+  </table>
+  </div>
+
+  <h3>PHASE 2 — High Value Improvements</h3>
+  <div class="tbl-scroll">
+  <table class="compact">
+    <thead><tr><th>Action</th><th>Priority</th><th>Expected Benefit</th><th>Manual Implementation Area</th></tr></thead>
+    <tbody>
+      <tr><td>Verify/relabel possible LLP nav-link mislabel (OP-002)</td><td><span class="sev high">HIGH</span></td><td>Medium</td><td>WordPress Admin → Menus</td></tr>
+      <tr><td>Confirm and populate homepage testimonials (OP-004)</td><td><span class="sev high">HIGH</span></td><td>Medium</td><td>Browser check + Elementor edit</td></tr>
+      <tr><td>Consolidated professional review of Act-2025 section mappings across 3 pages (CONT-011)</td><td><span class="sev high">HIGH</span></td><td>Medium</td><td>Professional review</td></tr>
+      <tr><td>Date-stamp monetary figures on 5 Tier 1 pages (CONT-012)</td><td><span class="sev high">HIGH</span></td><td>Medium</td><td>Professional review + content edit</td></tr>
+      <tr><td>Build LLP Registration, Proprietorship Registration, Tax Consultancy pages (CONT-015/016/019)</td><td><span class="sev high">HIGH</span></td><td>High</td><td>Content commissioning + WordPress/Elementor build</td></tr>
+      <tr><td>Build company-side ROC/Annual Compliance pillar + subpages (CONT-018)</td><td><span class="sev high">HIGH</span></td><td>High</td><td>Content commissioning + WordPress/Elementor build</td></tr>
+      <tr><td>Expand Internal Audit into a dedicated section (CONT-017)</td><td><span class="sev high">HIGH</span></td><td>Medium</td><td>Content commissioning + Elementor edit</td></tr>
+      <tr><td>Add historical-record framing / FY label (CONT-008/010)</td><td><span class="sev high">HIGH</span></td><td>Low</td><td>WordPress editor</td></tr>
+    </tbody>
+  </table>
+  </div>
+
+  <h3>PHASE 3 — Content &amp; Service Expansion</h3>
+  <div class="tbl-scroll">
+  <table class="compact">
+    <thead><tr><th>Action</th><th>Priority</th><th>Expected Benefit</th><th>Manual Implementation Area</th></tr></thead>
+    <tbody>
+      <tr><td>Standardize pricing-disclosure policy across Tier 1 (OP-003)</td><td><span class="sev medium">MEDIUM</span></td><td>Medium</td><td>Business decision + content edit</td></tr>
+      <tr><td>Vary/add testimonials sitewide (OP-005)</td><td><span class="sev medium">MEDIUM</span></td><td>Medium</td><td>Client outreach + Elementor edit</td></tr>
+      <tr><td>Expand homepage CTA strip to all 5 priority groups (OP-006)</td><td><span class="sev medium">MEDIUM</span></td><td>Medium</td><td>Elementor edit</td></tr>
+      <tr><td>Widen 12A/80G H1 to full scope (OP-007)</td><td><span class="sev medium">MEDIUM</span></td><td>Low</td><td>Elementor edit</td></tr>
+      <tr><td>Add named practitioner bio and ICAI credential (CONT-013)</td><td><span class="sev medium">MEDIUM</span></td><td>Medium</td><td>Content + About Us page edit</td></tr>
+      <tr><td>Build Partnership Registration, GST Consultancy/Compliance, Income Tax Compliance pages (CONT-020/021/022)</td><td><span class="sev medium">MEDIUM</span></td><td>Medium</td><td>Content commissioning + WordPress/Elementor build</td></tr>
+      <tr><td>Verify CONT-023's unverified URL and correct anchor if needed</td><td><span class="sev medium">MEDIUM</span></td><td>Low</td><td>Browser check + content edit</td></tr>
+      <tr><td>Resolve TECH-001 slug collision and TECH-002 footer links</td><td><span class="sev medium">MEDIUM</span></td><td>Low</td><td>WordPress Admin + footer edit</td></tr>
+    </tbody>
+  </table>
+  </div>
+
+  <h3>PHASE 4 — Further SEO Development</h3>
+  <div class="tbl-scroll">
+  <table class="compact">
+    <thead><tr><th>Action</th><th>Priority</th><th>Expected Benefit</th><th>Manual Implementation Area</th></tr></thead>
+    <tbody>
+      <tr><td>Fix TECH-005/006/007, WP-001, OP-008 (LOW items)</td><td><span class="sev low">LOW</span></td><td>Low</td><td>Various — opportunistic during other edits</td></tr>
+      <tr><td>Commission Internal Linking Audit</td><td>—</td><td>Medium</td><td>Future audit phase</td></tr>
+      <tr><td>Commission Schema Audit (once raw-HTML access resolves JSON-LD visibility)</td><td>—</td><td>Medium</td><td>Future audit phase</td></tr>
+      <tr><td>Commission Performance / Core Web Vitals testing</td><td>—</td><td>Medium</td><td>Future audit phase</td></tr>
+      <tr><td>Commission Local SEO Audit (NAP consistency, map embed, WhatsApp)</td><td>—</td><td>Medium</td><td>Future audit phase</td></tr>
+      <tr><td>Commission Competitor Analysis</td><td>—</td><td>Medium</td><td>Future audit phase</td></tr>
+      <tr><td>Establish GSC/GA4/GTM connectivity for future analysis</td><td>—</td><td>High (unlocks data-driven prioritization)</td><td>Analytics/tooling setup</td></tr>
+    </tbody>
+  </table>
+  </div>
+</section>
+
+<!-- ============================= SECTION 13 ============================= -->
+<section class="section-block" id="section-13">
+  <div class="section-eyebrow">Section 13</div>
+  <h2>30/60/90 Day Roadmap</h2>
+
+  <h3>First 30 Days</h3>
+  <ul>
+    <li>Fix CONT-001 (wrong firm name) — same day, single-sentence edit.</li>
+    <li>Route CONT-002, CONT-003, CONT-004 (Tier 1 stale content) to a qualified CA/tax professional as one batch review.</li>
+    <li>Add historical/closed-window notices to CONT-005, CONT-006, CONT-007 — mechanical, no professional review needed for the notice text itself.</li>
+    <li>Fix OP-001 (Public Ltd Co contradiction) after professional verification.</li>
+    <li>Confirm and address OP-004 (homepage testimonials).</li>
+    <li>Complete Quick Wins 5–7 (http/https cleanup, footer link update, thin-archive sitemap toggle — TECH-002/003/006).</li>
+    <li>Confirm the TECH-001 slug collision in WordPress Admin.</li>
+    <li>Begin the Private Limited Company Registration content brief (CONT-014) — longest lead-time item, start now so it lands in the 31–60 day window.</li>
+    <li>Add "Private Limited Company Registration" and "Proprietorship Registration" as enquiry-dropdown options (Quick Win 8).</li>
+  </ul>
+
+  <h3>Days 31–60</h3>
+  <ul>
+    <li>Complete the consolidated professional review of CONT-011 (Act-2025 section mappings) and CONT-012 (date-stamping monetary figures).</li>
+    <li>Resolve OP-002 (nav-link verification) via WordPress Admin.</li>
+    <li>Build out CONT-017 (Internal Audit section expansion) — fastest of the coverage-gap items since it extends an existing page.</li>
+    <li>Begin content production for CONT-015 (LLP Registration), CONT-016 (Proprietorship Registration), CONT-019 (Tax Consultancy), and CONT-018 (company-side Annual Compliance pillar + subpages) as one coordinated content batch alongside CONT-014.</li>
+    <li>Standardize pricing disclosure (OP-003) and expand the homepage CTA strip (OP-006).</li>
+    <li>Add named practitioner credential to About Us and Audit Services (CONT-013).</li>
+    <li>Verify CONT-023's unverified URL.</li>
+    <li><strong>Begin the Internal Linking Audit</strong> (next phase — see Section 15) to formalize the many specific cross-link gaps already surfaced in this report (Section 8 ↔ 12A/80G reciprocity, Accounting ↔ Audit distinction links, TDS chart ↔ TDS service page).</li>
+  </ul>
+
+  <h3>Days 61–90</h3>
+  <ul>
+    <li>Publish the new Registration &amp; Compliance pages built in Days 31–60; cross-link them bidirectionally with existing pages per each finding's guidance.</li>
+    <li>Build out lower-priority coverage gaps: CONT-020 (Partnership Registration), CONT-021 (GST Consultancy &amp; Compliance), CONT-022 (Income Tax Compliance).</li>
+    <li>Add/vary testimonials sitewide (OP-005) and finalize any remaining LOW-severity items (TECH-005/006/007, WP-001, OP-008).</li>
+    <li><strong>Schema Audit</strong> — <em>scheduled, dependent on resolving the JSON-LD visibility gap with raw-HTML or browser access; not yet performed.</em></li>
+    <li><strong>Local SEO Audit</strong> — <em>scheduled; will address the NAP address-format inconsistency noted on the 12A/80G page and the confirmed-absent WhatsApp entry point.</em></li>
+    <li><strong>Competitor Analysis</strong> — <em>scheduled; not yet performed.</em></li>
+    <li><strong>Performance / Core Web Vitals testing</strong> — <em>scheduled once a Lighthouse/PageSpeed-capable tool is available; not yet performed.</em></li>
+  </ul>
+  <p>All items marked <em>scheduled</em> above are explicitly future-audit-dependent — they are not confirmed fixes ready today, and no result from them is presented in this report.</p>
+</section>
+
+<!-- ============================= SECTION 14 ============================= -->
+<section class="section-block" id="section-14">
+  <div class="section-eyebrow">Section 14</div>
+  <h2>Data Limitations</h2>
+  <p>The following are <code>DATA NOT AVAILABLE</code> across every phase of this audit to date:</p>
+  <ul>
+    <li>Google Search Console (Coverage, Sitemaps, URL Inspection, Core Web Vitals report)</li>
+    <li>Google Analytics 4</li>
+    <li>Google Tag Manager (container <code>GTM-N2LHGRCX</code> per CLAUDE.md could neither be confirmed nor denied on the live site)</li>
+    <li>Core Web Vitals / Lighthouse / PageSpeed Insights</li>
+    <li>Raw HTTP response headers (status codes, <code>X-Robots-Tag</code>, <code>Cache-Control</code>, <code>Location</code>/redirect targets)</li>
+    <li>Browser automation or rendered screenshots (no visual, above-the-fold, or sticky-CTA claim can be made anywhere in this report)</li>
+    <li>WordPress Admin access (no plugin list, theme confirmation, or settings screen was verified directly)</li>
+    <li>Hosting access (PHP version, server configuration, <code>.htaccess</code>)</li>
+    <li>Meta robots tag content — <code>NOT VISIBLE</code> on effectively every fetch this session (tool limitation, not confirmed absence)</li>
+    <li>Canonical tag targets — <code>NOT VISIBLE</code> sitewide (tool limitation)</li>
+    <li>JSON-LD / structured data presence — <code>NOT VISIBLE</code> sitewide despite Rank Math being confirmed active (tool limitation)</li>
+    <li>JS-rendered / client-side-injected content</li>
+    <li>Keyword search volume, ranking position, organic traffic, conversion rate, and backlink data — none of this exists anywhere in this project and none is claimed anywhere in this report</li>
+  </ul>
+  <blockquote><p><strong>DATA NOT AVAILABLE does not mean the website has a problem.</strong> It means the issue could not be verified within the available audit environment.</p></blockquote>
+</section>
+
+<!-- ============================= SECTION 15 ============================= -->
+<section class="section-block" id="section-15">
+  <div class="section-eyebrow">Section 15</div>
+  <h2>Next Audit Phases</h2>
+  <p>The following remain outside the scope of this interim report:</p>
+  <ul>
+    <li><strong>Internal Linking Audit</strong> — NOT YET INCLUDED IN THIS INTERIM REPORT.</li>
+    <li><strong>Schema Audit</strong> — NOT YET INCLUDED IN THIS INTERIM REPORT.</li>
+    <li><strong>Performance Audit</strong> — NOT YET INCLUDED IN THIS INTERIM REPORT.</li>
+    <li><strong>Competitor Analysis</strong> — NOT YET INCLUDED IN THIS INTERIM REPORT.</li>
+    <li><strong>Local SEO Analysis</strong> — NOT YET INCLUDED IN THIS INTERIM REPORT.</li>
+    <li><strong>Conversion and Lead Generation (CRO) Audit</strong> — NOT YET INCLUDED IN THIS INTERIM REPORT (only content-alignment was checked in Phase 1B; design/UX-level CRO was explicitly out of scope).</li>
+    <li><strong>GSC Analysis</strong> — NOT YET INCLUDED IN THIS INTERIM REPORT.</li>
+    <li><strong>GA4 Analysis</strong> — NOT YET INCLUDED IN THIS INTERIM REPORT.</li>
+    <li><strong>GTM and Conversion Tracking Audit</strong> — NOT YET INCLUDED IN THIS INTERIM REPORT.</li>
+  </ul>
+</section>
+
+<!-- ============================= SECTION 16 ============================= -->
+<section class="section-block" id="section-16">
+  <div class="section-eyebrow">Section 16</div>
+  <h2>Final Conclusion</h2>
+  <p>Cashahnawaz.com stands on a genuinely clean technical and WordPress foundation. Phase 1A found zero CRITICAL and zero HIGH severity issues across crawlability, indexation, sitemap structure, and plugin/theme configuration — Rank Math is confirmed as the sole active SEO plugin, the sitemap is well-formed and correctly segmented, and <code>robots.txt</code> blocks nothing it shouldn't. This is not a site fighting a structural technical deficit.</p>
+  <p>The real, addressable priorities uncovered by this audit sit in <strong>content accuracy and service coverage</strong>, both of which Phase 1B examined in depth. Fifteen items across the site need a qualified professional's eyes on dates, deadlines, and figures — several of them one-sentence or one-paragraph fixes once verified. One live FAQ names the wrong firm. One page contradicts itself on a concrete number. And a dozen of the firm's named priority services — most consequentially Private Limited Company Registration, the entity type most Indian small businesses actually choose — have no dedicated page to meet a searcher looking for exactly that service, even while enquiry-form dropdown data confirms the firm already handles several of these engagements without any organic entry point to capture them.</p>
+  <p>None of this reflects a site in crisis. It reflects a well-built, content-rich CA firm website where a handful of pages have drifted out of date and a handful of common services were never given their own landing page — both are ordinary, fixable content-maintenance gaps, not structural failures. The strongest pages on the site (GST Registration, NRI Taxation, Section 8/12A-80G) demonstrate the firm already knows how to build genuinely deep, well-organized service content; the work ahead is applying that same standard consistently and keeping it current.</p>
+  <p>Completing the remaining audit phases — Internal Linking, Schema, Performance, Competitor, Local SEO, CRO, and the GSC/GA4/GTM analyses once connectivity is established — will sharpen prioritization further, particularly by replacing this report's inspection-based <code>LIKELY USER SEARCH INTENT</code> judgments with actual query-level demand data. Until then, the recommendation is straightforward: implement the findings in this report manually, in the priority order given, verify every regulated figure with a qualified professional before publishing it, and use each finding's Validation step to confirm the change actually took effect on the live site before considering it closed.</p>
+</section>

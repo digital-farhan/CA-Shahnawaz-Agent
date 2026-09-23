@@ -1,0 +1,141 @@
+{
+  "schema_version": 1,
+  "run_id": "2026-07-57c84a2c77624168af937f18602ba140",
+  "status": "complete",
+  "reporting_month": "2026-07",
+  "current_period": {
+    "start": "2026-07-01",
+    "end": "2026-07-31"
+  },
+  "comparison_period": {
+    "start": "2026-06-01",
+    "end": "2026-06-30"
+  },
+  "collection_timestamp_utc": "2026-08-31T08:32:02.656802+00:00",
+  "source_status": {
+    "gsc": {
+      "status": "ok",
+      "output_files": [
+        "gsc\\current\\date.csv",
+        "gsc\\current\\query.csv",
+        "gsc\\current\\page.csv",
+        "gsc\\current\\device.csv",
+        "gsc\\current\\country.csv",
+        "gsc\\current\\searchAppearance.csv",
+        "gsc\\comparison\\date.csv",
+        "gsc\\comparison\\query.csv",
+        "gsc\\comparison\\page.csv",
+        "gsc\\comparison\\device.csv",
+        "gsc\\comparison\\country.csv",
+        "gsc\\comparison\\searchAppearance.csv",
+        "gsc\\property-sitemaps.json"
+      ],
+      "row_counts": {
+        "current/date": 31,
+        "current/query": 5170,
+        "current/page": 142,
+        "current/device": 3,
+        "current/country": 180,
+        "current/searchAppearance": 3,
+        "comparison/date": 30,
+        "comparison/query": 3720,
+        "comparison/page": 131,
+        "comparison/device": 3,
+        "comparison/country": 176,
+        "comparison/searchAppearance": 4
+      },
+      "site_count": 1
+    },
+    "ga4": {
+      "status": "ok",
+      "output_files": [
+        "ga4\\current\\daily.csv",
+        "ga4\\current\\channels.csv",
+        "ga4\\current\\organic-landing-pages.csv",
+        "ga4\\current\\organic-devices.csv",
+        "ga4\\current\\organic-countries.csv",
+        "ga4\\current\\events.csv",
+        "ga4\\current\\organic-events.csv",
+        "ga4\\current\\organic-pages.csv",
+        "ga4\\comparison\\daily.csv",
+        "ga4\\comparison\\channels.csv",
+        "ga4\\comparison\\organic-landing-pages.csv",
+        "ga4\\comparison\\organic-devices.csv",
+        "ga4\\comparison\\organic-countries.csv",
+        "ga4\\comparison\\events.csv",
+        "ga4\\comparison\\organic-events.csv",
+        "ga4\\comparison\\organic-pages.csv",
+        "ga4\\property-streams.json"
+      ],
+      "row_counts": {
+        "current/daily": 13,
+        "current/channels": 5,
+        "current/organic-landing-pages": 63,
+        "current/organic-devices": 3,
+        "current/organic-countries": 16,
+        "current/events": 13,
+        "current/organic-events": 13,
+        "current/organic-pages": 69,
+        "comparison/daily": 0,
+        "comparison/channels": 0,
+        "comparison/organic-landing-pages": 0,
+        "comparison/organic-devices": 0,
+        "comparison/organic-countries": 0,
+        "comparison/events": 0,
+        "comparison/organic-events": 0,
+        "comparison/organic-pages": 0
+      }
+    },
+    "gtm": {
+      "status": "ok",
+      "output_files": [
+        "gtm\\live-inventory.json",
+        "gtm\\container-summary.csv"
+      ],
+      "account_count": 1,
+      "row_counts": {
+        "container-summary": 1
+      }
+    }
+  },
+  "output_files": [
+    "ga4\\comparison\\channels.csv",
+    "ga4\\comparison\\daily.csv",
+    "ga4\\comparison\\events.csv",
+    "ga4\\comparison\\organic-countries.csv",
+    "ga4\\comparison\\organic-devices.csv",
+    "ga4\\comparison\\organic-events.csv",
+    "ga4\\comparison\\organic-landing-pages.csv",
+    "ga4\\comparison\\organic-pages.csv",
+    "ga4\\current\\channels.csv",
+    "ga4\\current\\daily.csv",
+    "ga4\\current\\events.csv",
+    "ga4\\current\\organic-countries.csv",
+    "ga4\\current\\organic-devices.csv",
+    "ga4\\current\\organic-events.csv",
+    "ga4\\current\\organic-landing-pages.csv",
+    "ga4\\current\\organic-pages.csv",
+    "ga4\\property-streams.json",
+    "gsc\\comparison\\country.csv",
+    "gsc\\comparison\\date.csv",
+    "gsc\\comparison\\device.csv",
+    "gsc\\comparison\\page.csv",
+    "gsc\\comparison\\query.csv",
+    "gsc\\comparison\\searchAppearance.csv",
+    "gsc\\current\\country.csv",
+    "gsc\\current\\date.csv",
+    "gsc\\current\\device.csv",
+    "gsc\\current\\page.csv",
+    "gsc\\current\\query.csv",
+    "gsc\\current\\searchAppearance.csv",
+    "gsc\\property-sitemaps.json",
+    "gtm\\container-summary.csv",
+    "gtm\\live-inventory.json"
+  ],
+  "limitations": [
+    "GSC data is collected with a 3-day finalisation delay.",
+    "GSC uses a URL-prefix property, so coverage is limited to that property scope.",
+    "GA4 reports may be affected by thresholding, cardinality, or API row limits.",
+    "GTM is a live configuration snapshot at collection time, not a month-end history or change log."
+  ]
+}

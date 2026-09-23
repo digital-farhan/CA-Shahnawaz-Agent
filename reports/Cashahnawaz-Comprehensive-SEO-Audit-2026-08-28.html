@@ -1,0 +1,1772 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta name="description" content="Comprehensive SEO, analytics, technical, content, local and conversion audit for cashahnawaz.com - 28 August 2026.">
+<title>Comprehensive SEO Audit - Shahnawaz and Associates</title>
+<style>
+:root {
+  --navy:#0a2740; --teal:#0b8f98; --gold:#f4b942; --ink:#172536;
+  --muted:#5b6a79; --line:#dce5eb; --paper:#fff; --wash:#f3f7f9;
+  --critical:#bd2c37; --high:#d9642b; --medium:#b5810a;
+}
+* { box-sizing:border-box; }
+html { scroll-behavior:smooth; }
+body { margin:0; color:var(--ink); background:var(--wash); font:15px/1.65 Inter,Segoe UI,Arial,sans-serif; }
+a { color:#087985; text-decoration-thickness:1px; text-underline-offset:2px; }
+.cover { position:relative; overflow:hidden; color:white; background:linear-gradient(135deg,var(--navy) 0%,#0a4358 55%,var(--teal) 100%); padding:70px max(6vw,40px) 56px; }
+.cover:before,.cover:after { content:""; position:absolute; border-radius:999px; opacity:.14; border:1px solid white; }
+.cover:before { width:430px;height:430px;right:-120px;top:-190px; }
+.cover:after { width:230px;height:230px;right:150px;bottom:-160px; }
+.kicker { color:#b8f2ed; font-weight:800; letter-spacing:.16em; text-transform:uppercase; font-size:12px; }
+.cover h1 { max-width:860px; margin:14px 0 8px; color:white; font-size:clamp(34px,5vw,64px); line-height:1.03; letter-spacing:-.04em; }
+.cover .client { font-size:20px; color:#d7f5f2; margin-bottom:26px; }
+.cover .lede { max-width:850px; font-size:18px; color:#eefafa; }
+.meta-row { display:flex; flex-wrap:wrap; gap:10px; margin:28px 0 0; }
+.pill { border:1px solid rgba(255,255,255,.35); background:rgba(255,255,255,.09); border-radius:999px; padding:7px 13px; font-size:13px; }
+.metrics { display:grid; grid-template-columns:repeat(4,minmax(140px,1fr)); gap:12px; max-width:1000px; margin-top:34px; }
+.metric { padding:17px 18px; background:rgba(255,255,255,.10); border:1px solid rgba(255,255,255,.18); border-radius:14px; backdrop-filter:blur(6px); }
+.metric strong { display:block; font-size:25px; line-height:1.1; color:white; }
+.metric span { display:block; margin-top:6px; color:#ccebea; font-size:12px; text-transform:uppercase; letter-spacing:.08em; }
+.layout { display:grid; grid-template-columns:280px minmax(0,980px); gap:34px; max-width:1340px; margin:0 auto; padding:34px 24px 70px; align-items:start; }
+.sidebar { position:sticky; top:18px; max-height:calc(100vh - 36px); overflow:auto; background:white; border:1px solid var(--line); border-radius:15px; padding:20px; box-shadow:0 12px 35px rgba(10,39,64,.08); }
+.sidebar .label { color:var(--teal); font-weight:800; text-transform:uppercase; letter-spacing:.12em; font-size:11px; margin-bottom:10px; }
+.sidebar ul { list-style:none; margin:0; padding:0; }
+.sidebar li { margin:4px 0; }
+.sidebar li li { padding-left:12px; }
+.sidebar li li li { display:none; }
+.sidebar a { display:block; color:#435467; text-decoration:none; padding:5px 7px; border-radius:7px; font-size:12.5px; line-height:1.25; }
+.sidebar a:hover { background:#edf7f7; color:#066a73; }
+.content { min-width:0; background:var(--paper); border:1px solid var(--line); border-radius:16px; padding:42px 50px 64px; box-shadow:0 12px 35px rgba(10,39,64,.07); }
+.content > h1:first-child,.content > h1:first-child + h2 { position:absolute; width:1px; height:1px; overflow:hidden; clip:rect(0 0 0 0); white-space:nowrap; }
+h1,h2,h3,h4 { color:var(--navy); line-height:1.22; letter-spacing:-.015em; scroll-margin-top:24px; }
+h2 { margin:52px 0 18px; padding-top:8px; font-size:29px; border-top:1px solid var(--line); }
+h2:first-of-type { margin-top:12px; border-top:0; }
+h3 { margin:32px 0 12px; font-size:21px; }
+h4 { margin:22px 0 8px; }
+p { margin:10px 0 15px; }
+ul,ol { padding-left:23px; }
+li { margin:5px 0; }
+blockquote { margin:20px 0; padding:16px 20px; border-left:4px solid var(--teal); background:#eef8f8; color:#344b58; }
+hr { border:0; height:1px; background:var(--line); margin:34px 0; }
+code { background:#eef3f5; color:#9f2340; padding:2px 5px; border-radius:5px; font-size:.9em; overflow-wrap:anywhere; }
+table { width:100%; border-collapse:separate; border-spacing:0; margin:18px 0 27px; font-size:13px; border:1px solid var(--line); border-radius:11px; overflow:hidden; }
+thead th { background:var(--navy); color:white; font-weight:700; text-align:left; padding:11px 12px; vertical-align:top; }
+tbody td { padding:10px 12px; vertical-align:top; border-top:1px solid var(--line); }
+tbody tr:nth-child(even) td { background:#f7fafb; }
+tbody tr:hover td { background:#eef8f8; }
+.severity { display:inline-block; color:white; font-weight:800; font-size:11px; letter-spacing:.08em; border-radius:999px; padding:4px 9px; margin-left:7px; vertical-align:middle; }
+.critical { background:var(--critical); } .high { background:var(--high); } .medium { background:var(--medium); }
+.footer { text-align:center; padding:26px; color:#71808c; font-size:12px; }
+@media (max-width:980px) {
+  .metrics { grid-template-columns:repeat(2,1fr); }
+  .layout { display:block; padding:18px 10px 40px; }
+  .sidebar { position:relative; top:auto; max-height:none; margin:0 0 14px; }
+  .sidebar .toc > ul { columns:2; }
+  .content { padding:28px 20px 45px; }
+}
+@media (max-width:600px) {
+  .cover { padding:45px 22px 38px; }
+  .metrics { grid-template-columns:1fr 1fr; }
+  .metric strong { font-size:21px; }
+  .sidebar .toc > ul { columns:1; }
+  .content { border-radius:12px; }
+  h2 { font-size:25px; }
+  table { display:block; overflow-x:auto; white-space:normal; }
+}
+@media print {
+  @page { size:A4; margin:16mm 13mm; }
+  body { background:white; font-size:10.2pt; }
+  .cover { min-height:245mm; padding:35mm 18mm; break-after:page; print-color-adjust:exact; -webkit-print-color-adjust:exact; }
+  .metrics { grid-template-columns:1fr 1fr; }
+  .layout { display:block; max-width:none; padding:0; }
+  .sidebar { display:none; }
+  .content { border:0; box-shadow:none; padding:0; }
+  h2 { break-before:page; margin-top:0; }
+  h2:first-of-type { break-before:auto; }
+  h3 { break-after:avoid; }
+  table,blockquote { break-inside:avoid; }
+  a { color:inherit; text-decoration:none; }
+}
+</style>
+</head>
+<body>
+<header class="cover">
+  <div class="kicker">Confidential growth audit | 28 August 2026</div>
+  <h1>Comprehensive SEO, Analytics &amp; Growth Audit</h1>
+  <div class="client">Shahnawaz and Associates | cashahnawaz.com</div>
+  <p class="lede">A verified, implementation-ready review of organic visibility, audience quality, technical SEO, content, conversion tracking, mobile experience, local presence and competitive positioning.</p>
+  <div class="meta-row"><span class="pill">GSC connected</span><span class="pill">GA4 connected</span><span class="pill">Published GTM inspected</span><span class="pill">175 URLs crawled</span><span class="pill">No live changes made</span></div>
+  <div class="metrics">
+    <div class="metric"><strong>402,561</strong><span>90-day impressions</span></div>
+    <div class="metric"><strong>3,744</strong><span>90-day clicks</span></div>
+    <div class="metric"><strong>+83%</strong><span>Last vs first 30-day clicks</span></div>
+    <div class="metric"><strong>81.7%</strong><span>Organic share of GA4 sessions</span></div>
+  </div>
+</header>
+<main class="layout">
+  <aside class="sidebar"><div class="label">Report contents</div><div class="toc"><div class="toc">
+<ul>
+<li><a href="#comprehensive-seo-analytics-growth-audit">Comprehensive SEO, Analytics &amp; Growth Audit</a><ul>
+<li><a href="#shahnawaz-and-associates-cashahnawazcom">Shahnawaz and Associates — cashahnawaz.com</a></li>
+<li><a href="#executive-decision-summary">Executive decision summary</a><ul>
+<li><a href="#verified-baseline">Verified baseline</a></li>
+</ul>
+</li>
+<li><a href="#audit-status-by-workstream">Audit status by workstream</a></li>
+<li><a href="#what-is-connected">What is connected</a></li>
+<li><a href="#priority-action-plan">Priority action plan</a><ul>
+<li><a href="#p0-protect-leads-and-restore-trustworthy-data-days-17">P0 — protect leads and restore trustworthy data (days 1–7)</a></li>
+<li><a href="#p1-improve-pages-google-already-shows-weeks-24">P1 — improve pages Google already shows (weeks 2–4)</a></li>
+<li><a href="#p2-build-topical-and-commercial-depth-weeks-512">P2 — build topical and commercial depth (weeks 5–12)</a></li>
+</ul>
+</li>
+<li><a href="#page-by-page-implementation-register">Page-by-page implementation register</a><ul>
+<li><a href="#p0-immediate-ownership-lead-and-trust-repairs">P0 — immediate ownership, lead and trust repairs</a></li>
+<li><a href="#p1-pages-already-earning-visibility">P1 — pages already earning visibility</a></li>
+<li><a href="#p1-high-traffic-industry-and-supporting-pages">P1 — high-traffic industry and supporting pages</a></li>
+<li><a href="#p1p2-regulated-and-time-sensitive-content-refresh-queue">P1/P2 — regulated and time-sensitive content refresh queue</a></li>
+<li><a href="#p2-technical-url-and-internal-link-repairs">P2 — technical URL and internal-link repairs</a></li>
+<li><a href="#p2-new-pages-to-create-only-for-services-actually-offered">P2 — new pages to create only for services actually offered</a></li>
+<li><a href="#implementation-sequence-and-release-checks">Implementation sequence and release checks</a></li>
+</ul>
+</li>
+<li><a href="#search-performance-and-audience-analysis">Search performance and audience analysis</a><ul>
+<li><a href="#growth-trend">Growth trend</a></li>
+<li><a href="#audience-fit">Audience fit</a></li>
+<li><a href="#priority-page-opportunities">Priority page opportunities</a></li>
+<li><a href="#query-to-page-map">Query-to-page map</a></li>
+</ul>
+</li>
+<li><a href="#measurement-and-conversion-audit">Measurement and conversion audit</a><ul>
+<li><a href="#confirmed-published-gtm-setup">Confirmed published GTM setup</a></li>
+<li><a href="#ga4-evidence">GA4 evidence</a></li>
+<li><a href="#required-measurement-design">Required measurement design</a></li>
+</ul>
+</li>
+<li><a href="#technical-seo-findings">Technical SEO findings</a><ul>
+<li><a href="#what-is-healthy">What is healthy</a></li>
+<li><a href="#concentrated-technical-issues">Concentrated technical issues</a></li>
+</ul>
+</li>
+<li><a href="#content-on-page-and-e-e-a-t-audit">Content, on-page and E-E-A-T audit</a><ul>
+<li><a href="#strong-assets-to-protect">Strong assets to protect</a></li>
+<li><a href="#trust-and-identity-gap">Trust and identity gap</a></li>
+<li><a href="#regulated-content-governance">Regulated-content governance</a></li>
+<li><a href="#commercial-content-gaps">Commercial content gaps</a></li>
+</ul>
+</li>
+<li><a href="#structured-data-audit">Structured data audit</a><ul>
+<li><a href="#confirmed-strengths">Confirmed strengths</a></li>
+<li><a href="#confirmed-defects">Confirmed defects</a></li>
+<li><a href="#recommended-schema-model">Recommended schema model</a></li>
+</ul>
+</li>
+<li><a href="#internal-linking-and-architecture">Internal linking and architecture</a><ul>
+<li><a href="#confirmed-broken-source-target-repairs">Confirmed broken source → target repairs</a></li>
+</ul>
+</li>
+<li><a href="#mobile-performance-and-cro">Mobile performance and CRO</a><ul>
+<li><a href="#lab-methodology">Lab methodology</a></li>
+<li><a href="#rendered-conversion-issues">Rendered conversion issues</a></li>
+<li><a href="#cro-redesign-principles">CRO redesign principles</a></li>
+</ul>
+</li>
+<li><a href="#local-seo-audit">Local SEO audit</a><ul>
+<li><a href="#current-on-site-nap">Current on-site NAP</a></li>
+<li><a href="#external-inconsistency-requiring-owner-confirmation">External inconsistency requiring owner confirmation</a></li>
+<li><a href="#gbp-work-still-required">GBP work still required</a></li>
+</ul>
+</li>
+<li><a href="#competitor-and-search-landscape-review">Competitor and search-landscape review</a></li>
+<li><a href="#90-day-seo-growth-roadmap">90-day SEO growth roadmap</a><ul>
+<li><a href="#days-17-protect-and-measure">Days 1–7 — protect and measure</a></li>
+<li><a href="#days-830-optimize-existing-demand">Days 8–30 — optimize existing demand</a></li>
+<li><a href="#days-3160-close-commercial-gaps">Days 31–60 — close commercial gaps</a></li>
+<li><a href="#days-6190-local-authority-and-iteration">Days 61–90 — local authority and iteration</a></li>
+<li><a href="#operational-targetsnot-traffic-guarantees">Operational targets—not traffic guarantees</a></li>
+</ul>
+</li>
+<li><a href="#detailed-findings-register">Detailed findings register</a><ul>
+<li><a href="#f-01-external-redirect-transfers-a-priority-service-and-leads-to-another-ca-firm">F-01 — External redirect transfers a priority service and leads to another CA firm</a></li>
+<li><a href="#f-02-whatsapp-and-form-conversion-measurement-is-invalidincomplete">F-02 — WhatsApp and form conversion measurement is invalid/incomplete</a></li>
+<li><a href="#f-03-high-impression-pages-underperform-on-ctr-and-commercial-intent">F-03 — High-impression pages underperform on CTR and commercial intent</a></li>
+<li><a href="#f-04-practitioner-and-firm-trust-proof-is-missing-while-about-counters-show-zero">F-04 — Practitioner and firm trust proof is missing while About counters show zero</a></li>
+<li><a href="#f-05-mobile-lcp-is-above-googles-good-threshold-on-every-sampled-page">F-05 — Mobile LCP is above Google’s “Good” threshold on every sampled page</a></li>
+<li><a href="#f-06-current-office-address-conflicts-across-public-sources">F-06 — Current office address conflicts across public sources</a></li>
+<li><a href="#f-07-time-sensitive-taxcompliance-content-lacks-a-controlled-review-lifecycle">F-07 — Time-sensitive tax/compliance content lacks a controlled review lifecycle</a></li>
+<li><a href="#f-08-commercial-service-coverage-is-incomplete">F-08 — Commercial service coverage is incomplete</a></li>
+<li><a href="#f-09-elementor-ajax-variants-are-crawlable-and-indexable">F-09 — Elementor AJAX variants are crawlable and indexable</a></li>
+<li><a href="#f-10-an-indexed-duplicate-gst-page-declares-an-http-canonical">F-10 — An indexed duplicate GST page declares an HTTP canonical</a></li>
+<li><a href="#f-11-confirmed-internal-links-point-to-404-urls">F-11 — Confirmed internal links point to 404 URLs</a></li>
+<li><a href="#f-12-priority-page-structured-data-is-invalid-and-inconsistent">F-12 — Priority-page structured data is invalid and inconsistent</a></li>
+<li><a href="#f-13-mobile-conversion-templates-contain-generic-ctas-excess-hero-space-and-duplicate-forms">F-13 — Mobile conversion templates contain generic CTAs, excess hero space and duplicate forms</a></li>
+<li><a href="#f-14-contextual-internal-linking-is-uneven-for-commercial-pages">F-14 — Contextual internal linking is uneven for commercial pages</a></li>
+</ul>
+</li>
+<li><a href="#data-limitations-and-what-is-still-needed">Data limitations and what is still needed</a></li>
+<li><a href="#evidence-index">Evidence index</a></li>
+</ul>
+</li>
+</ul>
+</div>
+</div></aside>
+  <article class="content"><h1 id="comprehensive-seo-analytics-growth-audit">Comprehensive SEO, Analytics &amp; Growth Audit</h1>
+<h2 id="shahnawaz-and-associates-cashahnawazcom">Shahnawaz and Associates — cashahnawaz.com</h2>
+<p><strong>Audit date:</strong> 28 August 2026<br />
+<strong>Data through:</strong> 25 August 2026 for GSC and GA4<br />
+<strong>Prepared from:</strong> live crawl, Google Search Console, GA4, published Google Tag Manager container, browser-rendered mobile/desktop tests, public local citations and competitor research<br />
+<strong>Status:</strong> Confidential · diagnosis and implementation roadmap · no live-site changes made</p>
+<hr />
+<h2 id="executive-decision-summary">Executive decision summary</h2>
+<p>Organic visibility is growing quickly, but the site currently has three material constraints on turning that growth into qualified enquiries:</p>
+<ol>
+<li><strong>A priority registration URL sends prospects and SEO signals to another CA firm.</strong> <code>/private-limited-company-registration/</code> returns a permanent redirect to <code>anamca.com</code>, and Google confirms the external URL as canonical. Four other internal URLs also redirect there.</li>
+<li><strong>Conversion reporting is not trustworthy.</strong> The published GTM WhatsApp trigger fires on every link click, not only WhatsApp clicks. GA4 consequently reports 587 <code>whatsapp_click</code> events and 585 key events that cannot be treated as genuine WhatsApp enquiries. Successful form submissions are not tracked.</li>
+<li><strong>The pages with the strongest search opportunity need trust, snippet and conversion work.</strong> Accounting, NRI taxation, ITR filing, GST filing and 12A/80G pages already receive meaningful impressions, but their click-through rates and commercial journeys are weak relative to their visibility.</li>
+</ol>
+<p>The site is not suffering a sitewide indexing failure. The homepage and sampled priority pages are indexed, the sitemap is valid, HTTPS/non-WWW enforcement works, and organic search is already the main acquisition channel. The best growth path is therefore to fix lead leakage and measurement first, then improve pages that Google is already showing—before publishing a large volume of new articles.</p>
+<h3 id="verified-baseline">Verified baseline</h3>
+<table>
+<thead>
+<tr>
+<th>Metric</th>
+<th style="text-align: right;">Current verified value</th>
+<th>Interpretation</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>GSC clicks, last 90 days</td>
+<td style="text-align: right;"><strong>3,744</strong></td>
+<td>A meaningful organic base already exists</td>
+</tr>
+<tr>
+<td>GSC impressions, last 90 days</td>
+<td style="text-align: right;"><strong>402,561</strong></td>
+<td>Google is testing the site across a broad query set</td>
+</tr>
+<tr>
+<td>GSC CTR</td>
+<td style="text-align: right;"><strong>0.93%</strong></td>
+<td>Large snippet and intent-alignment opportunity</td>
+</tr>
+<tr>
+<td>GSC weighted average position</td>
+<td style="text-align: right;"><strong>7.84</strong></td>
+<td>Many results sit on page one, but not yet in the strongest click positions</td>
+</tr>
+<tr>
+<td>Last 30 days vs first 30 days — clicks</td>
+<td style="text-align: right;"><strong>+83.2%</strong></td>
+<td>Strong positive momentum</td>
+</tr>
+<tr>
+<td>Last 30 days vs first 30 days — impressions</td>
+<td style="text-align: right;"><strong>+49.7%</strong></td>
+<td>Visibility is expanding rapidly</td>
+</tr>
+<tr>
+<td>Last 30 days vs first 30 days — CTR</td>
+<td style="text-align: right;"><strong>+22.4% relative</strong></td>
+<td>Snippet performance improved, but remains low overall</td>
+</tr>
+<tr>
+<td>GA4 organic sessions</td>
+<td style="text-align: right;"><strong>2,533</strong></td>
+<td>Covers only 19 July–25 August because the property was created on 19 July</td>
+</tr>
+<tr>
+<td>Organic share of all GA4 sessions</td>
+<td style="text-align: right;"><strong>81.7%</strong></td>
+<td>SEO is the dominant acquisition channel</td>
+</tr>
+<tr>
+<td>Organic engagement rate</td>
+<td style="text-align: right;"><strong>56.8%</strong></td>
+<td>Useful content engagement, with a mobile gap</td>
+</tr>
+<tr>
+<td>Organic sessions from India</td>
+<td style="text-align: right;"><strong>2,463 / 2,533</strong></td>
+<td>Audience is geographically relevant at country level</td>
+</tr>
+<tr>
+<td>Organic sessions attributed to Mumbai</td>
+<td style="text-align: right;"><strong>420 / 2,533</strong></td>
+<td>Only 16.6% is explicitly Mumbai; much traffic is national informational traffic</td>
+</tr>
+<tr>
+<td>Published GTM container</td>
+<td style="text-align: right;"><strong>Version 5 · 4 tags · 2 triggers</strong></td>
+<td>Connected and live, but conversion logic is incomplete</td>
+</tr>
+</tbody>
+</table>
+<p><strong>Historical limitation:</strong> GSC data begins on 2 May 2026 and GA4 begins on 19 July 2026. A year-over-year conclusion is not possible yet.</p>
+<hr />
+<h2 id="audit-status-by-workstream">Audit status by workstream</h2>
+<table>
+<thead>
+<tr>
+<th>Workstream</th>
+<th>Status</th>
+<th>What it means</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Search visibility</td>
+<td><strong>Growing</strong></td>
+<td>Strong recent gains and several page-one opportunities</td>
+</tr>
+<tr>
+<td>Crawlability &amp; core indexation</td>
+<td><strong>Mostly healthy</strong></td>
+<td>Priority pages inspected are indexed; no robots/sitemap failure</td>
+</tr>
+<tr>
+<td>Lead ownership</td>
+<td><strong>Critical issue</strong></td>
+<td>Company-registration traffic is redirected to another firm</td>
+</tr>
+<tr>
+<td>Analytics &amp; conversion tracking</td>
+<td><strong>Unreliable</strong></td>
+<td>WhatsApp is overcounted; form success is not measured</td>
+</tr>
+<tr>
+<td>Commercial page coverage</td>
+<td><strong>Needs expansion</strong></td>
+<td>Company, LLP formation, ROC/company compliance, GST consultancy/compliance and internal audit gaps</td>
+</tr>
+<tr>
+<td>On-page CTR</td>
+<td><strong>High opportunity</strong></td>
+<td>Multiple high-impression pages have CTR below 1%</td>
+</tr>
+<tr>
+<td>Trust / E-E-A-T</td>
+<td><strong>Weak on core pages</strong></td>
+<td>Practitioner identity and firm credentials are not clearly presented</td>
+</tr>
+<tr>
+<td>Mobile performance</td>
+<td><strong>Needs improvement</strong></td>
+<td>Measured mobile LCP exceeded 2.5s on all nine sampled pages</td>
+</tr>
+<tr>
+<td>Local SEO</td>
+<td><strong>Blocked by address conflict</strong></td>
+<td>Website/citations/ICAI sources show different unit/floor variants</td>
+</tr>
+<tr>
+<td>Structured data</td>
+<td><strong>Mixed</strong></td>
+<td>Good Organization/LocalBusiness base, but two invalid FAQ JSON-LD blocks and inconsistent service markup</td>
+</tr>
+</tbody>
+</table>
+<hr />
+<h2 id="what-is-connected">What is connected</h2>
+<table>
+<thead>
+<tr>
+<th>Platform</th>
+<th>Connection result</th>
+<th>Scope verified</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Google Search Console</td>
+<td><strong>Connected</strong></td>
+<td>URL-prefix property <code>https://cashahnawaz.com/</code>; service account is a restricted user; performance, sitemaps and URL Inspection work</td>
+</tr>
+<tr>
+<td>Google Analytics 4</td>
+<td><strong>Connected</strong></td>
+<td>Property 546098812, stream <code>G-1SFXZJSYYY</code>, created 19 July 2026; reporting API works</td>
+</tr>
+<tr>
+<td>Google Tag Manager</td>
+<td><strong>Connected</strong></td>
+<td>Account “Shahnawaz And Associates”; container <code>GTM-N2LHGRCX</code>; published version 5 inspected</td>
+</tr>
+<tr>
+<td>Google Business Profile</td>
+<td><strong>Not connected to this audit</strong></td>
+<td>GBP categories, services, primary address, reviews, posts and performance remain unavailable</td>
+</tr>
+<tr>
+<td>WordPress Admin / hosting panel</td>
+<td><strong>Not logged into</strong></td>
+<td>Plugin fingerprints were verified publicly; versions and admin-only settings were not confirmed</td>
+</tr>
+</tbody>
+</table>
+<p>No further action is needed to connect GSC, GA4 or GTM. To close the remaining access gaps, provide WordPress Administrator access and Google Business Profile Manager access when implementation begins. A Domain-property GSC permission would also be preferable to the current restricted URL-prefix access, but it is not required for the recommendations in this report.</p>
+<hr />
+<h2 id="priority-action-plan">Priority action plan</h2>
+<h3 id="p0-protect-leads-and-restore-trustworthy-data-days-17">P0 — protect leads and restore trustworthy data (days 1–7)</h3>
+<table>
+<thead>
+<tr>
+<th>Action</th>
+<th>Owner</th>
+<th style="text-align: right;">Effort</th>
+<th>Success check</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Restore an owned Private Limited Company Registration page and remove the redirect to <code>anamca.com</code></td>
+<td>WordPress/hosting</td>
+<td style="text-align: right;">Medium</td>
+<td>Cashahnawaz URL returns 200, self-canonical, own phone/form/GTM, included in sitemap</td>
+</tr>
+<tr>
+<td>Audit and remove the four other unintended external redirects</td>
+<td>WordPress/hosting</td>
+<td style="text-align: right;">Low–Medium</td>
+<td>No internal URL redirects to an unrelated business</td>
+</tr>
+<tr>
+<td>Restrict the GTM WhatsApp trigger to actual WhatsApp URLs</td>
+<td>Analytics</td>
+<td style="text-align: right;">Low</td>
+<td>GTM Preview fires only on <code>wa.me</code> / approved WhatsApp links</td>
+</tr>
+<tr>
+<td>Track successful Elementor form submissions</td>
+<td>Analytics + WordPress</td>
+<td style="text-align: right;">Medium</td>
+<td>A real successful test creates one GA4 lead event; failed/abandoned forms create none</td>
+</tr>
+<tr>
+<td>Preserve the current phone-click trigger and validate it</td>
+<td>Analytics</td>
+<td style="text-align: right;">Low</td>
+<td>One phone click produces one <code>phone_click</code> event</td>
+</tr>
+<tr>
+<td>Annotate GA4 reporting from 19 July until the GTM fix as contaminated for WhatsApp/key-event analysis</td>
+<td>Analytics</td>
+<td style="text-align: right;">Low</td>
+<td>Dashboards clearly exclude or label the invalid period</td>
+</tr>
+</tbody>
+</table>
+<h3 id="p1-improve-pages-google-already-shows-weeks-24">P1 — improve pages Google already shows (weeks 2–4)</h3>
+<ol>
+<li>Rework homepage positioning around “Chartered Accountant / Tax Consultant in Mumbai,” with verified practitioner credentials, service proof and a specific enquiry CTA.</li>
+<li>Upgrade Accounting, NRI, ITR Mumbai, GST Return Filing and 12A/80G pages using the page plan below.</li>
+<li>Add a visible, verified CA bio and firm identity to the homepage, About page and money-page author/reviewer blocks.</li>
+<li>Confirm the authoritative office unit/floor and standardize website, schema, GBP and major citations.</li>
+<li>Reduce mobile hero and page-builder load cost, starting with the homepage and highest-opportunity money pages.</li>
+</ol>
+<h3 id="p2-build-topical-and-commercial-depth-weeks-512">P2 — build topical and commercial depth (weeks 5–12)</h3>
+<ol>
+<li>Build owned pages only for services the firm genuinely provides: LLP Registration, ROC/Company Annual Compliance, GST Compliance/Consultancy, and Internal Audit.</li>
+<li>Repair invalid schema, indexable AJAX variants and confirmed internal 404 links.</li>
+<li>Build contextual internal links from high-traffic guides into matching service pages.</li>
+<li>Introduce a regulated-content review workflow with a named CA reviewer and visible “reviewed on” date.</li>
+<li>Improve Google Business Profile and citation consistency after the address is confirmed.</li>
+</ol>
+<hr />
+<h2 id="page-by-page-implementation-register">Page-by-page implementation register</h2>
+<p>Use this register as the working queue. Complete <strong>P0 before P1</strong>, take a backup before changing templates or redirects, and test changes on staging where possible. Do not change a URL slug merely to insert a keyword. Any tax, legal, filing-year, threshold or deadline change must be approved by a practising CA before publication.</p>
+<p>The companion spreadsheet, <code>Page-Implementation-Register-2026-08-28.csv</code>, contains the same work in a filterable format for assigning owners and recording completion.</p>
+<h3 id="p0-immediate-ownership-lead-and-trust-repairs">P0 — immediate ownership, lead and trust repairs</h3>
+<table>
+<thead>
+<tr>
+<th>URL / scope</th>
+<th>Work to implement</th>
+<th>Owner</th>
+<th>Completion test</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><code>/private-limited-company-registration/</code></td>
+<td>Remove the cross-domain redirect and publish an owned Cashahnawaz service page. Add a self-canonical, firm phone/WhatsApp/form, verified process, documents, realistic timelines, FAQs, <code>Service</code> schema and sitemap entry. Do not copy another firm's text.</td>
+<td>Owner + CA + WordPress + SEO</td>
+<td>Returns 200 on <code>cashahnawaz.com</code>; self-canonical; Cashahnawaz branding/tracking only; submitted in sitemap and inspected in GSC</td>
+</tr>
+<tr>
+<td><code>/annual-compliances-for-private-limited-company/</code></td>
+<td>Confirm this is a service offered. If yes, replace the Anam redirect with an owned ROC/annual-compliance page; if no, remove Cashahnawaz internal links and redirect only to the closest genuinely equivalent owned service.</td>
+<td>Owner + CA + WordPress</td>
+<td>No cross-domain redirect; destination matches the same user intent and business</td>
+</tr>
+<tr>
+<td><code>/difference-between-accounting-and-bookkeeping/</code></td>
+<td>Confirm content ownership. Restore and improve it as an original supporting guide, or redirect it to <code>/accounting-services/</code> only if that page satisfies the query. Remove every internal link if the URL is retired.</td>
+<td>Owner + Content + SEO</td>
+<td>No Anam destination; final URL is owned, relevant and one hop</td>
+</tr>
+<tr>
+<td><code>/gst-council-constitution-functions-and-decision-making/</code></td>
+<td>Confirm content ownership. Restore an original CA-reviewed explainer or consolidate into a genuinely relevant owned GST guide. Do not redirect informational visitors to an unrelated sales page.</td>
+<td>Owner + CA + Content</td>
+<td>No Anam destination; facts reviewed; relevant owned final page</td>
+</tr>
+<tr>
+<td><code>/instant-tips-on-income-tax-deductions-that-you-can-start-figuring-out-today/</code></td>
+<td>Confirm content ownership. Restore an original current guide or consolidate into a relevant income-tax guide after professional review.</td>
+<td>Owner + CA + Content</td>
+<td>No Anam destination; all tax claims dated/reviewed; owned canonical</td>
+</tr>
+<tr>
+<td><strong>All pages / GTM container</strong></td>
+<td>Add a filter to the WhatsApp click trigger so it fires only for approved <code>wa.me</code>, <code>api.whatsapp.com</code> or WhatsApp application links. Preserve and test the <code>tel:</code> trigger.</td>
+<td>Analytics</td>
+<td>GTM Preview: ordinary navigation produces no WhatsApp event; one real WhatsApp click produces exactly one event</td>
+</tr>
+<tr>
+<td><strong>All Elementor forms</strong></td>
+<td>Fire <code>generate_lead</code> or <code>form_submit_success</code> only after Elementor confirms a successful AJAX submission. Include <code>form_name</code>, <code>service</code> and <code>page_location</code>; mark only the success event as a GA4 key event.</td>
+<td>Analytics + WordPress</td>
+<td>One successful controlled form submission creates one GA4 event; errors, starts and button clicks do not</td>
+</tr>
+<tr>
+<td><code>/about-us/</code></td>
+<td>Replace the rendered <code>0</code>, <code>0%</code>, <code>0</code>, <code>0+</code> counters with verified values or remove the counters. Add the verified practitioner name, membership/FRN, experience, services and professional-review role.</td>
+<td>Owner + CA + WordPress</td>
+<td>No zero counters; credentials match owner-approved records; mobile and desktop render correctly</td>
+</tr>
+<tr>
+<td><code>/contact-us/</code>, homepage, footer and sitewide schema</td>
+<td>Confirm the authoritative office address, then use exactly one NAP format everywhere. Do not make this change until the owner resolves C-18 vs B38 vs B-110.</td>
+<td>Owner + WordPress + Local SEO</td>
+<td>Visible NAP, schema, GBP and priority citations match exactly</td>
+</tr>
+</tbody>
+</table>
+<h3 id="p1-pages-already-earning-visibility">P1 — pages already earning visibility</h3>
+<table>
+<thead>
+<tr>
+<th>URL</th>
+<th>Work to implement</th>
+<th>Do not do</th>
+<th>Validation</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><code>/</code></td>
+<td>Rewrite the first screen around “Chartered Accountant and Tax Consultant in Mumbai”; show a visible service-specific CTA, verified CA identity, clear phone/WhatsApp choices and links to the six priority service groups. Simplify the Elementor hero and optimize its LCP asset.</td>
+<td>Do not remove the current local relevance or change the homepage URL</td>
+<td>Re-test mobile LCP; inspect title/snippet; test every CTA; monitor <code>ca in mumbai</code> and <code>tax consultant mumbai</code></td>
+</tr>
+<tr>
+<td><code>/when-can-i-expect-my-itr-refund/</code></td>
+<td>Add one descriptive H1; update the refund-status/process steps; rewrite title/meta for the actual refund query; add a current reviewed date and contextual CTA/link to <code>/income-tax-return-filing-in-mumbai/</code>.</td>
+<td>Do not turn the guide into a thin sales page or change its slug</td>
+<td>One H1; CA approval; self-canonical; CTR monitored against the 53,708-impression baseline</td>
+</tr>
+<tr>
+<td><code>/accounting-services/</code></td>
+<td>Rewrite title/meta, H1 and first screen around CA-supervised accounting, bookkeeping, MIS and reporting in Mumbai. Correct copy quality, explain deliverables/frequency/software/handoff, add proof, one main form and contextual links from accounting guides.</td>
+<td>Do not create separate thin pages for every keyword variant</td>
+<td>Valid <code>Service</code> schema; one form; CTA tracked; monitor <code>accounting services in mumbai</code></td>
+</tr>
+<tr>
+<td><code>/itr-filing-for-nri-guide-for-non-resident-taxation/</code></td>
+<td>Separate guide content from engagement details; add named CA reviewer, remote-client workflow, document checklist, NRI-specific situations handled, response expectations and a page-specific enquiry CTA.</td>
+<td>Do not claim international capability or outcomes that cannot be evidenced</td>
+<td>CA review; one lead path; valid schema; monitor NRI query CTR and qualified enquiries</td>
+</tr>
+<tr>
+<td><code>/income-tax-return-filing-in-mumbai/</code></td>
+<td>Professionally correct the AY 2020–21 FAQ and review every year, threshold and penalty. Reduce repetitive exact-match copy, strengthen current-year/local proof, improve title/meta, fix FAQ JSON-LD and track the form success.</td>
+<td>Do not update regulated figures without CA sign-off</td>
+<td>Schema validates; stale AY reference removed/reframed; test lead; monitor page-one queries</td>
+</tr>
+<tr>
+<td><code>/12a-or-12aa-or-80g-registration-new-scheme/</code></td>
+<td>Review all transitional 2021–22 dates; broaden the page around current 12AB/80G registration intent; add eligibility, documents, process, renewal/revalidation distinction, named reviewer, CTA and links from NGO/ITR-7 content.</td>
+<td>Do not present expired dates as current</td>
+<td>CA approval; current review date; valid schema; improved internal links</td>
+</tr>
+<tr>
+<td><code>/gst-return-filing/</code></td>
+<td>Expand return types, reconciliation, records handoff, notice/error support, service cadence and boundaries. Replace generic CTA, reduce duplicate forms and repair malformed FAQ JSON-LD.</td>
+<td>Do not create competing pages for <code>gst filing services</code> and <code>gst return filing services</code></td>
+<td>Schema validates; one main form; tracked CTA; monitor both query clusters</td>
+</tr>
+<tr>
+<td><code>/gst-registration-online/</code></td>
+<td>Make the page the canonical owner for GST registration. Add eligibility, documents, process, post-registration obligations, local proof and page-specific CTA. Resolve overlap with the old GST guide below.</td>
+<td>Do not publish another near-duplicate GST registration sales page</td>
+<td>Self-canonical; unique intent; relevant internal links; monitor local queries</td>
+</tr>
+<tr>
+<td><code>/llp-annual-filing/</code></td>
+<td>Update FY 2021–22 framing after CA review; clarify Forms 8/11 and the current annual-compliance process; add deadlines only with a review date; link to the future LLP Registration page without merging the two intents.</td>
+<td>Do not combine LLP formation and annual filing into one page</td>
+<td>CA-approved current copy; clearer title/H1; contextual links from compliance content</td>
+</tr>
+<tr>
+<td><code>/section-8-company-registration/</code></td>
+<td>Review regulatory accuracy; improve title/meta, process, documents, eligibility and after-registration compliance; add links from 12A/80G, ITR-7 and Section 8 vs Trust content.</td>
+<td>Do not imply Section 8, trust and society are identical structures</td>
+<td>CA approval; at least four relevant contextual links; lead event tested</td>
+</tr>
+<tr>
+<td><code>/audit-services/</code></td>
+<td>Split the visible service coverage into statutory audit, tax audit and internal audit sections with scope, ideal client, process and deliverables. If internal audit is active and substantial, build the dedicated page listed under P2. Stabilize the layout causing CLS.</td>
+<td>Do not publish unverifiable client counts or audit outcomes</td>
+<td>Mobile CLS at or below 0.1 in repeat lab tests; service scope approved</td>
+</tr>
+<tr>
+<td><code>/startup-registration-india/</code></td>
+<td>Clarify what “startup registration” means, distinguish incorporation from DPIIT recognition, explain deliverables/eligibility/documents, add owned-company/LLP pathways and a specific founder CTA.</td>
+<td>Do not conflate Startup India recognition with company incorporation</td>
+<td>CA/legal review; internal links to the correct formation pages; lead tracked</td>
+</tr>
+<tr>
+<td><code>/public-limited-company/</code></td>
+<td>Review current process and compliance claims, strengthen qualification criteria/documents/timeline boundaries, add trust proof and connect it to the future ROC compliance hub.</td>
+<td>Do not use private-company keywords for this page</td>
+<td>Current reviewed date; distinct title/H1; valid Service schema</td>
+</tr>
+<tr>
+<td><code>/tds-return-filing-services/</code></td>
+<td>Review current forms, due dates, penalties and correction process; add service cadence, documents, reconciliation and notice-support scope; track a page-specific CTA.</td>
+<td>Do not leave undated compliance tables</td>
+<td>CA approval and visible review date; successful test lead</td>
+</tr>
+<tr>
+<td><code>/trademark-registration/</code></td>
+<td>Clarify this is a supported service, improve process/search/opposition boundaries and proof, and correct footer links that still point through legacy paths.</td>
+<td>Do not imply guaranteed registration</td>
+<td>One canonical URL; no legacy-path hops; claims reviewed</td>
+</tr>
+<tr>
+<td><code>/contact-us/</code></td>
+<td>Reduce the mobile hero height, put phone/WhatsApp/form above the fold, show the confirmed address and hours, retain one concise form and add privacy/data-use text beside submit.</td>
+<td>Do not publish an address until the owner confirms it</td>
+<td>Mobile render checked; all contact actions work; one successful lead event</td>
+</tr>
+</tbody>
+</table>
+<h3 id="p1-high-traffic-industry-and-supporting-pages">P1 — high-traffic industry and supporting pages</h3>
+<p>Apply a shared pattern to every industry page: retain the industry-specific tax intent, add a named CA reviewer and visible review date, remove generic filler, explain the exact records/risks/forms relevant to that industry, link to the main ITR service, and use one contextual CTA. The URL-specific exceptions are below.</p>
+<table>
+<thead>
+<tr>
+<th>URL</th>
+<th>Additional implementation required</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><code>/itr-filing-for-healthcare-industry/</code></td>
+<td>Protect its strong visibility; review profession/business-income distinctions and healthcare-specific records before changing the snippet</td>
+</tr>
+<tr>
+<td><code>/itr-filing-for-crypto-trading-in-india/</code></td>
+<td>Professionally verify the current tax/TDS/loss-treatment content and date every regulated claim</td>
+</tr>
+<tr>
+<td><code>/itr-filing-for-food-and-beverage-industry/</code></td>
+<td>Keep as the only Food &amp; Beverage URL; replace links pointing to obsolete food/beverage slugs</td>
+</tr>
+<tr>
+<td><code>/itr-filing-for-content-creators-influencers/</code></td>
+<td>Verify platform income, foreign receipts, GST and expense examples; improve the service handoff</td>
+</tr>
+<tr>
+<td><code>/itr-filing-for-beauty-wellness-industry/</code></td>
+<td>Repair obsolete Food &amp; Beverage and Real Estate internal links</td>
+</tr>
+<tr>
+<td><code>/itr-filing-for-wholesale-retail-trade-industry/</code></td>
+<td>Replace the broken <code>/company-registration/</code> link with the restored private-company page or another contextually correct destination</td>
+</tr>
+<tr>
+<td><code>/itr-filing-for-event-management-and-entertainment-professionals/</code></td>
+<td>Verify TDS/GST/expense examples and add event-specific record requirements</td>
+</tr>
+<tr>
+<td><code>/itr-filing-for-e-commerce-industry/</code></td>
+<td>Replace the obsolete Food &amp; Beverage URL and review marketplace/GST/TCS claims</td>
+</tr>
+<tr>
+<td><code>/itr-filing-for-real-estate-construction/</code></td>
+<td>Make this the only owned Real Estate/Construction URL and replace links to the obsolete <code>-industry</code> variant</td>
+</tr>
+</tbody>
+</table>
+<h3 id="p1p2-regulated-and-time-sensitive-content-refresh-queue">P1/P2 — regulated and time-sensitive content refresh queue</h3>
+<table>
+<thead>
+<tr>
+<th>URL</th>
+<th>Required decision and work</th>
+<th style="text-align: right;">Priority</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><code>/mca-extension-due-date-of-annual-filling/</code></td>
+<td>Rewrite as an explicitly historical FY 2020–21 update or consolidate into a current ROC compliance resource; correct its title/meta and remove false freshness signals</td>
+<td style="text-align: right;">P1</td>
+</tr>
+<tr>
+<td><code>/charitable-trusts-alert-its-time-reapply-for-tax-exemption-before-30th-sep/</code></td>
+<td>The September 2025 deadline has passed. Update with CA-verified present treatment or label/archive it clearly and link to the current 12AB/80G service</td>
+<td style="text-align: right;">P1</td>
+</tr>
+<tr>
+<td><code>/gst-new-update-due-dates-for-october-2021/</code></td>
+<td>Mark as a historical October 2021 calendar or remove from current discovery surfaces; never change old dates to new dates without rebuilding the content</td>
+<td style="text-align: right;">P1</td>
+</tr>
+<tr>
+<td><code>/due-date-calendar-for-the-month-of-november-2022/</code></td>
+<td>Archive as November 2022, noindex if it has no continuing search value, and remove from current navigation/widgets</td>
+<td style="text-align: right;">P2</td>
+</tr>
+<tr>
+<td><code>/gst-amnesty-scheme-2023/</code></td>
+<td>Add an expired-scheme notice and historical context; review whether a newer scheme warrants a separate current article</td>
+<td style="text-align: right;">P2</td>
+</tr>
+<tr>
+<td><code>/memorandum-explaining-the-provisions-in-the-finance-bill-2023/</code></td>
+<td>Preserve as historical analysis; repair the broken <code>/msme-ssi-registration/</code> link and add publication/review context</td>
+<td style="text-align: right;">P2</td>
+</tr>
+<tr>
+<td><code>/the-best-accounting-software-for-small-businesses-in-2023/</code></td>
+<td>Refresh the comparison with current products and a transparent review date, or label it as a 2023 archive</td>
+<td style="text-align: right;">P2</td>
+</tr>
+<tr>
+<td><code>/june-2026-important-due-dates/</code></td>
+<td>Keep the original month/year immutable; after expiry add a historical notice and link to the current due-date hub</td>
+<td style="text-align: right;">Recurring</td>
+</tr>
+<tr>
+<td><code>/due-date/july/</code> and <code>/due-date/august/</code></td>
+<td>Use a controlled annual update process with reviewed dates, accurate year in title/H1 and an archive policy; never silently reuse outdated monthly URLs</td>
+<td style="text-align: right;">Recurring</td>
+</tr>
+<tr>
+<td><code>/tds-chart-for-fy-2026-27/</code></td>
+<td>Schedule a CA review before each financial year; retain the FY-specific URL/content as an archive when the next chart is published</td>
+<td style="text-align: right;">Recurring</td>
+</tr>
+</tbody>
+</table>
+<h3 id="p2-technical-url-and-internal-link-repairs">P2 — technical URL and internal-link repairs</h3>
+<table>
+<thead>
+<tr>
+<th>URL / source</th>
+<th>Implementation</th>
+<th>Validation</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><code>/gst-registration-services-india-a-guide-to-gst/</code></td>
+<td>Decide whether unique informational value remains. If not, 301 to <code>/gst-registration-online/</code> and remove from internal links. If retained, use an HTTPS self-canonical, differentiate guide intent and include it in the sitemap.</td>
+<td>One canonical owner; no HTTP canonical; GSC inspection agrees</td>
+</tr>
+<tr>
+<td><code>/?jkit-ajax-request=jkit_elements</code> and pagination variant</td>
+<td>Prevent crawl/index generation using the responsible Elementor/JKit setting or server rule; return a non-indexable response and ensure no internal discovery. Do not block in robots.txt before Google can see removal signals.</td>
+<td>Live response is not indexable; no canonical ambiguity; validate in GSC</td>
+</tr>
+<tr>
+<td><code>/mca/</code> and <code>/donation/</code></td>
+<td>These are thin one-item archives. Either build useful maintained hubs or noindex/remove them from the sitemap and link directly to the article.</td>
+<td>Index directive and sitemap treatment match the chosen purpose</td>
+</tr>
+<tr>
+<td>Useful paginated archives</td>
+<td>Give each useful pagination page a self-canonical and crawlable next-page path. Noindex or consolidate archives that have no standalone value.</td>
+<td>Crawl deeper posts; inspect canonical on page 2+</td>
+</tr>
+<tr>
+<td><code>/itr-filing-for-beauty-wellness-industry/</code></td>
+<td>Replace obsolete Food &amp; Beverage and Real Estate/Construction targets with the live canonical URLs.</td>
+<td>Crawl reports no 404 targets</td>
+</tr>
+<tr>
+<td><code>/itr-filing-for-e-commerce-industry/</code></td>
+<td>Replace the obsolete Food &amp; Beverage target with <code>/itr-filing-for-food-and-beverage-industry/</code>.</td>
+<td>Link returns 200 directly</td>
+</tr>
+<tr>
+<td><code>/itr-filing-for-wholesale-retail-trade-industry/</code></td>
+<td>Replace <code>/company-registration/</code> after the owned company-registration destination is restored.</td>
+<td>Link returns 200 directly</td>
+</tr>
+<tr>
+<td><code>/memorandum-explaining-the-provisions-in-the-finance-bill-2023/</code></td>
+<td>Replace/remove <code>/msme-ssi-registration/</code> depending on whether a genuine MSME service/resource exists.</td>
+<td>No broken link; anchor matches destination</td>
+</tr>
+<tr>
+<td><code>/trademark-classes/</code></td>
+<td>Replace/remove <code>/online-trust-registration/</code>; it is not contextually suitable unless the surrounding copy genuinely discusses trust registration.</td>
+<td>No broken or misleading link</td>
+</tr>
+<tr>
+<td><code>/bombay-hc-gst-bank-recovery-notice/</code> and <code>/madras-high-court-gst-notice-service-judgment/</code></td>
+<td>Restore the missing cited PDF only if it is the correct licensed/public document; otherwise replace it with the authoritative source or remove the link.</td>
+<td>Asset/source returns 200 and matches the citation</td>
+</tr>
+<tr>
+<td><strong>Service-page schema template</strong></td>
+<td>Use stable Organization + Breadcrumbs sitewide and accurate <code>Service</code> markup on genuine service pages. Repair the two invalid FAQ blocks; use Article/BlogPosting only on editorial pages.</td>
+<td>Rich Results Test/Schema Validator passes and visible content matches markup</td>
+</tr>
+<tr>
+<td><strong>Elementor service template</strong></td>
+<td>Keep one main embedded form plus the global popup, reduce hero height/DOM, load only the actual LCP asset early, defer non-critical scripts and replace generic “GET IT NOW” text.</td>
+<td>Two-run mobile lab retest plus form/CTA test on every template family</td>
+</tr>
+</tbody>
+</table>
+<h3 id="p2-new-pages-to-create-only-for-services-actually-offered">P2 — new pages to create only for services actually offered</h3>
+<table>
+<thead>
+<tr>
+<th>Suggested URL</th>
+<th>Page purpose</th>
+<th>Minimum implementation</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><code>/llp-registration/</code></td>
+<td>LLP formation—not annual filing</td>
+<td>Eligibility, partners/designated partners, documents, process, deliverables, realistic timeline boundaries, FAQs, Service schema and links to <code>/llp-annual-filing/</code></td>
+</tr>
+<tr>
+<td><code>/roc-annual-compliance/</code></td>
+<td>Company/OPC/Section 8 annual compliance hub</td>
+<td>Entity-specific sections, AOC/MGT scope, records checklist, engagement cadence, CA-reviewed current treatment and links from company-registration pages</td>
+</tr>
+<tr>
+<td><code>/gst-compliance-services/</code></td>
+<td>Ongoing GST compliance/consultancy, only if distinct from return filing</td>
+<td>Reconciliation, notices, registrations/amendments, advisory boundaries and clear differentiation from <code>/gst-return-filing/</code></td>
+</tr>
+<tr>
+<td><code>/internal-audit-services/</code></td>
+<td>Dedicated internal-audit service, only if actively delivered</td>
+<td>Scope, risk areas, process, deliverables, sectors served, confidentiality and team credentials</td>
+</tr>
+<tr>
+<td><code>/tax-consultancy-services/</code></td>
+<td>Ongoing tax advisory/compliance hub</td>
+<td>Audience, recurring scope, advisory workflow, boundaries, proof and links to ITR/TDS pages; avoid duplicating the homepage</td>
+</tr>
+</tbody>
+</table>
+<h3 id="implementation-sequence-and-release-checks">Implementation sequence and release checks</h3>
+<ol>
+<li><strong>Backup and baseline:</strong> export WordPress/database and the current GTM version; save current title/meta, schema and GSC metrics for each page being changed.</li>
+<li><strong>Fix P0:</strong> external redirects, analytics, form success tracking, zero counters and confirmed NAP.</li>
+<li><strong>Release P1 in small batches:</strong> update two to four pages at a time. Preserve URLs and avoid simultaneous sitewide title changes.</li>
+<li><strong>QA every batch:</strong> mobile/desktop visual test, status/canonical/indexability, title/H1, schema, links, form/phone/WhatsApp events and sitemap inclusion.</li>
+<li><strong>Request indexing selectively:</strong> use GSC URL Inspection for materially improved P0/P1 pages; do not submit every unchanged URL.</li>
+<li><strong>Measure after 28 days:</strong> compare clicks, impressions, CTR, position and valid leads against the saved baseline. Keep changes that improve qualified outcomes; diagnose pages that decline before rewriting again.</li>
+</ol>
+<p>Pages not named in this register have no verified urgent defect. Keep them published, monitor performance, and include them in the quarterly accuracy/link review rather than rewriting them without evidence.</p>
+<hr />
+<h2 id="search-performance-and-audience-analysis">Search performance and audience analysis</h2>
+<h3 id="growth-trend">Growth trend</h3>
+<p>The latest 30 days produced <strong>1,513 clicks from 147,877 impressions</strong>, compared with <strong>826 clicks from 98,800 impressions</strong> in the first 30 days of the 90-day window. Weighted average position improved by <strong>0.78 positions</strong>. This is healthy momentum, not a reason to rebuild the site or change every URL.</p>
+<p>The opportunity is concentrated in moving already-visible pages higher and earning more clicks at the same rank. The ten highest-click pages account for approximately <strong>45.1%</strong> of page-level clicks, so focused upgrades can materially influence the total.</p>
+<h3 id="audience-fit">Audience fit</h3>
+<ul>
+<li>Organic search supplies <strong>81.7%</strong> of all GA4 sessions.</li>
+<li><strong>97.2%</strong> of organic sessions are from India.</li>
+<li>Mumbai is the largest city at <strong>420 sessions</strong>, but represents only <strong>16.6%</strong> of organic sessions. Bengaluru, Delhi, Chennai, Kolkata, Pune and Hyderabad are also significant.</li>
+<li>Desktop accounts for <strong>69.4%</strong> of organic GA4 sessions, while mobile accounts for <strong>30.7%</strong>.</li>
+<li>Mobile organic engagement is <strong>47.4%</strong>, materially below desktop at <strong>61.1%</strong>. Mobile layout and speed therefore need attention even though desktop currently leads traffic.</li>
+<li>Traffic is heavily driven by ITR industry guides, due-date resources, tax guides and case-law content. This is valuable reach, but it needs clear service pathways to become qualified enquiries.</li>
+</ul>
+<h3 id="priority-page-opportunities">Priority page opportunities</h3>
+<table>
+<thead>
+<tr>
+<th>Page / role</th>
+<th style="text-align: right;">Clicks</th>
+<th style="text-align: right;">Impressions</th>
+<th style="text-align: right;">CTR</th>
+<th style="text-align: right;">Avg. position</th>
+<th>Recommended focus</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>ITR refund guide</td>
+<td style="text-align: right;">113</td>
+<td style="text-align: right;">53,708</td>
+<td style="text-align: right;">0.21%</td>
+<td style="text-align: right;">6.8</td>
+<td>Add a real H1, align snippet to refund-status intent, update for current process, link to ITR service</td>
+</tr>
+<tr>
+<td>Homepage</td>
+<td style="text-align: right;">432</td>
+<td style="text-align: right;">25,813</td>
+<td style="text-align: right;">1.67%</td>
+<td style="text-align: right;">10.5</td>
+<td>Improve local CA/tax-consultant positioning, visible hero message and practitioner proof</td>
+</tr>
+<tr>
+<td>NRI taxation guide/service</td>
+<td style="text-align: right;">77</td>
+<td style="text-align: right;">10,647</td>
+<td style="text-align: right;">0.72%</td>
+<td style="text-align: right;">8.7</td>
+<td>Strengthen service intent, named reviewer, remote-client process, CTA and NRI proof</td>
+</tr>
+<tr>
+<td>Accounting services</td>
+<td style="text-align: right;">32</td>
+<td style="text-align: right;">10,377</td>
+<td style="text-align: right;">0.31%</td>
+<td style="text-align: right;">19.1</td>
+<td>Reframe around CA-supervised bookkeeping/MIS, fix copy quality, improve local snippet and proof</td>
+</tr>
+<tr>
+<td>12A/80G registration</td>
+<td style="text-align: right;">68</td>
+<td style="text-align: right;">11,102</td>
+<td style="text-align: right;">0.61%</td>
+<td style="text-align: right;">9.8</td>
+<td>Professional regulatory review, broaden H1, improve service CTA and trust</td>
+</tr>
+<tr>
+<td>ITR filing Mumbai</td>
+<td style="text-align: right;">91</td>
+<td style="text-align: right;">8,619</td>
+<td style="text-align: right;">1.06%</td>
+<td style="text-align: right;">6.4</td>
+<td>Protect page-one position; improve snippet, proof, valid schema and lead tracking</td>
+</tr>
+<tr>
+<td>GST return filing</td>
+<td style="text-align: right;">15</td>
+<td style="text-align: right;">2,413</td>
+<td style="text-align: right;">0.62%</td>
+<td style="text-align: right;">10.0</td>
+<td>Expand deliverables/reconciliation/process, add document handoff, fix schema and CTA</td>
+</tr>
+<tr>
+<td>LLP annual filing</td>
+<td style="text-align: right;">4</td>
+<td style="text-align: right;">614</td>
+<td style="text-align: right;">0.65%</td>
+<td style="text-align: right;">8.9</td>
+<td>Refresh old-year content and distinguish compliance from LLP formation</td>
+</tr>
+<tr>
+<td>Section 8 registration</td>
+<td style="text-align: right;">0</td>
+<td style="text-align: right;">594</td>
+<td style="text-align: right;">0%</td>
+<td style="text-align: right;">9.3</td>
+<td>Add relevant internal links, precise snippet, current legal review and clear process</td>
+</tr>
+<tr>
+<td>GST registration</td>
+<td style="text-align: right;">0</td>
+<td style="text-align: right;">295</td>
+<td style="text-align: right;">0%</td>
+<td style="text-align: right;">12.4</td>
+<td>Consolidate overlapping GST pages; improve local intent, proof and documents/process</td>
+</tr>
+<tr>
+<td>Audit services</td>
+<td style="text-align: right;">0</td>
+<td style="text-align: right;">25</td>
+<td style="text-align: right;">0%</td>
+<td style="text-align: right;">6.6</td>
+<td>Build authority and dedicated internal-audit depth; visibility is currently too small for CTR diagnosis</td>
+</tr>
+</tbody>
+</table>
+<h3 id="query-to-page-map">Query-to-page map</h3>
+<table>
+<thead>
+<tr>
+<th>Query cluster</th>
+<th>Current landing page</th>
+<th>Evidence</th>
+<th>Action</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><code>ca in mumbai</code></td>
+<td>Homepage</td>
+<td>749 impressions, 14 clicks, avg. position 3.0</td>
+<td>Preserve relevance; improve snippet and visible firm credentials</td>
+</tr>
+<tr>
+<td><code>tax consultant mumbai</code> / <code>tax consultant in mumbai</code></td>
+<td>Homepage</td>
+<td>532 combined impressions; positions 6–7 range</td>
+<td>Add a clearer tax-consultant proposition and service proof</td>
+</tr>
+<tr>
+<td><code>accounting services</code></td>
+<td>Accounting</td>
+<td>904 impressions, 5 clicks, position 7.6</td>
+<td>Rewrite title/meta and first screen around outcomes and CA supervision</td>
+</tr>
+<tr>
+<td><code>accounting services in mumbai</code></td>
+<td>Accounting</td>
+<td>247 impressions, 0 clicks, position 5.3</td>
+<td>High-priority CTR test; local proof and specific deliverables</td>
+</tr>
+<tr>
+<td><code>itr filing in mumbai</code></td>
+<td>ITR Mumbai</td>
+<td>249 impressions, 7 clicks, position 3.0</td>
+<td>Protect intent alignment; strengthen pricing/proof and conversion tracking</td>
+</tr>
+<tr>
+<td><code>income tax return filing mumbai</code></td>
+<td>ITR Mumbai</td>
+<td>233 impressions, 0 clicks, position 4.7</td>
+<td>Improve snippet differentiation and current-year clarity</td>
+</tr>
+<tr>
+<td><code>gst filing services</code></td>
+<td>GST Return Filing</td>
+<td>380 impressions, 3 clicks, position 13.7</td>
+<td>Move toward page one through content depth and links</td>
+</tr>
+<tr>
+<td><code>gst return filing services</code></td>
+<td>GST Return Filing</td>
+<td>270 impressions, 0 clicks, position 13.9</td>
+<td>Same page; no new competing page needed</td>
+</tr>
+<tr>
+<td><code>12a registration online</code></td>
+<td>12A/80G page</td>
+<td>306 impressions, 3 clicks, position 7.9</td>
+<td>Refresh, broaden scope and improve CTA</td>
+</tr>
+<tr>
+<td><code>online tax consultant</code></td>
+<td>Homepage</td>
+<td>367 impressions, 1 click, position 10.6</td>
+<td>Explain remote/online process and response expectations</td>
+</tr>
+</tbody>
+</table>
+<p><strong>Content direction:</strong> do not create separate pages for minor keyword variants that already map cleanly to one page. Improve the existing owner page and its supporting links.</p>
+<hr />
+<h2 id="measurement-and-conversion-audit">Measurement and conversion audit</h2>
+<h3 id="confirmed-published-gtm-setup">Confirmed published GTM setup</h3>
+<table>
+<thead>
+<tr>
+<th>Published tag</th>
+<th>Trigger</th>
+<th>Audit result</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>GA4 Integration (<code>G-1SFXZJSYYY</code>)</td>
+<td>Initialization / all pages</td>
+<td>Connected and live</td>
+</tr>
+<tr>
+<td>Website Menu Phone Click</td>
+<td>Link click where Click URL starts with <code>tel:</code></td>
+<td>Logic is appropriately restricted; validate in Preview and GA4 DebugView</td>
+</tr>
+<tr>
+<td>GA4 — WhatsApp Click</td>
+<td>Link click with <strong>no filter</strong></td>
+<td><strong>Defective: fires on every link click</strong></td>
+</tr>
+<tr>
+<td>“Hotjar” tag</td>
+<td>All pages</td>
+<td>Loads a Contentsquare UX script; name and vendor should be normalized in documentation</td>
+</tr>
+</tbody>
+</table>
+<h3 id="ga4-evidence">GA4 evidence</h3>
+<ul>
+<li><code>whatsapp_click</code>: <strong>587 events</strong>, <strong>204 users</strong>, <strong>585 key events</strong>.</li>
+<li><code>phone_click</code>: <strong>7 events</strong>, <strong>6 users</strong>, <strong>5 key events</strong>.</li>
+<li><code>form_start</code>: <strong>12 events</strong>, but there is <strong>no successful form-submission/lead event</strong>.</li>
+<li>Organic reports show <strong>360 key events</strong>, but these are largely contaminated by the WhatsApp trigger.</li>
+<li><code>(not set)</code> accounts for <strong>230 organic landing sessions</strong> with only <strong>3.9% engagement</strong>, which should be investigated after event/session tagging is corrected.</li>
+</ul>
+<h3 id="required-measurement-design">Required measurement design</h3>
+<p>Use one clear lead taxonomy:</p>
+<table>
+<thead>
+<tr>
+<th>User action</th>
+<th>GA4 event</th>
+<th>Key event?</th>
+<th>Required parameters</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Successful enquiry form</td>
+<td><code>generate_lead</code> or <code>form_submit_success</code></td>
+<td>Yes</td>
+<td><code>form_name</code>, <code>service</code>, <code>page_location</code></td>
+</tr>
+<tr>
+<td>WhatsApp click</td>
+<td><code>whatsapp_click</code></td>
+<td>Yes</td>
+<td><code>click_url</code>, <code>page_location</code>, optional <code>service</code></td>
+</tr>
+<tr>
+<td>Phone click</td>
+<td><code>phone_click</code></td>
+<td>Yes</td>
+<td><code>phone_number</code>, <code>page_location</code></td>
+</tr>
+<tr>
+<td>Email click</td>
+<td><code>email_click</code></td>
+<td>Optional</td>
+<td><code>email_address</code>, <code>page_location</code></td>
+</tr>
+</tbody>
+</table>
+<p>For Elementor forms, fire the lead event only after the AJAX success response or on a unique success/thank-you state—not on button click or form start. Use GTM Preview, GA4 DebugView and one real controlled submission per form family before publishing.</p>
+<hr />
+<h2 id="technical-seo-findings">Technical SEO findings</h2>
+<h3 id="what-is-healthy">What is healthy</h3>
+<ul>
+<li><code>robots.txt</code> is accessible and points to the sitemap index.</li>
+<li>The sitemap index and its post/page/category sitemaps return 200 with no GSC warnings or errors; 108 web URLs are submitted.</li>
+<li>HTTP redirects to HTTPS in one hop; <code>www</code> redirects to non-<code>www</code> in one hop.</li>
+<li>The homepage and all sampled owned priority pages are mobile-crawled, allowed and indexed according to GSC URL Inspection.</li>
+<li>Sitemap priority pages return 200 and are indexable.</li>
+<li>Legacy URL redirects sampled earlier resolve in one hop.</li>
+</ul>
+<h3 id="concentrated-technical-issues">Concentrated technical issues</h3>
+<ol>
+<li><strong>Cross-domain permanent redirects:</strong> five cashahnawaz.com URLs redirect to <code>anamca.com</code>, including the priority Private Limited Company Registration page.</li>
+<li><strong>Indexable AJAX crawl variants:</strong> <code>/?jkit-ajax-request=jkit_elements</code> and a pagination variant return indexable 200 pages without canonicals. GSC confirms the homepage parameter variant was crawled and is currently not indexed.</li>
+<li><strong>Duplicate GST page outside the sitemap:</strong> <code>/gst-registration-services-india-a-guide-to-gst/</code> is indexed, but its declared canonical uses HTTP. Google selects HTTPS. It overlaps the main GST Registration page and a registration guide.</li>
+<li><strong>Broken internal links:</strong> confirmed source pages link to obsolete company-registration, ITR-industry, MSME, trust-registration and PDF URLs.</li>
+<li><strong>Pagination canonical inconsistency:</strong> several paginated archive URLs canonicalize to page one. This can suppress discovery of deeper archive content; use self-canonicals for useful paginated pages or noindex/archive consolidation where appropriate.</li>
+<li><strong>No HSTS header observed:</strong> this is a security-hardening opportunity, not a primary ranking issue. Confirm compatibility before enabling at the CDN/hosting layer.</li>
+</ol>
+<p>The GSC sitemap API returns an <code>indexed: 0</code> field, but this conflicts with URL Inspection and live search performance. It is therefore treated as an unpopulated API field, not as evidence of an indexing collapse.</p>
+<hr />
+<h2 id="content-on-page-and-e-e-a-t-audit">Content, on-page and E-E-A-T audit</h2>
+<h3 id="strong-assets-to-protect">Strong assets to protect</h3>
+<ul>
+<li>Industry-specific ITR pages are generating substantial visibility and traffic.</li>
+<li>The NRI guide, ITR Mumbai page and current due-date resources have strong content depth.</li>
+<li>Google already associates the homepage with valuable local queries such as “CA in Mumbai.”</li>
+<li>The current homepage, About, Contact and on-site schema use one consistent phone and C-18/Ground Floor address family.</li>
+<li>Current Organization/LocalBusiness markup exists on the homepage and Contact page.</li>
+</ul>
+<h3 id="trust-and-identity-gap">Trust and identity gap</h3>
+<p>The rendered About page shows:</p>
+<ul>
+<li><code>COMPLETED PROJECTS 0</code></li>
+<li><code>SATISFACTION RATE 0%</code></li>
+<li><code>ONLINE CONSULTING 0</code></li>
+<li><code>BUSINESS REGISTRATIONS 0+</code></li>
+</ul>
+<p>After an eight-second rendered check, these values remained zero. Neither the homepage nor the About page visibly included “CA Shahnawaz,” “Shahnawaz Shaikh,” FRN, membership number or ICAI terms in body text.</p>
+<p>The public ICAI firm list provides a strong trust asset—<strong>Shahnawaz And Associates, FRN 151767W; Shahnawaz Shaikh, membership 194241</strong>—but also displays a B38 office-unit variant. Confirm that these details are current, then add a professionally written practitioner profile, firm-registration detail and reviewed-by block. Do not publish credentials until the firm verifies them.</p>
+<h3 id="regulated-content-governance">Regulated-content governance</h3>
+<p>Several pages contain passed years/deadlines without strong historical framing, including:</p>
+<ul>
+<li>MCA annual-filing relief content for FY 2020–21: <strong>5,939 impressions / 62 clicks</strong>.</li>
+<li>Charitable-trust reapplication deadline of September 2025: <strong>6,174 impressions / 36 clicks</strong>.</li>
+<li>ITR Mumbai FAQ reference to AY 2020–21 on a current service page: <strong>8,619 impressions / 91 clicks</strong>.</li>
+<li>LLP content labelled FY 2021–22: <strong>614 impressions / 4 clicks</strong>.</li>
+<li>12A/12AA/80G transitional dates from 2021–22: <strong>11,102 impressions / 68 clicks</strong>.</li>
+</ul>
+<p>These are not replaced with new figures in this audit. A practising CA should verify the governing law, date, threshold and correct treatment. Then each page should be updated, clearly archived as historical, consolidated, or redirected according to continuing search intent.</p>
+<h3 id="commercial-content-gaps">Commercial content gaps</h3>
+<p>Create or expand only where the service is genuinely offered:</p>
+<table>
+<thead>
+<tr>
+<th>Gap</th>
+<th>Recommended owned page / treatment</th>
+<th>Priority</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Private Limited Company Registration</td>
+<td>Restore the existing Cashahnawaz URL as an owned page</td>
+<td>Immediate</td>
+</tr>
+<tr>
+<td>LLP Registration</td>
+<td>Create formation page; keep LLP Annual Filing separate</td>
+<td>High</td>
+</tr>
+<tr>
+<td>ROC / Company Annual Compliance</td>
+<td>Create one strong hub with AOC-4/MGT-7 and entity-specific sections</td>
+<td>High</td>
+</tr>
+<tr>
+<td>GST Compliance / Consultancy</td>
+<td>Expand GST Return Filing or create one ongoing-compliance page if scope is distinct</td>
+<td>High</td>
+</tr>
+<tr>
+<td>Internal Audit</td>
+<td>Create a dedicated page if this is an active service; current coverage is too thin</td>
+<td>High</td>
+</tr>
+<tr>
+<td>Tax Consultancy / Income Tax Compliance</td>
+<td>Prefer one ongoing-advisory hub over several near-duplicate pages</td>
+<td>Medium</td>
+</tr>
+<tr>
+<td>Partnership / Proprietorship Registration</td>
+<td>Build only if commercially important and genuinely serviced</td>
+<td>Medium</td>
+</tr>
+</tbody>
+</table>
+<hr />
+<h2 id="structured-data-audit">Structured data audit</h2>
+<h3 id="confirmed-strengths">Confirmed strengths</h3>
+<ul>
+<li>Homepage: valid <code>Organization</code>, <code>LocalBusiness</code>, <code>WebSite</code>, <code>WebPage</code> and location objects.</li>
+<li>Contact page: valid <code>ContactPage</code>, <code>Organization</code>, <code>LocalBusiness</code> and address/location objects.</li>
+<li>Breadcrumb markup is widespread.</li>
+</ul>
+<h3 id="confirmed-defects">Confirmed defects</h3>
+<ul>
+<li>GST Return Filing FAQ JSON-LD is invalid because of an unescaped control character.</li>
+<li>ITR Mumbai FAQ JSON-LD is invalid for the same class of error.</li>
+<li>Service pages use inconsistent schema families: some have only Breadcrumbs, some are marked as Article, and GST Return Filing also uses Product/Brand/Organization blocks.</li>
+<li>FAQ markup is not a meaningful rich-result strategy for this business. Google states that FAQ rich results are generally limited to well-known authoritative government and health sites. Keep FAQ markup only when it matches visible content and is maintained correctly; do not treat it as a traffic feature. See <a href="https://developers.google.com/search/blog/2023/08/howto-faq-changes">Google’s FAQ rich-result change</a>.</li>
+</ul>
+<h3 id="recommended-schema-model">Recommended schema model</h3>
+<ol>
+<li>One stable sitewide <code>Organization</code> / appropriate <code>LocalBusiness</code> entity with verified name, URL, logo, telephone and authoritative address.</li>
+<li><code>WebSite</code> on the homepage and <code>BreadcrumbList</code> on eligible internal pages.</li>
+<li><code>Service</code> markup for owned commercial service pages where the visible page supports it.</li>
+<li><code>Article</code> / <code>BlogPosting</code> only for genuine editorial content, with accurate author, reviewer, publication and modification dates.</li>
+<li>Valid FAQ markup only where every question and answer is visible on the page.</li>
+<li>Validate in Google Rich Results Test and Schema Markup Validator, then inspect the live URL in GSC.</li>
+</ol>
+<p>Google recommends accurate Organization/LocalBusiness name, address, telephone and URL properties; fewer accurate properties are better than extensive inaccurate markup. See <a href="https://developers.google.com/search/docs/appearance/structured-data/organization">Google’s Organization guidance</a> and <a href="https://developers.google.com/search/docs/appearance/structured-data/local-business">LocalBusiness guidance</a>.</p>
+<hr />
+<h2 id="internal-linking-and-architecture">Internal linking and architecture</h2>
+<p>All owned priority pages are reachable from the homepage at crawl depth one. The issue is contextual relevance, not basic reachability.</p>
+<table>
+<thead>
+<tr>
+<th>Target page</th>
+<th style="text-align: right;">Contextual inbound links found</th>
+<th>Recommended new sources</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Section 8 Company Registration</td>
+<td style="text-align: right;"><strong>1</strong></td>
+<td>12A/80G page, Section 8 vs Trust guide, ITR-7 NGO guide, Form 10AB articles</td>
+</tr>
+<tr>
+<td>LLP Annual Filing</td>
+<td style="text-align: right;"><strong>2</strong></td>
+<td>July/August compliance pages already link; add Startup, future LLP Registration and ROC/annual-compliance hub</td>
+</tr>
+<tr>
+<td>Audit Services</td>
+<td style="text-align: right;">41</td>
+<td>Add deeper anchors for internal/statutory/tax audit rather than repeated generic “Audit Services”</td>
+</tr>
+<tr>
+<td>Accounting Services</td>
+<td style="text-align: right;">51</td>
+<td>Existing accounting cluster is useful; prioritize high-traffic MIS/finalisation/accounting guides</td>
+</tr>
+<tr>
+<td>GST Return Filing</td>
+<td style="text-align: right;">51</td>
+<td>Add contextual conversion blocks from GST case-law and due-date articles where genuinely relevant</td>
+</tr>
+<tr>
+<td>ITR Mumbai</td>
+<td style="text-align: right;">102</td>
+<td>Strong support; refine anchors and avoid making every industry page look templated</td>
+</tr>
+</tbody>
+</table>
+<h3 id="confirmed-broken-source-target-repairs">Confirmed broken source → target repairs</h3>
+<table>
+<thead>
+<tr>
+<th>Source</th>
+<th>Broken target</th>
+<th>Correct treatment</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>ITR for Wholesale/Retail</td>
+<td><code>/company-registration/</code></td>
+<td>Point to the restored owned company-registration page</td>
+</tr>
+<tr>
+<td>Beauty/Wellness and E-commerce ITR pages</td>
+<td>two obsolete Food &amp; Beverage URLs</td>
+<td>Point to <code>/itr-filing-for-food-and-beverage-industry/</code></td>
+</tr>
+<tr>
+<td>Beauty/Wellness ITR page</td>
+<td>obsolete Real Estate/Construction URL</td>
+<td>Point to <code>/itr-filing-for-real-estate-construction/</code></td>
+</tr>
+<tr>
+<td>Finance Bill article</td>
+<td><code>/msme-ssi-registration/</code></td>
+<td>Point to a real Udyam/MSME page if offered, otherwise remove/rewrite the link</td>
+</tr>
+<tr>
+<td>Trademark Classes article</td>
+<td><code>/online-trust-registration/</code></td>
+<td>Point to the appropriate trust/NGO service only if intent matches</td>
+</tr>
+<tr>
+<td>GST/case-law content</td>
+<td>missing uploaded PDF</td>
+<td>Restore the asset or remove/update the citation</td>
+</tr>
+</tbody>
+</table>
+<hr />
+<h2 id="mobile-performance-and-cro">Mobile performance and CRO</h2>
+<h3 id="lab-methodology">Lab methodology</h3>
+<p>Two mobile runs were completed per page in headless Chromium with 4× CPU slowdown and approximately 1.6 Mbps / 150 ms network conditions. These are <strong>LAB</strong> results, not CrUX field results. INP was not inferred because it requires interaction/real-user data. Google’s “Good” thresholds are LCP ≤2.5s, INP ≤200ms and CLS ≤0.1; see <a href="https://developers.google.com/search/docs/appearance/core-web-vitals">Google Search Central’s Core Web Vitals guidance</a>.</p>
+<table>
+<thead>
+<tr>
+<th>Page</th>
+<th style="text-align: right;">Mobile LCP median</th>
+<th style="text-align: right;">CLS median</th>
+<th style="text-align: right;">Long-task time</th>
+<th>Assessment</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Homepage</td>
+<td style="text-align: right;"><strong>6.45s</strong></td>
+<td style="text-align: right;">0.00</td>
+<td style="text-align: right;">1.28s</td>
+<td>Poor LCP</td>
+</tr>
+<tr>
+<td>Private company registration external destination</td>
+<td style="text-align: right;"><strong>5.66s</strong></td>
+<td style="text-align: right;">0.06</td>
+<td style="text-align: right;">5.54s</td>
+<td>Poor; also wrong business destination</td>
+</tr>
+<tr>
+<td>GST Return Filing</td>
+<td style="text-align: right;"><strong>3.92s</strong></td>
+<td style="text-align: right;">0.00</td>
+<td style="text-align: right;">1.18s</td>
+<td>Needs improvement</td>
+</tr>
+<tr>
+<td>Contact</td>
+<td style="text-align: right;"><strong>3.74s</strong></td>
+<td style="text-align: right;">0.00</td>
+<td style="text-align: right;">1.29s</td>
+<td>Needs improvement</td>
+</tr>
+<tr>
+<td>NRI guide</td>
+<td style="text-align: right;"><strong>3.66s</strong></td>
+<td style="text-align: right;">0.01</td>
+<td style="text-align: right;">2.20s</td>
+<td>Needs improvement</td>
+</tr>
+<tr>
+<td>Accounting</td>
+<td style="text-align: right;"><strong>3.33s</strong></td>
+<td style="text-align: right;">0.00</td>
+<td style="text-align: right;">2.05s</td>
+<td>Needs improvement</td>
+</tr>
+<tr>
+<td>GST Registration</td>
+<td style="text-align: right;"><strong>3.25s</strong></td>
+<td style="text-align: right;">0.00</td>
+<td style="text-align: right;">2.82s</td>
+<td>Needs improvement</td>
+</tr>
+<tr>
+<td>ITR Mumbai</td>
+<td style="text-align: right;"><strong>2.87s</strong></td>
+<td style="text-align: right;">0.00</td>
+<td style="text-align: right;">1.26s</td>
+<td>Needs improvement</td>
+</tr>
+<tr>
+<td>Audit</td>
+<td style="text-align: right;"><strong>2.64s</strong></td>
+<td style="text-align: right;"><strong>0.18</strong></td>
+<td style="text-align: right;">1.94s</td>
+<td>LCP near threshold; poor CLS</td>
+</tr>
+</tbody>
+</table>
+<p>The LCP element is usually an Elementor hero section or background overlay. The likely optimization path is to replace CSS-background LCP artwork with a correctly sized responsive image where appropriate, preload only the real above-the-fold asset, simplify the hero DOM, reduce unused Elementor add-on assets, and defer non-critical scripts. LiteSpeed/Hostinger caching is present, so tune the existing system before adding another overlapping optimization plugin.</p>
+<h3 id="rendered-conversion-issues">Rendered conversion issues</h3>
+<ul>
+<li>Mobile homepage headline contrast is weak and the text is partially obscured by the fixed CTA; desktop capture showed a large empty hero area before the main CTA/message fully appeared.</li>
+<li>“GET IT NOW” is generic and does not describe the next step.</li>
+<li>The WhatsApp button is visible above the fold, but phone links are generally below the fold.</li>
+<li>Contact mobile hero consumes most of the first screen before “Get in Touch With Us.”</li>
+<li>Accounting, GST and ITR templates render duplicate forms—two to four instances in a page/browser state.</li>
+<li>The common form asks for email, mobile, city and service, with several required fields. This may create unnecessary friction for high-intent mobile users.</li>
+<li>There is no reliable form-success analytics event, so no conversion-rate conclusion can be made.</li>
+</ul>
+<h3 id="cro-redesign-principles">CRO redesign principles</h3>
+<ol>
+<li>Change generic CTA copy to page-specific actions: “Speak to a CA about GST filing,” “Get an accounting quote,” or “Check my ITR requirements.”</li>
+<li>Keep one primary form per page plus the global popup; avoid repeating identical long forms.</li>
+<li>Test a short first step: Name + Mobile/WhatsApp + Service, with email/city optional or collected next.</li>
+<li>Add verified trust proof immediately beside the form: practising CA identity, response expectation, confidentiality statement and authentic service-relevant testimonial.</li>
+<li>Add a visible privacy-policy link and short data-use statement near the submit button.</li>
+<li>Prefill WhatsApp messages with the page/service context, then track only genuine WhatsApp URLs.</li>
+</ol>
+<hr />
+<h2 id="local-seo-audit">Local SEO audit</h2>
+<h3 id="current-on-site-nap">Current on-site NAP</h3>
+<p><strong>Shahnawaz and Associates</strong><br />
+Ground Floor, Grace Plaza, C-18, S. V. Road, near Railway Station, Momin Nagar, Jogeshwari West, Mumbai 400102<br />
+<strong>Phone:</strong> +91 98192 67015</p>
+<p>This variant is internally consistent across the current homepage, About page, Contact page, footer and LocalBusiness markup.</p>
+<h3 id="external-inconsistency-requiring-owner-confirmation">External inconsistency requiring owner confirmation</h3>
+<table>
+<thead>
+<tr>
+<th>Public source</th>
+<th>Address variant</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>ICAI firm listing</td>
+<td><strong>B38, Ground Floor</strong>, Grace Plaza</td>
+</tr>
+<tr>
+<td>Website / Magicpin / ServiceBazzar</td>
+<td><strong>C-18, Ground Floor</strong>, Grace Plaza</td>
+</tr>
+<tr>
+<td>Justdial / Shuru</td>
+<td><strong>B-110, First Floor</strong>, Grace Plaza</td>
+</tr>
+</tbody>
+</table>
+<p>Do not choose a variant based only on frequency. Confirm the current legal and client-facing location, then update the website, schema, Google Business Profile and major citations. The <a href="https://lof.icai.org/LOFPDF/westprop.pdf">ICAI public firm list</a> is also the source for the firm/practitioner identity that should be verified before publication.</p>
+<h3 id="gbp-work-still-required">GBP work still required</h3>
+<p>Because Google Business Profile was not connected, the following are <strong>DATA NOT AVAILABLE</strong>: primary/secondary categories, GBP-side address, services, hours, review count/rating, photos, posts, Q&amp;A and GBP performance. Once access is provided:</p>
+<ol>
+<li>Confirm primary category and add only genuine service categories.</li>
+<li>Use the authoritative NAP and service area.</li>
+<li>Add each priority service with concise descriptions and correct landing pages.</li>
+<li>Publish current office/team/service photos.</li>
+<li>Create a compliant review-request process and respond to every review.</li>
+<li>Add UTM-tagged website/appointment links so GBP leads can be measured separately.</li>
+</ol>
+<hr />
+<h2 id="competitor-and-search-landscape-review">Competitor and search-landscape review</h2>
+<p>All four named competitors are live and relevant. The strongest recurring competitive advantage is not simply “more content”; it is <strong>visible professional proof plus clearly packaged services</strong>.</p>
+<table>
+<thead>
+<tr>
+<th>Competitor</th>
+<th>Visible strength relevant to Cashahnawaz</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><a href="https://www.ndsavla.com/">N D Savla &amp; Associates</a></td>
+<td>Deep service structure, named operating history/scale, partner-led approach, multiple offices and explicit client segments</td>
+</tr>
+<tr>
+<td><a href="https://www.jvb.co.in/">JVB &amp; Co.</a></td>
+<td>Very deep audit, controls, risk, cyber and advisory taxonomy plus partner/location pages</td>
+</tr>
+<tr>
+<td><a href="https://www.asitmehtaassociates.com/">Asit Mehta &amp; Associates</a></td>
+<td>Long history, visible team/client scale, industries, audit, corporate tax and outsourced accounting</td>
+</tr>
+<tr>
+<td><a href="https://jainanuragassociates.com/">Jain Anurag &amp; Associates</a></td>
+<td>Broad registration, GST, income tax, NRI, audit, cross-border and accounting positioning</td>
+</tr>
+</tbody>
+</table>
+<p>Query-specific search results also surfaced pages from <a href="https://svtandassociates.com/accounting-services/">SVT &amp; Associates</a>, <a href="https://www.dmjccharteredaccountants.com/services/gst-registrations-returns-and-audits">DMJC &amp; Co.</a> and <a href="https://taxpex.com/services/gst-return-filing/mumbai">Taxpex</a>. Their visible patterns include named CA credentials, concrete deliverables, process, response expectations, fee framing and prominent contact actions.</p>
+<p><strong>What to adopt:</strong> professional proof, precise deliverables, transparent process, service-specific FAQs and clear contact expectations.<br />
+<strong>What not to copy:</strong> mass-produced locality pages, unverified ratings, unsupported “best” claims, or regulatory figures without professional review.</p>
+<hr />
+<h2 id="90-day-seo-growth-roadmap">90-day SEO growth roadmap</h2>
+<h3 id="days-17-protect-and-measure">Days 1–7 — protect and measure</h3>
+<ul>
+<li>Restore owned company-registration URL; remove external CA-firm redirects.</li>
+<li>Fix WhatsApp GTM trigger and implement successful form tracking.</li>
+<li>Confirm NAP, FRN/membership and approved practitioner bio.</li>
+<li>Repair invalid FAQ JSON-LD and the highest-value broken links.</li>
+<li>Noindex/control the AJAX parameter variants.</li>
+<li>Establish GA4 exploration by landing page, device, city and lead type.</li>
+</ul>
+<h3 id="days-830-optimize-existing-demand">Days 8–30 — optimize existing demand</h3>
+<ul>
+<li>Homepage: local CA/tax-consultant positioning, visible hero, credentials, service proof and specific CTA.</li>
+<li>Accounting: rewrite proposition, fix “TAXZONA” copy residue, specify monthly deliverables/software/process, improve local snippet.</li>
+<li>NRI: named CA reviewer, remote onboarding process, jurisdiction/service scope, relevant proof and conversion block.</li>
+<li>ITR Mumbai: current-year professional review, valid visible FAQ, snippet test, form success tracking.</li>
+<li>GST Return Filing: document checklist, reconciliation deliverables, filing cadence explanation, page-specific CTA, valid Service schema.</li>
+<li>12A/80G: professional legal review, broaden H1, archive/update passed deadlines, add NGO-specific service proof.</li>
+<li>Improve homepage and money-page mobile LCP.</li>
+</ul>
+<h3 id="days-3160-close-commercial-gaps">Days 31–60 — close commercial gaps</h3>
+<ul>
+<li>Publish owned LLP Registration and Company/ROC Compliance pages.</li>
+<li>Publish a dedicated Internal Audit page if actively offered.</li>
+<li>Decide whether GST Compliance/Consultancy is distinct enough for a page or should strengthen GST Return Filing.</li>
+<li>Add page-specific internal links from high-traffic articles and guides.</li>
+<li>Standardize money-page templates: practitioner proof, process, deliverables, documents, fee/quote rationale, FAQ, CTA.</li>
+</ul>
+<h3 id="days-6190-local-authority-and-iteration">Days 61–90 — local authority and iteration</h3>
+<ul>
+<li>Complete GBP categories/services/photos/review workflow and UTM tracking.</li>
+<li>Correct top citations after NAP confirmation.</li>
+<li>Review high-impression/low-CTR pages in GSC every two weeks.</li>
+<li>Compare mobile vs desktop engagement and valid lead rate.</li>
+<li>Refresh or archive outdated content based on a CA-approved content calendar.</li>
+<li>Re-run crawl, schema and mobile performance tests.</li>
+</ul>
+<h3 id="operational-targetsnot-traffic-guarantees">Operational targets—not traffic guarantees</h3>
+<table>
+<thead>
+<tr>
+<th>Target</th>
+<th>90-day success condition</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Lead ownership</td>
+<td>Zero priority/internal URLs redirect to unrelated businesses</td>
+</tr>
+<tr>
+<td>Measurement</td>
+<td>One successful action = one valid GA4 key event; form, WhatsApp and phone separated</td>
+</tr>
+<tr>
+<td>Technical hygiene</td>
+<td>Zero invalid priority-page JSON-LD blocks; zero confirmed internal 404 links</td>
+</tr>
+<tr>
+<td>Mobile experience</td>
+<td>Priority-page lab LCP approaches or passes 2.5s; CLS below 0.1</td>
+</tr>
+<tr>
+<td>Search snippets</td>
+<td>Improve CTR on selected pages by 15–25% relative while controlling for position</td>
+</tr>
+<tr>
+<td>Commercial visibility</td>
+<td>Accounting, GST filing, NRI, ITR and 12A/80G pages move upward for mapped queries</td>
+</tr>
+<tr>
+<td>Local consistency</td>
+<td>Website, GBP, schema and priority citations use one confirmed NAP</td>
+</tr>
+</tbody>
+</table>
+<hr />
+<h2 id="detailed-findings-register">Detailed findings register</h2>
+<h3 id="f-01-external-redirect-transfers-a-priority-service-and-leads-to-another-ca-firm">F-01 — External redirect transfers a priority service and leads to another CA firm</h3>
+<p><strong>Severity:</strong> CRITICAL · <strong>Confidence:</strong> Confirmed<br />
+<strong>Evidence:</strong> <code>https://cashahnawaz.com/private-limited-company-registration/</code> returns a one-hop 301 to <code>https://anamca.com/services/registration/private-limited-company-registration/</code>. GSC reports “Page with redirect” and selects the external URL as Google/user canonical. The destination displays Anam Shaikh &amp; Associates, another phone/email/WhatsApp, GTM <code>GTM-WV5SVHJK</code> and GA4 <code>G-WM2MWWHY3Y</code>. Four more Cashahnawaz URLs redirect to the same domain: annual private-company compliance, accounting-vs-bookkeeping, GST Council, and income-tax-deductions pages.<br />
+<strong>Affected URLs:</strong> the five redirecting Cashahnawaz URLs and all internal links pointing to them.<br />
+<strong>SEO/Business impact:</strong> Users, leads and canonical signals leave the site; Cashahnawaz has no owned private-company-registration landing page. Google treats a permanent redirect as a canonical-location signal; see <a href="https://developers.google.com/search/docs/crawling-indexing/301-redirects">Google’s redirect documentation</a>.<br />
+<strong>Likely root cause:</strong> A legacy cross-domain migration/redirect rule or content transfer that was never removed. Ownership intent must be confirmed; this audit does not characterize it as malicious.<br />
+<strong>Recommended fix:</strong> Restore an owned page on the existing URL if Cashahnawaz provides the service. Remove the external redirect, use Cashahnawaz branding/contact/tracking, self-canonicalize, add to sitemap and update internal links. If the service is intentionally referred out, remove it from the owned SEO strategy and clearly disclose the referral rather than using a silent permanent redirect.<br />
+<strong>Manual implementation:</strong> Check Rank Math → Redirections, any redirect plugin, <code>.htaccess</code>, Hostinger redirect rules and CDN rules for the exact five source paths. Export/backup redirect settings first. Remove only confirmed unintended rules. Publish the owned page, clear LiteSpeed/hCDN cache, recrawl, and request indexing in GSC.<br />
+<strong>Validation:</strong> Source returns 200 with no hop; page uses Cashahnawaz NAP/GTM/GA4; canonical equals source; URL Inspection shows indexable; controlled test lead reaches Cashahnawaz.</p>
+<h3 id="f-02-whatsapp-and-form-conversion-measurement-is-invalidincomplete">F-02 — WhatsApp and form conversion measurement is invalid/incomplete</h3>
+<p><strong>Severity:</strong> HIGH · <strong>Confidence:</strong> Confirmed<br />
+<strong>Evidence:</strong> Published GTM version 5 has a “WhatsApp Click” link-click trigger with no filter. GA4 reports 587 WhatsApp events/585 key events, while no successful form event exists.<br />
+<strong>Affected assets:</strong> GTM-N2LHGRCX, GA4 property 546098812, every link and form.<br />
+<strong>Impact:</strong> The business cannot distinguish genuine leads from navigation clicks or calculate landing-page conversion rate.<br />
+<strong>Root cause:</strong> Missing trigger condition and no Elementor success-state implementation.<br />
+<strong>Fix:</strong> Restrict WhatsApp to approved <code>wa.me</code>/WhatsApp URL patterns; add a post-success Elementor lead event; validate phone tracking; mark the prior period as contaminated.<br />
+<strong>Manual implementation:</strong> In a GTM workspace, duplicate/backup the trigger. Add a regex such as <code>^https?://(wa\.me|api\.whatsapp\.com)/</code> after confirming every live WhatsApp pattern. Configure an Elementor success event/dataLayer or unique success page and fire one GA4 lead tag. Preview every form family and link type before publishing.<br />
+<strong>Validation:</strong> Navigation clicks do not fire WhatsApp; one WhatsApp click fires once; failed forms fire no lead; one successful form fires one lead in GTM Preview and GA4 DebugView.</p>
+<h3 id="f-03-high-impression-pages-underperform-on-ctr-and-commercial-intent">F-03 — High-impression pages underperform on CTR and commercial intent</h3>
+<p><strong>Severity:</strong> HIGH · <strong>Confidence:</strong> Confirmed<br />
+<strong>Evidence:</strong> ITR refund 53,708 impressions/0.21% CTR; Accounting 10,377/0.31%; NRI 10,647/0.72%; 12A/80G 11,102/0.61%; GST Return Filing 2,413/0.62%.<br />
+<strong>Impact:</strong> Google visibility is not translating proportionally into qualified visits.<br />
+<strong>Root cause:</strong> Mixed informational/service intent, generic or overlong snippets, weak visible authority and insufficient differentiation.<br />
+<strong>Fix:</strong> Optimize one owner page per mapped query cluster; improve title/meta/intro, professional proof and service-specific conversion block.<br />
+<strong>Manual implementation:</strong> Use the query map in this report. Change no URL unless consolidation is specifically approved. Record pre-change GSC metrics, publish one page group at a time, request recrawl and compare 28-day periods controlling for average position.<br />
+<strong>Validation:</strong> Relative CTR improves without query cannibalization; valid lead rate becomes measurable.</p>
+<h3 id="f-04-practitioner-and-firm-trust-proof-is-missing-while-about-counters-show-zero">F-04 — Practitioner and firm trust proof is missing while About counters show zero</h3>
+<p><strong>Severity:</strong> HIGH · <strong>Confidence:</strong> Confirmed rendered check<br />
+<strong>Evidence:</strong> About counters remain at zero after rendering; homepage/About body contains no visible practitioner name, FRN, membership number or ICAI identity. Public ICAI data provides candidate details that require owner verification.<br />
+<strong>Impact:</strong> Financial-service visitors cannot easily verify who is accountable for advice, weakening trust and differentiation.<br />
+<strong>Root cause:</strong> Generic agency template and unconfigured counters; professional identity not integrated into the content model.<br />
+<strong>Fix:</strong> Remove zero counters; publish a verified practitioner profile, firm identity, experience, review process and authentic proof.<br />
+<strong>Manual implementation:</strong> In Elementor About template, remove or populate counters only with defensible numbers. Add a named bio with verified credentials, LinkedIn/professional profile, areas of practice and regulatory review role. Reuse a compact verified reviewer block on tax pages.<br />
+<strong>Validation:</strong> Rendered home/About pages display accurate identity/proof; no zero or unverifiable claims remain.</p>
+<h3 id="f-05-mobile-lcp-is-above-googles-good-threshold-on-every-sampled-page">F-05 — Mobile LCP is above Google’s “Good” threshold on every sampled page</h3>
+<p><strong>Severity:</strong> HIGH · <strong>Confidence:</strong> Confirmed lab, field data unavailable<br />
+<strong>Evidence:</strong> Two-run mobile medians: homepage 6.45s; GST Return 3.92s; Contact 3.74s; NRI 3.66s; Accounting 3.33s; GST Registration 3.25s; ITR 2.87s; Audit 2.64s. Audit CLS is 0.18.<br />
+<strong>Impact:</strong> Slower first impressions and lower mobile engagement; mobile engagement is already 13.7 percentage points below desktop.<br />
+<strong>Root cause:</strong> Elementor background/overlay LCP elements, large DOMs, long main-thread tasks and redundant template assets.<br />
+<strong>Fix:</strong> Optimize the existing LiteSpeed/Hostinger setup; simplify hero/templates; reduce unused add-ons; use responsive/preloaded LCP assets; reserve layout space.<br />
+<strong>Manual implementation:</strong> Work on staging/backup. Use Chrome/Lighthouse element diagnostics plus this report’s LCP element. Change one template family at a time, purge cache, test twice on mobile and check visual regressions.<br />
+<strong>Validation:</strong> Three comparable mobile lab runs; LCP ≤2.5s target, CLS &lt;0.1; later confirm GSC/CrUX field data when available.</p>
+<h3 id="f-06-current-office-address-conflicts-across-public-sources">F-06 — Current office address conflicts across public sources</h3>
+<p><strong>Severity:</strong> HIGH · <strong>Confidence:</strong> Confirmed conflict; authoritative answer requires owner<br />
+<strong>Evidence:</strong> Website C-18 Ground Floor; ICAI B38 Ground Floor; Justdial/Shuru B-110 First Floor.<br />
+<strong>Impact:</strong> Potential clients and local-search systems receive conflicting location data.<br />
+<strong>Root cause:</strong> Office move/unit-format changes not propagated consistently.<br />
+<strong>Fix:</strong> Owner confirms one authoritative legal/client-facing address; standardize website, schema, GBP and priority citations.<br />
+<strong>Manual implementation:</strong> Create a source-of-truth NAP sheet. Correct owned assets first, then GBP, ICAI if required, and major directories. Avoid creating a duplicate GBP.<br />
+<strong>Validation:</strong> Search brand/address variants; all priority sources show the confirmed form and correct map pin.</p>
+<h3 id="f-07-time-sensitive-taxcompliance-content-lacks-a-controlled-review-lifecycle">F-07 — Time-sensitive tax/compliance content lacks a controlled review lifecycle</h3>
+<p><strong>Severity:</strong> HIGH · <strong>Confidence:</strong> Confirmed dates; replacement law requires CA review<br />
+<strong>Evidence:</strong> Passed 2020–21, 2021–22 and 2025 references remain on pages still earning impressions/clicks.<br />
+<strong>Impact:</strong> Trust, user decision quality and regulated-content accuracy risk.<br />
+<strong>Root cause:</strong> Pages are updated irregularly without explicit archive/current status or named reviewer.<br />
+<strong>Fix:</strong> Professional review; update, archive or consolidate; add “last reviewed,” reviewer and source notes.<br />
+<strong>Manual implementation:</strong> Export the regulated-page list, assign a practising CA, preserve historical context where useful, avoid silently replacing figures, and maintain a quarterly calendar plus event-driven updates.<br />
+<strong>Validation:</strong> Every priority regulated page has current/historical status, CA approval and accurate visible dates.</p>
+<h3 id="f-08-commercial-service-coverage-is-incomplete">F-08 — Commercial service coverage is incomplete</h3>
+<p><strong>Severity:</strong> HIGH · <strong>Confidence:</strong> Confirmed crawl and competitor comparison<br />
+<strong>Evidence:</strong> No owned Private Limited registration page; LLP formation absent; ROC/company compliance absent; Internal Audit thin; GST consultancy/compliance not distinctly served. Competitors package these areas more clearly.<br />
+<strong>Impact:</strong> The site cannot rank or convert well for services without an owned intent-matched destination.<br />
+<strong>Root cause:</strong> Content evolved around articles and a subset of services instead of a complete revenue-service architecture.<br />
+<strong>Fix:</strong> Restore/build pages in priority order, only for genuine services, using one canonical owner per intent.<br />
+<strong>Manual implementation:</strong> Confirm service, target client, process, documents, deliverables, pricing approach and responsible practitioner before drafting. Link from nav/hubs and relevant articles; add to sitemap.<br />
+<strong>Validation:</strong> Each priority service has one owned indexable page, no overlap, appropriate internal links and GSC query coverage.</p>
+<h3 id="f-09-elementor-ajax-variants-are-crawlable-and-indexable">F-09 — Elementor AJAX variants are crawlable and indexable</h3>
+<p><strong>Severity:</strong> MEDIUM · <strong>Confidence:</strong> Confirmed crawl and GSC<br />
+<strong>Evidence:</strong> <code>/?jkit-ajax-request=jkit_elements</code> returns 200, <code>index,follow</code>, no canonical; GSC: crawled—currently not indexed. A page-2 parameter variant also exists.<br />
+<strong>Impact:</strong> Crawl waste and risk of low-quality parameter URLs entering the index.<br />
+<strong>Root cause:</strong> JKit/Elementor endpoint produces full HTML without indexing controls.<br />
+<strong>Fix:</strong> Prevent internal discovery where possible; return appropriate endpoint content/status; add <code>noindex</code>/canonical handling at plugin/server level without blocking Google before noindex is seen.<br />
+<strong>Manual implementation:</strong> Identify the JKit component that creates links; update plugin/configuration first. If needed, add a narrowly scoped Rank Math/filter/server rule for the exact parameter. Test functionality before deployment.<br />
+<strong>Validation:</strong> Endpoint functionality still works; URL is noindex or canonicalized appropriately; no new parameter variants appear in crawl/GSC.</p>
+<h3 id="f-10-an-indexed-duplicate-gst-page-declares-an-http-canonical">F-10 — An indexed duplicate GST page declares an HTTP canonical</h3>
+<p><strong>Severity:</strong> MEDIUM · <strong>Confidence:</strong> Confirmed source and GSC<br />
+<strong>Evidence:</strong> <code>/gst-registration-services-india-a-guide-to-gst/</code> is indexed; source canonical is the HTTP version; Google selects HTTPS; page is absent from sitemap and overlaps the main GST registration page/guide.<br />
+<strong>Impact:</strong> Conflicting consolidation signals and diluted maintenance/linking.<br />
+<strong>Root cause:</strong> Legacy manual canonical plus content duplication.<br />
+<strong>Fix:</strong> Decide the owner page. Usually consolidate this low-performing legacy page to the main GST Registration page with a relevant 301; otherwise make it uniquely informational, HTTPS self-canonical and intentionally linked/sitemapped.<br />
+<strong>Manual implementation:</strong> Compare content and backlinks first. If consolidating, map the closest section, add unique useful content to the destination, implement one-hop 301, remove internal links to source.<br />
+<strong>Validation:</strong> GSC eventually shows the chosen canonical; only the owner page receives query impressions.</p>
+<h3 id="f-11-confirmed-internal-links-point-to-404-urls">F-11 — Confirmed internal links point to 404 URLs</h3>
+<p><strong>Severity:</strong> MEDIUM · <strong>Confidence:</strong> Confirmed crawl<br />
+<strong>Evidence:</strong> Company registration, two Food &amp; Beverage variants, Real Estate/Construction variant, MSME registration, Trust registration and one PDF link return 404 from real source pages.<br />
+<strong>Impact:</strong> Lost user journeys, wasted internal authority and reduced confidence.<br />
+<strong>Root cause:</strong> Slug changes/content removals without source-link maintenance.<br />
+<strong>Fix:</strong> Update source links to exact current destinations; use 301 only where a real equivalent exists.<br />
+<strong>Manual implementation:</strong> Use the source→target table in this report; edit Elementor/article links, clear cache and crawl again. Do not redirect unrelated removed pages to the homepage.<br />
+<strong>Validation:</strong> Zero internal 404 edges in a fresh crawl.</p>
+<h3 id="f-12-priority-page-structured-data-is-invalid-and-inconsistent">F-12 — Priority-page structured data is invalid and inconsistent</h3>
+<p><strong>Severity:</strong> MEDIUM · <strong>Confidence:</strong> Confirmed JSON parsing<br />
+<strong>Evidence:</strong> Invalid FAQ JSON-LD on GST Return Filing and ITR Mumbai; inconsistent Article/Product/Breadcrumb-only models across services.<br />
+<strong>Impact:</strong> Google cannot reliably parse the invalid blocks; entity/service meaning is inconsistent.<br />
+<strong>Root cause:</strong> Manual custom-HTML schema plus plugin-generated schema without one source of truth.<br />
+<strong>Fix:</strong> Choose Rank Math or one controlled schema source; use Organization/LocalBusiness + Service/Breadcrumb/Article as appropriate; remove invalid/redundant manual blocks.<br />
+<strong>Manual implementation:</strong> Back up current schema. In Rank Math page schema settings and Elementor custom HTML widgets, identify which source outputs each block. Escape line breaks correctly or regenerate valid JSON-LD.<br />
+<strong>Validation:</strong> JSON parser, Schema Validator, Rich Results Test and GSC URL Inspection pass with content matching the page.</p>
+<h3 id="f-13-mobile-conversion-templates-contain-generic-ctas-excess-hero-space-and-duplicate-forms">F-13 — Mobile conversion templates contain generic CTAs, excess hero space and duplicate forms</h3>
+<p><strong>Severity:</strong> MEDIUM · <strong>Confidence:</strong> Confirmed browser render<br />
+<strong>Evidence:</strong> Generic “GET IT NOW”; contact hero pushes the form below the first screen; 2–4 duplicate forms on sampled templates; common form requires email/mobile/city/service; phone generally below fold.<br />
+<strong>Impact:</strong> Friction and unclear next step, especially on mobile.<br />
+<strong>Root cause:</strong> Multiple Elementor template/popup/form instances and generic global components.<br />
+<strong>Fix:</strong> One page-specific primary action, one main form, compact mobile hero, visible phone/WhatsApp and trust near the form.<br />
+<strong>Manual implementation:</strong> Inventory global header/popup/footer templates and page forms; remove duplicates on staging; shorten and label form; add service-specific CTA copy and privacy link.<br />
+<strong>Validation:</strong> Mobile browser test at 390px; no overlap, primary action visible, one successful submission tracked once.</p>
+<h3 id="f-14-contextual-internal-linking-is-uneven-for-commercial-pages">F-14 — Contextual internal linking is uneven for commercial pages</h3>
+<p><strong>Severity:</strong> MEDIUM · <strong>Confidence:</strong> Confirmed link graph<br />
+<strong>Evidence:</strong> Section 8 has one contextual inbound link; LLP Annual Filing has two, while ITR Mumbai has 102.<br />
+<strong>Impact:</strong> Weaker discovery/relevance reinforcement for underperforming registration/compliance pages.<br />
+<strong>Root cause:</strong> Template navigation is strong, but article-to-service links were added unevenly.<br />
+<strong>Fix:</strong> Add source-relevant contextual links using descriptive, varied anchors and lifecycle relationships.<br />
+<strong>Manual implementation:</strong> Start with 12A/80G → Section 8, ITR-7/Form 10AB → Section 8, Startup/future LLP Registration → LLP Annual Filing, and high-traffic GST guides → GST services.<br />
+<strong>Validation:</strong> Link graph shows additional unique contextual sources; anchors accurately describe destination; no sitewide keyword-stuffed blocks.</p>
+<hr />
+<h2 id="data-limitations-and-what-is-still-needed">Data limitations and what is still needed</h2>
+<ol>
+<li><strong>Google Business Profile access:</strong> required for a complete GBP/category/review/performance audit.</li>
+<li><strong>Authoritative office address:</strong> owner must confirm the correct unit/floor.</li>
+<li><strong>Professional credentials:</strong> confirm current FRN, membership, title and approved public wording.</li>
+<li><strong>WordPress Administrator and hosting access:</strong> required to confirm plugin versions, redirect rule source, staging/backup and exact implementation screens.</li>
+<li><strong>GSC UI-only reports:</strong> the API does not expose Manual Actions, Links or Core Web Vitals report groups. A full-permission user should manually confirm those screens.</li>
+<li><strong>Field Core Web Vitals:</strong> PageSpeed API quota was unavailable and the GSC API does not expose CWV groups; this report labels browser metrics as LAB.</li>
+<li><strong>Regulatory facts:</strong> all current legal/tax figures and replacement wording require practising-CA review.</li>
+<li><strong>Competitor metrics:</strong> competitor traffic, conversion rates and backlink counts were not available and were not estimated.</li>
+</ol>
+<hr />
+<h2 id="evidence-index">Evidence index</h2>
+<ul>
+<li>GSC exports and URL Inspection: <code>data/gsc/</code></li>
+<li>GA4 exports: <code>data/ga4/</code></li>
+<li>Published GTM inventory: <code>data/gtm/</code></li>
+<li>Crawl, schema and link graph: <code>data/crawl/</code></li>
+<li>Browser performance/CRO evidence: <code>data/performance/</code></li>
+<li>Competitor verification/matrix: <code>data/competitors/</code></li>
+<li>Consolidated analysis: <code>data/search-analytics-analysis-2026-08-28.json</code></li>
+</ul>
+<p>This audit is a prioritized diagnosis and implementation guide. It does not promise rankings or traffic. Results depend on implementation quality, professional accuracy review, competitor changes and Google’s systems. Measure progress using valid conversion events, GSC query/page data and a fresh technical validation after each implementation phase.</p></article>
+</main>
+<div class="footer">Prepared from live first-party data and public-site evidence | Audit date 28 August 2026</div>
+<script>
+document.querySelectorAll('h3').forEach(h => {
+  const t=h.textContent;
+  if (/^F-\d+/.test(t)) {
+    const next=h.nextElementSibling;
+    if(next && next.textContent.includes('CRITICAL')) h.insertAdjacentHTML('beforeend','<span class="severity critical">CRITICAL</span>');
+    else if(next && next.textContent.includes('HIGH')) h.insertAdjacentHTML('beforeend','<span class="severity high">HIGH</span>');
+    else if(next && next.textContent.includes('MEDIUM')) h.insertAdjacentHTML('beforeend','<span class="severity medium">MEDIUM</span>');
+  }
+});
+</script>
+</body>
+</html>

@@ -1,0 +1,230 @@
+[
+  {
+    "url": "https://cashahnawaz.com/",
+    "verdict": "PASS",
+    "coverageState": "Submitted and indexed",
+    "robotsTxtState": "ALLOWED",
+    "indexingState": "INDEXING_ALLOWED",
+    "pageFetchState": "SUCCESSFUL",
+    "lastCrawlTime": "2026-08-22T22:37:26Z",
+    "googleCanonical": "https://cashahnawaz.com/",
+    "userCanonical": "https://cashahnawaz.com/",
+    "sitemap": [
+      "https://cashahnawaz.com/page-sitemap.xml",
+      "https://cashahnawaz.com/sitemap_index.xml"
+    ],
+    "crawledAs": "MOBILE"
+  },
+  {
+    "url": "https://cashahnawaz.com/accounting-services/",
+    "verdict": "PASS",
+    "coverageState": "Submitted and indexed",
+    "robotsTxtState": "ALLOWED",
+    "indexingState": "INDEXING_ALLOWED",
+    "pageFetchState": "SUCCESSFUL",
+    "lastCrawlTime": "2026-08-22T13:24:12Z",
+    "googleCanonical": "https://cashahnawaz.com/accounting-services/",
+    "userCanonical": "https://cashahnawaz.com/accounting-services/",
+    "sitemap": [
+      "https://cashahnawaz.com/page-sitemap.xml",
+      "https://cashahnawaz.com/sitemap_index.xml"
+    ],
+    "crawledAs": "MOBILE"
+  },
+  {
+    "url": "https://cashahnawaz.com/gst-registration-online/",
+    "verdict": "PASS",
+    "coverageState": "Submitted and indexed",
+    "robotsTxtState": "ALLOWED",
+    "indexingState": "INDEXING_ALLOWED",
+    "pageFetchState": "SUCCESSFUL",
+    "lastCrawlTime": "2026-08-25T05:14:05Z",
+    "googleCanonical": "https://cashahnawaz.com/gst-registration-online/",
+    "userCanonical": "https://cashahnawaz.com/gst-registration-online/",
+    "sitemap": [
+      "https://cashahnawaz.com/page-sitemap.xml",
+      "https://cashahnawaz.com/sitemap_index.xml"
+    ],
+    "crawledAs": "MOBILE"
+  },
+  {
+    "url": "https://cashahnawaz.com/gst-return-filing/",
+    "verdict": "PASS",
+    "coverageState": "Submitted and indexed",
+    "robotsTxtState": "ALLOWED",
+    "indexingState": "INDEXING_ALLOWED",
+    "pageFetchState": "SUCCESSFUL",
+    "lastCrawlTime": "2026-08-17T19:07:59Z",
+    "googleCanonical": "https://cashahnawaz.com/gst-return-filing/",
+    "userCanonical": "https://cashahnawaz.com/gst-return-filing/",
+    "sitemap": [
+      "https://cashahnawaz.com/page-sitemap.xml",
+      "https://cashahnawaz.com/sitemap_index.xml"
+    ],
+    "crawledAs": "MOBILE"
+  },
+  {
+    "url": "https://cashahnawaz.com/income-tax-return-filing-in-mumbai/",
+    "verdict": "PASS",
+    "coverageState": "Submitted and indexed",
+    "robotsTxtState": "ALLOWED",
+    "indexingState": "INDEXING_ALLOWED",
+    "pageFetchState": "SUCCESSFUL",
+    "lastCrawlTime": "2026-08-26T15:54:51Z",
+    "googleCanonical": "https://cashahnawaz.com/income-tax-return-filing-in-mumbai/",
+    "userCanonical": "https://cashahnawaz.com/income-tax-return-filing-in-mumbai/",
+    "sitemap": [
+      "https://cashahnawaz.com/page-sitemap.xml",
+      "https://cashahnawaz.com/sitemap_index.xml"
+    ],
+    "crawledAs": "MOBILE"
+  },
+  {
+    "url": "https://cashahnawaz.com/itr-filing-for-nri-guide-for-non-resident-taxation/",
+    "verdict": "PASS",
+    "coverageState": "Submitted and indexed",
+    "robotsTxtState": "ALLOWED",
+    "indexingState": "INDEXING_ALLOWED",
+    "pageFetchState": "SUCCESSFUL",
+    "lastCrawlTime": "2026-08-20T22:52:02Z",
+    "googleCanonical": "https://cashahnawaz.com/itr-filing-for-nri-guide-for-non-resident-taxation/",
+    "userCanonical": "https://cashahnawaz.com/itr-filing-for-nri-guide-for-non-resident-taxation/",
+    "sitemap": [
+      "https://cashahnawaz.com/page-sitemap.xml",
+      "https://cashahnawaz.com/sitemap_index.xml"
+    ],
+    "crawledAs": "MOBILE"
+  },
+  {
+    "url": "https://cashahnawaz.com/audit-services/",
+    "verdict": "PASS",
+    "coverageState": "Submitted and indexed",
+    "robotsTxtState": "ALLOWED",
+    "indexingState": "INDEXING_ALLOWED",
+    "pageFetchState": "SUCCESSFUL",
+    "lastCrawlTime": "2026-08-17T21:31:21Z",
+    "googleCanonical": "https://cashahnawaz.com/audit-services/",
+    "userCanonical": "https://cashahnawaz.com/audit-services/",
+    "sitemap": [
+      "https://cashahnawaz.com/page-sitemap.xml",
+      "https://cashahnawaz.com/sitemap_index.xml"
+    ],
+    "crawledAs": "MOBILE"
+  },
+  {
+    "url": "https://cashahnawaz.com/private-limited-company-registration/",
+    "verdict": "NEUTRAL",
+    "coverageState": "Page with redirect",
+    "robotsTxtState": "ALLOWED",
+    "indexingState": "INDEXING_ALLOWED",
+    "pageFetchState": "SUCCESSFUL",
+    "lastCrawlTime": "2026-08-19T09:14:20Z",
+    "googleCanonical": "https://anamca.com/services/registration/private-limited-company-registration/",
+    "userCanonical": "https://anamca.com/services/registration/private-limited-company-registration/",
+    "sitemap": [],
+    "crawledAs": "MOBILE"
+  },
+  {
+    "url": "https://cashahnawaz.com/llp-annual-filing/",
+    "verdict": "PASS",
+    "coverageState": "Submitted and indexed",
+    "robotsTxtState": "ALLOWED",
+    "indexingState": "INDEXING_ALLOWED",
+    "pageFetchState": "SUCCESSFUL",
+    "lastCrawlTime": "2026-08-24T15:40:11Z",
+    "googleCanonical": "https://cashahnawaz.com/llp-annual-filing/",
+    "userCanonical": "https://cashahnawaz.com/llp-annual-filing/",
+    "sitemap": [
+      "https://cashahnawaz.com/page-sitemap.xml",
+      "https://cashahnawaz.com/sitemap_index.xml"
+    ],
+    "crawledAs": "MOBILE"
+  },
+  {
+    "url": "https://cashahnawaz.com/section-8-company-registration/",
+    "verdict": "PASS",
+    "coverageState": "Submitted and indexed",
+    "robotsTxtState": "ALLOWED",
+    "indexingState": "INDEXING_ALLOWED",
+    "pageFetchState": "SUCCESSFUL",
+    "lastCrawlTime": "2026-08-17T19:37:11Z",
+    "googleCanonical": "https://cashahnawaz.com/section-8-company-registration/",
+    "userCanonical": "https://cashahnawaz.com/section-8-company-registration/",
+    "sitemap": [],
+    "crawledAs": "MOBILE"
+  },
+  {
+    "url": "https://cashahnawaz.com/startup-registration-india/",
+    "verdict": "PASS",
+    "coverageState": "Submitted and indexed",
+    "robotsTxtState": "ALLOWED",
+    "indexingState": "INDEXING_ALLOWED",
+    "pageFetchState": "SUCCESSFUL",
+    "lastCrawlTime": "2026-08-27T08:59:27Z",
+    "googleCanonical": "https://cashahnawaz.com/startup-registration-india/",
+    "userCanonical": "https://cashahnawaz.com/startup-registration-india/",
+    "sitemap": [
+      "https://cashahnawaz.com/page-sitemap.xml",
+      "https://cashahnawaz.com/sitemap_index.xml"
+    ],
+    "crawledAs": "MOBILE"
+  },
+  {
+    "url": "https://cashahnawaz.com/tds-return-filing-services/",
+    "verdict": "PASS",
+    "coverageState": "Submitted and indexed",
+    "robotsTxtState": "ALLOWED",
+    "indexingState": "INDEXING_ALLOWED",
+    "pageFetchState": "SUCCESSFUL",
+    "lastCrawlTime": "2026-08-17T18:36:08Z",
+    "googleCanonical": "https://cashahnawaz.com/tds-return-filing-services/",
+    "userCanonical": "https://cashahnawaz.com/tds-return-filing-services/",
+    "sitemap": [
+      "https://cashahnawaz.com/page-sitemap.xml",
+      "https://cashahnawaz.com/sitemap_index.xml"
+    ],
+    "crawledAs": "MOBILE"
+  },
+  {
+    "url": "https://cashahnawaz.com/contact-us/",
+    "verdict": "PASS",
+    "coverageState": "Submitted and indexed",
+    "robotsTxtState": "ALLOWED",
+    "indexingState": "INDEXING_ALLOWED",
+    "pageFetchState": "SUCCESSFUL",
+    "lastCrawlTime": "2026-08-20T16:28:32Z",
+    "googleCanonical": "https://cashahnawaz.com/contact-us/",
+    "userCanonical": "https://cashahnawaz.com/contact-us/",
+    "sitemap": [
+      "https://cashahnawaz.com/page-sitemap.xml",
+      "https://cashahnawaz.com/sitemap_index.xml"
+    ],
+    "crawledAs": "MOBILE"
+  },
+  {
+    "url": "https://cashahnawaz.com/gst-registration-services-india-a-guide-to-gst/",
+    "verdict": "PASS",
+    "coverageState": "Submitted and indexed",
+    "robotsTxtState": "ALLOWED",
+    "indexingState": "INDEXING_ALLOWED",
+    "pageFetchState": "SUCCESSFUL",
+    "lastCrawlTime": "2026-08-14T05:05:53Z",
+    "googleCanonical": "https://cashahnawaz.com/gst-registration-services-india-a-guide-to-gst/",
+    "userCanonical": "http://cashahnawaz.com/gst-registration-services-india-a-guide-to-gst/",
+    "sitemap": [],
+    "crawledAs": "MOBILE"
+  },
+  {
+    "url": "https://cashahnawaz.com/?jkit-ajax-request=jkit_elements",
+    "verdict": "NEUTRAL",
+    "coverageState": "Crawled - currently not indexed",
+    "robotsTxtState": "ALLOWED",
+    "indexingState": "INDEXING_ALLOWED",
+    "pageFetchState": "SUCCESSFUL",
+    "lastCrawlTime": "2026-05-12T21:21:10Z",
+    "googleCanonical": "https://cashahnawaz.com/?jkit-ajax-request=jkit_elements",
+    "userCanonical": null,
+    "sitemap": [],
+    "crawledAs": "MOBILE"
+  }
+]

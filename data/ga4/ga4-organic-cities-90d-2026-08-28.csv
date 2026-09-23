@@ -1,0 +1,312 @@
+﻿city,activeUsers,sessions,engagedSessions,keyEvents
+Mumbai,288,420,225,127
+Bengaluru,160,192,115,18
+Delhi,131,148,80,11
+(not set),86,99,64,11
+Chennai,86,109,63,11
+Hyderabad,86,100,64,11
+Pune,85,106,53,4
+Kolkata,82,108,52,17
+Ahmedabad,51,62,32,1
+Jaipur,41,50,25,1
+Gurugram,34,40,25,0
+New Delhi,33,42,25,6
+Lucknow,31,34,20,4
+Surat,27,35,15,1
+Indore,24,29,17,5
+Noida,24,34,23,8
+Patna,22,25,16,0
+Nagpur,21,23,12,0
+Kochi,20,25,16,1
+Ludhiana,20,20,10,0
+Nashik,19,21,16,6
+Navi Mumbai,18,23,8,3
+Thane,18,21,13,0
+Coimbatore,17,22,12,1
+Guwahati,17,18,11,3
+Agra,16,19,9,1
+Bhubaneswar,16,25,13,6
+Ghaziabad,16,17,9,0
+Bhopal,15,19,8,2
+Kanpur,15,19,12,5
+Thiruvananthapuram,12,13,9,0
+Vadodara,12,13,8,4
+Faridabad,10,12,7,0
+Dehradun,9,9,8,2
+Rajkot,9,10,6,0
+Varanasi,9,10,6,0
+Kalyan,8,10,6,2
+Udaipur,8,9,4,0
+Vijayawada,8,11,7,0
+Chhatrapati Sambhajinagar,7,7,5,1
+Hubballi,7,7,7,2
+Jabalpur,7,7,6,0
+Mira Bhayandar,7,8,4,4
+Pimpri-Chinchwad,7,14,7,0
+Amritsar,6,8,3,0
+Chandigarh,6,7,6,3
+Guntur,6,6,3,1
+Meerut,6,6,6,1
+Sahibzada Ajit Singh Nagar,6,6,3,0
+Howrah,5,5,4,0
+Jalandhar,5,6,4,0
+Jodhpur,5,5,5,0
+Madurai,5,7,3,0
+Mysuru,5,5,4,2
+Prayagraj,5,6,3,1
+Tiruchirappalli,5,6,4,1
+Virar,5,5,4,0
+Visakhapatnam,5,7,6,1
+Dubai,4,4,2,3
+Durgapur,4,4,3,0
+Jammu,4,4,2,0
+Kota,4,5,2,0
+Mangaluru,4,5,3,0
+Raipur,4,5,3,0
+Ranchi,4,5,3,1
+Siliguri,4,4,2,3
+Sonipat,4,4,2,0
+Tirupati,4,4,3,0
+Warangal,4,5,4,0
+Ambernath,3,4,2,1
+Asansol,3,3,1,0
+Bhilwara,3,4,2,0
+Chicago,3,3,2,0
+Gandhinagar,3,3,2,1
+Gwalior,3,4,1,0
+Hardoi,3,3,2,2
+Jamshedpur,3,3,2,1
+Kolhapur,3,3,2,0
+Kollam,3,5,2,0
+Moradabad,3,4,2,0
+Morbi,3,3,3,14
+Pandharpur,3,3,1,0
+Rohtak,3,4,1,0
+Secunderabad,3,3,3,0
+Vapi,3,4,2,0
+Vasai-Virar,3,3,3,1
+Anantapur,2,2,1,0
+Banswara,2,2,2,0
+Baranagar,2,2,1,0
+Belagavi,2,2,1,0
+Berhampore,2,2,0,0
+Bhimavaram,2,2,1,0
+Bhiwandi,2,2,2,0
+Chengalpattu,2,2,1,0
+Darjeeling,2,2,1,0
+Doha,2,3,1,3
+Elayavoor,2,2,1,0
+Gandhidham,2,2,2,0
+Gordhan Vilas Rural,2,2,1,0
+Hosur,2,2,1,0
+Jaunpur,2,2,0,0
+Kampala,2,2,2,0
+Karnal,2,2,1,0
+Karur,2,2,2,0
+Khammam,2,2,1,0
+Kozhikode,2,2,2,0
+Kundarapalli,2,2,2,5
+Kurukshetra,2,2,1,0
+Latur,2,3,1,0
+Maraimalai Nagar,2,2,1,4
+Matar,2,2,0,0
+Muscat,2,2,1,0
+Muzaffarpur,2,2,0,0
+Nagercoil,2,3,1,0
+Nellore,2,2,2,0
+Palghar,2,2,2,1
+Panaji,2,2,1,0
+Panipat,2,2,2,0
+Rajapalayam,2,2,2,0
+Rajpur Sonarpur,2,6,2,0
+Rewari,2,4,1,0
+Roorkee,2,2,2,0
+Rourkela,2,3,2,1
+Salem,2,3,2,2
+Shimla,2,2,1,0
+Solan,2,2,1,0
+Sriperumbudur,2,3,1,0
+Sulur,2,2,1,0
+Sydney,2,2,1,0
+Thrissur,2,2,1,0
+Tirunelveli,2,2,2,0
+Agartala,1,2,2,1
+Ahilyanagar,1,1,1,0
+Aizawl,1,2,2,0
+Akola,1,1,1,0
+Akot,1,1,1,0
+Almere,1,1,1,0
+Ambala Cantt,1,1,1,0
+Amravati,1,1,1,0
+Amsterdam,1,1,1,0
+Anakapalli,1,1,1,0
+Anand,1,1,1,0
+Anandapur,1,1,0,0
+Ankleshwar,1,1,1,0
+Aradi Socorro,1,1,1,2
+Aron,1,1,1,0
+Arrah,1,1,1,0
+Atlanta,1,1,1,0
+Auckland,1,1,0,0
+Bailhongal,1,1,1,0
+Ballari,1,1,1,0
+Bangkok,1,1,0,0
+Barabanki,1,2,2,0
+Barara,1,1,0,0
+Bareilly,1,1,1,0
+Bargarh,1,1,1,0
+Baruipur,1,1,1,0
+Bhabat,1,1,1,0
+Bhavnagar,1,2,0,0
+Bhilai,1,1,1,0
+Bhiwani,1,1,1,0
+Bhokar,1,1,0,0
+Bhuj,1,1,0,0
+Bihar Sharif,1,1,0,0
+Bikaner,1,1,1,0
+Bokaro Steel City,1,1,1,1
+Brooklyn Park,1,1,1,0
+Chagallu,1,1,1,2
+Chakan,1,1,1,0
+Chakradharpur,1,1,1,2
+Cheyyar,1,1,0,0
+Chhindwara,1,1,0,0
+Chidambaram,1,1,1,2
+Chikkamagaluru,1,1,1,0
+Christchurch,1,1,0,0
+Cuddalore,1,1,1,0
+Cuttack,1,1,1,0
+Dadri,1,1,1,0
+Dallas,1,2,0,0
+Dammam,1,1,1,2
+Davao City,1,1,1,0
+Dhanbad,1,1,0,0
+Dharmapuri,1,1,0,0
+Dharwad,1,1,1,0
+Dhenkanal,1,1,1,0
+Dhubri Circle,1,1,1,0
+Dindigul,1,1,1,0
+Erode,1,1,1,0
+Faisalabad,1,1,1,0
+Farrukhabad,1,1,0,0
+Fort Worth,1,2,0,0
+Frankfurt am Main,1,2,0,0
+Georai,1,1,1,0
+Godhra,1,1,1,0
+Gorakhpur,1,1,1,0
+Guduvancheri,1,1,1,0
+Gumi-si,1,1,0,0
+Hailakandi,1,1,0,0
+Hamilton,1,1,0,0
+Hanamkonda,1,4,2,0
+Haridwar,1,1,1,1
+Heidenheim,1,1,1,0
+Hisar,1,1,1,1
+Honavar,1,1,1,0
+Imphal,1,1,1,0
+Islamabad,1,2,1,2
+Jacksonville,1,1,1,1
+Jagadhri,1,1,1,0
+Jagdalpur,1,2,1,0
+Jagraon,1,1,0,0
+Jamnagar,1,2,0,0
+Jatani,1,1,1,0
+Jind,1,1,1,1
+Kadapa,1,2,1,0
+Kadi,1,1,1,0
+Kalaburagi,1,1,1,4
+Kamareddy,1,1,0,0
+Karumathampatti,1,1,1,0
+Kashipur,1,1,0,0
+Khandwa,1,1,1,0
+Khanna,1,1,0,0
+Kharagpur,1,1,1,0
+Kinwat,1,1,1,2
+Kishangarh,1,1,1,0
+Kodungallur,1,1,1,0
+Kondapur,1,1,1,0
+Korba,1,1,1,0
+Koregaon Bhima,1,1,1,0
+Koyilandi,1,1,1,0
+Krishnanagar,1,1,1,0
+Kuching,1,1,1,0
+Lahore,1,1,1,0
+Lakhimpur,1,1,1,0
+Machilipatnam,1,1,0,0
+Madgaon,1,1,1,1
+Maidenhead,1,2,0,0
+Malerkotla,1,1,1,0
+Mansa,1,1,1,0
+Mapusa,1,3,0,0
+Marvin,1,1,1,0
+Medininagar,1,1,0,0
+Mexico City,1,1,0,0
+Midnapore,1,1,1,1
+Milan,1,1,1,0
+Mirzapur,1,1,1,0
+Motihari,1,1,0,0
+Nadiad,1,1,0,0
+Nanded,1,2,0,0
+Nandigama,1,1,0,0
+Navsari,1,1,0,0
+New Town,1,1,1,0
+Newton,1,1,1,0
+Nohar,1,1,1,0
+North Dumdum,1,1,1,0
+North Smithfield,1,2,0,0
+Oberbuchsiten,1,3,1,1
+Ongole,1,1,1,0
+Palanpur,1,1,0,0
+Panchkula,1,1,0,0
+Paonta Sahib,1,2,2,0
+Patiala,1,2,1,0
+Pithampur,1,1,1,0
+Puducherry,1,1,1,0
+Quepem,1,1,0,0
+Raiganj,1,1,0,0
+Rajamahendravaram,1,1,1,0
+Rajnandgaon,1,1,0,0
+Rajsamand,1,1,1,0
+Ramanathapuram,1,2,0,0
+Rasipuram,1,1,0,0
+Ratlam,1,1,0,0
+Riyadh,1,2,2,0
+Rupnagar,1,1,0,0
+Saharanpur,1,1,0,0
+Saint Michael,1,1,1,0
+Salmiya,1,1,1,0
+Sangamner,1,1,0,0
+Sangli Miraj Kupwad,1,1,0,0
+Sehore,1,2,1,0
+Senden,1,1,1,0
+Sharjah,1,2,0,0
+Sherwood,1,1,1,0
+Shillong,1,2,1,0
+Shivamogga,1,1,1,0
+Sikandrabad,1,1,0,0
+Silchar,1,1,1,0
+Singapore,1,1,0,0
+Sirsa,1,1,0,0
+Sirsi,1,1,1,0
+Sivakasi,1,1,1,0
+South Dumdum,1,1,1,0
+Sri Ganganagar,1,1,0,0
+Sri Vijaya Puram,1,1,1,1
+Srinagar,1,1,0,0
+Tarangambadi,1,1,1,0
+Tiruppur,1,1,1,0
+Tiruvannamalai,1,1,0,0
+Toronto,1,1,1,0
+Tosham,1,1,1,0
+Trou d'Eau Douce,1,1,0,0
+Udupi,1,2,0,0
+Ujjain,1,1,0,0
+Ulhasnagar,1,1,1,0
+Ullal,1,1,1,0
+Umargam,1,1,1,0
+Valsad,1,1,0,0
+Villach,1,1,1,0
+Virajpet,1,1,1,0
+Yavatmal,1,1,0,0
+Zapopan,1,1,1,0
+Dabhoi,0,1,0,0

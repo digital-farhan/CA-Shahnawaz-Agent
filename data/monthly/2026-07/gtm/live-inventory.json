@@ -1,0 +1,826 @@
+{
+  "accounts": [
+    {
+      "account": {
+        "path": "accounts/6366862687",
+        "accountId": "6366862687",
+        "name": "Shahnawaz And Associates",
+        "features": {
+          "supportUserPermissions": true,
+          "supportMultipleContainers": true
+        }
+      },
+      "containers": [
+        {
+          "container": {
+            "path": "accounts/6366862687/containers/258760891",
+            "accountId": "6366862687",
+            "containerId": "258760891",
+            "name": "cashahnawaz.com",
+            "publicId": "GTM-N2LHGRCX",
+            "usageContext": [
+              "web"
+            ],
+            "fingerprint": "1784456703904",
+            "tagManagerUrl": "https://tagmanager.google.com/#/container/accounts/6366862687/containers/258760891/workspaces?apiLink=container",
+            "features": {
+              "supportUserPermissions": true,
+              "supportEnvironments": true,
+              "supportWorkspaces": true,
+              "supportGtagConfigs": false,
+              "supportBuiltInVariables": true,
+              "supportClients": false,
+              "supportFolders": true,
+              "supportTags": true,
+              "supportTemplates": true,
+              "supportTriggers": true,
+              "supportVariables": true,
+              "supportVersions": true,
+              "supportZones": true,
+              "supportTransformations": false
+            },
+            "tagIds": [
+              "GTM-N2LHGRCX"
+            ]
+          },
+          "liveVersion": {
+            "path": "accounts/6366862687/containers/258760891/versions/5",
+            "accountId": "6366862687",
+            "containerId": "258760891",
+            "containerVersionId": "5",
+            "name": "Hotjar Connected",
+            "container": {
+              "path": "accounts/6366862687/containers/258760891",
+              "accountId": "6366862687",
+              "containerId": "258760891",
+              "name": "cashahnawaz.com",
+              "publicId": "GTM-N2LHGRCX",
+              "usageContext": [
+                "web"
+              ],
+              "fingerprint": "1784456703904",
+              "tagManagerUrl": "https://tagmanager.google.com/#/container/accounts/6366862687/containers/258760891/workspaces?apiLink=container",
+              "features": {
+                "supportUserPermissions": true,
+                "supportEnvironments": true,
+                "supportWorkspaces": true,
+                "supportGtagConfigs": false,
+                "supportBuiltInVariables": true,
+                "supportClients": false,
+                "supportFolders": true,
+                "supportTags": true,
+                "supportTemplates": true,
+                "supportTriggers": true,
+                "supportVariables": true,
+                "supportVersions": true,
+                "supportZones": true,
+                "supportTransformations": false
+              },
+              "tagIds": [
+                "GTM-N2LHGRCX"
+              ]
+            },
+            "tag": [
+              {
+                "accountId": "6366862687",
+                "containerId": "258760891",
+                "tagId": "3",
+                "name": "GA4 Integration",
+                "type": "googtag",
+                "parameter": [
+                  {
+                    "type": "template",
+                    "key": "tagId",
+                    "value": "G-1SFXZJSYYY"
+                  }
+                ],
+                "fingerprint": "1784457372512",
+                "firingTriggerId": [
+                  "2147479573"
+                ],
+                "tagFiringOption": "oncePerEvent",
+                "monitoringMetadata": {
+                  "type": "map"
+                },
+                "consentSettings": {
+                  "consentStatus": "notSet"
+                }
+              },
+              {
+                "accountId": "6366862687",
+                "containerId": "258760891",
+                "tagId": "6",
+                "name": "Website Menu Phone Click",
+                "type": "gaawe",
+                "parameter": [
+                  {
+                    "type": "boolean",
+                    "key": "sendEcommerceData",
+                    "value": "false"
+                  },
+                  {
+                    "type": "list",
+                    "key": "eventSettingsTable",
+                    "list": [
+                      {
+                        "type": "map",
+                        "map": [
+                          {
+                            "type": "template",
+                            "key": "parameter",
+                            "value": "phone_number"
+                          },
+                          {
+                            "type": "template",
+                            "key": "parameterValue",
+                            "value": "{{Click URL}}"
+                          }
+                        ]
+                      },
+                      {
+                        "type": "map",
+                        "map": [
+                          {
+                            "type": "template",
+                            "key": "parameter",
+                            "value": "button_text"
+                          },
+                          {
+                            "type": "template",
+                            "key": "parameterValue",
+                            "value": "{{Click Text}}"
+                          }
+                        ]
+                      },
+                      {
+                        "type": "map",
+                        "map": [
+                          {
+                            "type": "template",
+                            "key": "parameter",
+                            "value": "page_location"
+                          },
+                          {
+                            "type": "template",
+                            "key": "parameterValue",
+                            "value": "{{Page URL}}"
+                          }
+                        ]
+                      }
+                    ]
+                  },
+                  {
+                    "type": "template",
+                    "key": "eventName",
+                    "value": "phone_click"
+                  },
+                  {
+                    "type": "template",
+                    "key": "measurementIdOverride",
+                    "value": "G-1SFXZJSYYY"
+                  }
+                ],
+                "fingerprint": "1784457999772",
+                "firingTriggerId": [
+                  "5"
+                ],
+                "tagFiringOption": "oncePerEvent",
+                "monitoringMetadata": {
+                  "type": "map"
+                },
+                "consentSettings": {
+                  "consentStatus": "notSet"
+                }
+              },
+              {
+                "accountId": "6366862687",
+                "containerId": "258760891",
+                "tagId": "8",
+                "name": "GA4 - WhatsApp Click",
+                "type": "gaawe",
+                "parameter": [
+                  {
+                    "type": "boolean",
+                    "key": "sendEcommerceData",
+                    "value": "false"
+                  },
+                  {
+                    "type": "list",
+                    "key": "eventSettingsTable",
+                    "list": [
+                      {
+                        "type": "map",
+                        "map": [
+                          {
+                            "type": "template",
+                            "key": "parameter",
+                            "value": "click_url"
+                          },
+                          {
+                            "type": "template",
+                            "key": "parameterValue",
+                            "value": "{{Click URL}}"
+                          }
+                        ]
+                      },
+                      {
+                        "type": "map",
+                        "map": [
+                          {
+                            "type": "template",
+                            "key": "parameter",
+                            "value": "click_text"
+                          },
+                          {
+                            "type": "template",
+                            "key": "parameterValue",
+                            "value": "{{Click Text}}"
+                          }
+                        ]
+                      },
+                      {
+                        "type": "map",
+                        "map": [
+                          {
+                            "type": "template",
+                            "key": "parameter",
+                            "value": "page_location"
+                          },
+                          {
+                            "type": "template",
+                            "key": "parameterValue",
+                            "value": "{{Page URL}}"
+                          }
+                        ]
+                      }
+                    ]
+                  },
+                  {
+                    "type": "template",
+                    "key": "eventName",
+                    "value": "whatsapp_click"
+                  },
+                  {
+                    "type": "template",
+                    "key": "measurementIdOverride",
+                    "value": "G-1SFXZJSYYY"
+                  }
+                ],
+                "fingerprint": "1784459366956",
+                "firingTriggerId": [
+                  "7"
+                ],
+                "tagFiringOption": "oncePerEvent",
+                "monitoringMetadata": {
+                  "type": "map"
+                },
+                "consentSettings": {
+                  "consentStatus": "notSet"
+                }
+              },
+              {
+                "accountId": "6366862687",
+                "containerId": "258760891",
+                "tagId": "9",
+                "name": "Hotjar",
+                "type": "html",
+                "parameter": [
+                  {
+                    "type": "template",
+                    "key": "html",
+                    "value": "<script src=\"https://t.contentsquare.net/uxa/cab122fc23257.js\" defer></script>"
+                  },
+                  {
+                    "type": "boolean",
+                    "key": "supportDocumentWrite",
+                    "value": "false"
+                  }
+                ],
+                "fingerprint": "1785398858897",
+                "firingTriggerId": [
+                  "2147479553"
+                ],
+                "tagFiringOption": "oncePerEvent",
+                "monitoringMetadata": {
+                  "type": "map"
+                },
+                "consentSettings": {
+                  "consentStatus": "notSet"
+                }
+              }
+            ],
+            "trigger": [
+              {
+                "accountId": "6366862687",
+                "containerId": "258760891",
+                "triggerId": "5",
+                "name": "Phone Click",
+                "type": "linkClick",
+                "filter": [
+                  {
+                    "type": "startsWith",
+                    "parameter": [
+                      {
+                        "type": "template",
+                        "key": "arg0",
+                        "value": "{{Click URL}}"
+                      },
+                      {
+                        "type": "template",
+                        "key": "arg1",
+                        "value": "tel:"
+                      }
+                    ]
+                  }
+                ],
+                "waitForTags": {
+                  "type": "boolean",
+                  "value": "false"
+                },
+                "checkValidation": {
+                  "type": "boolean",
+                  "value": "false"
+                },
+                "waitForTagsTimeout": {
+                  "type": "template",
+                  "value": "2000"
+                },
+                "uniqueTriggerId": {
+                  "type": "template"
+                },
+                "fingerprint": "1784457726157"
+              },
+              {
+                "accountId": "6366862687",
+                "containerId": "258760891",
+                "triggerId": "7",
+                "name": "WhatsApp Click",
+                "type": "linkClick",
+                "waitForTags": {
+                  "type": "boolean",
+                  "value": "false"
+                },
+                "checkValidation": {
+                  "type": "boolean",
+                  "value": "false"
+                },
+                "waitForTagsTimeout": {
+                  "type": "template",
+                  "value": "2000"
+                },
+                "uniqueTriggerId": {
+                  "type": "template"
+                },
+                "fingerprint": "1784459257678"
+              }
+            ],
+            "builtInVariable": [
+              {
+                "accountId": "6366862687",
+                "containerId": "258760891",
+                "type": "pageUrl",
+                "name": "Page URL"
+              },
+              {
+                "accountId": "6366862687",
+                "containerId": "258760891",
+                "type": "event",
+                "name": "Event"
+              },
+              {
+                "accountId": "6366862687",
+                "containerId": "258760891",
+                "type": "clickElement",
+                "name": "Click Element"
+              },
+              {
+                "accountId": "6366862687",
+                "containerId": "258760891",
+                "type": "clickClasses",
+                "name": "Click Classes"
+              },
+              {
+                "accountId": "6366862687",
+                "containerId": "258760891",
+                "type": "clickId",
+                "name": "Click ID"
+              },
+              {
+                "accountId": "6366862687",
+                "containerId": "258760891",
+                "type": "clickTarget",
+                "name": "Click Target"
+              },
+              {
+                "accountId": "6366862687",
+                "containerId": "258760891",
+                "type": "clickUrl",
+                "name": "Click URL"
+              },
+              {
+                "accountId": "6366862687",
+                "containerId": "258760891",
+                "type": "clickText",
+                "name": "Click Text"
+              }
+            ],
+            "fingerprint": "1785398901543",
+            "tagManagerUrl": "https://tagmanager.google.com/#/versions/accounts/6366862687/containers/258760891/versions/5?apiLink=version"
+          },
+          "workspaces": [
+            {
+              "workspace": {
+                "path": "accounts/6366862687/containers/258760891/workspaces/6",
+                "accountId": "6366862687",
+                "containerId": "258760891",
+                "workspaceId": "6",
+                "name": "Default Workspace",
+                "fingerprint": "1785398901626",
+                "tagManagerUrl": "https://tagmanager.google.com/#/container/accounts/6366862687/containers/258760891/workspaces/6?apiLink=workspace"
+              },
+              "tags": [
+                {
+                  "path": "accounts/6366862687/containers/258760891/workspaces/6/tags/9",
+                  "accountId": "6366862687",
+                  "containerId": "258760891",
+                  "workspaceId": "6",
+                  "tagId": "9",
+                  "name": "Hotjar",
+                  "type": "html",
+                  "parameter": [
+                    {
+                      "type": "template",
+                      "key": "html",
+                      "value": "<script src=\"https://t.contentsquare.net/uxa/cab122fc23257.js\" defer></script>"
+                    },
+                    {
+                      "type": "boolean",
+                      "key": "supportDocumentWrite",
+                      "value": "false"
+                    }
+                  ],
+                  "fingerprint": "1785398858897",
+                  "firingTriggerId": [
+                    "2147479553"
+                  ],
+                  "tagFiringOption": "oncePerEvent",
+                  "tagManagerUrl": "https://tagmanager.google.com/#/container/accounts/6366862687/containers/258760891/workspaces/6/tags/9?apiLink=tag",
+                  "monitoringMetadata": {
+                    "type": "map"
+                  },
+                  "consentSettings": {
+                    "consentStatus": "notSet"
+                  }
+                },
+                {
+                  "path": "accounts/6366862687/containers/258760891/workspaces/6/tags/8",
+                  "accountId": "6366862687",
+                  "containerId": "258760891",
+                  "workspaceId": "6",
+                  "tagId": "8",
+                  "name": "GA4 - WhatsApp Click",
+                  "type": "gaawe",
+                  "parameter": [
+                    {
+                      "type": "boolean",
+                      "key": "sendEcommerceData",
+                      "value": "false"
+                    },
+                    {
+                      "type": "list",
+                      "key": "eventSettingsTable",
+                      "list": [
+                        {
+                          "type": "map",
+                          "map": [
+                            {
+                              "type": "template",
+                              "key": "parameter",
+                              "value": "click_url"
+                            },
+                            {
+                              "type": "template",
+                              "key": "parameterValue",
+                              "value": "{{Click URL}}"
+                            }
+                          ]
+                        },
+                        {
+                          "type": "map",
+                          "map": [
+                            {
+                              "type": "template",
+                              "key": "parameter",
+                              "value": "click_text"
+                            },
+                            {
+                              "type": "template",
+                              "key": "parameterValue",
+                              "value": "{{Click Text}}"
+                            }
+                          ]
+                        },
+                        {
+                          "type": "map",
+                          "map": [
+                            {
+                              "type": "template",
+                              "key": "parameter",
+                              "value": "page_location"
+                            },
+                            {
+                              "type": "template",
+                              "key": "parameterValue",
+                              "value": "{{Page URL}}"
+                            }
+                          ]
+                        }
+                      ]
+                    },
+                    {
+                      "type": "template",
+                      "key": "eventName",
+                      "value": "whatsapp_click"
+                    },
+                    {
+                      "type": "template",
+                      "key": "measurementIdOverride",
+                      "value": "G-1SFXZJSYYY"
+                    }
+                  ],
+                  "fingerprint": "1784459366956",
+                  "firingTriggerId": [
+                    "7"
+                  ],
+                  "tagFiringOption": "oncePerEvent",
+                  "tagManagerUrl": "https://tagmanager.google.com/#/container/accounts/6366862687/containers/258760891/workspaces/6/tags/8?apiLink=tag",
+                  "monitoringMetadata": {
+                    "type": "map"
+                  },
+                  "consentSettings": {
+                    "consentStatus": "notSet"
+                  }
+                },
+                {
+                  "path": "accounts/6366862687/containers/258760891/workspaces/6/tags/6",
+                  "accountId": "6366862687",
+                  "containerId": "258760891",
+                  "workspaceId": "6",
+                  "tagId": "6",
+                  "name": "Website Menu Phone Click",
+                  "type": "gaawe",
+                  "parameter": [
+                    {
+                      "type": "boolean",
+                      "key": "sendEcommerceData",
+                      "value": "false"
+                    },
+                    {
+                      "type": "list",
+                      "key": "eventSettingsTable",
+                      "list": [
+                        {
+                          "type": "map",
+                          "map": [
+                            {
+                              "type": "template",
+                              "key": "parameter",
+                              "value": "phone_number"
+                            },
+                            {
+                              "type": "template",
+                              "key": "parameterValue",
+                              "value": "{{Click URL}}"
+                            }
+                          ]
+                        },
+                        {
+                          "type": "map",
+                          "map": [
+                            {
+                              "type": "template",
+                              "key": "parameter",
+                              "value": "button_text"
+                            },
+                            {
+                              "type": "template",
+                              "key": "parameterValue",
+                              "value": "{{Click Text}}"
+                            }
+                          ]
+                        },
+                        {
+                          "type": "map",
+                          "map": [
+                            {
+                              "type": "template",
+                              "key": "parameter",
+                              "value": "page_location"
+                            },
+                            {
+                              "type": "template",
+                              "key": "parameterValue",
+                              "value": "{{Page URL}}"
+                            }
+                          ]
+                        }
+                      ]
+                    },
+                    {
+                      "type": "template",
+                      "key": "eventName",
+                      "value": "phone_click"
+                    },
+                    {
+                      "type": "template",
+                      "key": "measurementIdOverride",
+                      "value": "G-1SFXZJSYYY"
+                    }
+                  ],
+                  "fingerprint": "1784457999772",
+                  "firingTriggerId": [
+                    "5"
+                  ],
+                  "tagFiringOption": "oncePerEvent",
+                  "tagManagerUrl": "https://tagmanager.google.com/#/container/accounts/6366862687/containers/258760891/workspaces/6/tags/6?apiLink=tag",
+                  "monitoringMetadata": {
+                    "type": "map"
+                  },
+                  "consentSettings": {
+                    "consentStatus": "notSet"
+                  }
+                },
+                {
+                  "path": "accounts/6366862687/containers/258760891/workspaces/6/tags/3",
+                  "accountId": "6366862687",
+                  "containerId": "258760891",
+                  "workspaceId": "6",
+                  "tagId": "3",
+                  "name": "GA4 Integration",
+                  "type": "googtag",
+                  "parameter": [
+                    {
+                      "type": "template",
+                      "key": "tagId",
+                      "value": "G-1SFXZJSYYY"
+                    }
+                  ],
+                  "fingerprint": "1784457372512",
+                  "firingTriggerId": [
+                    "2147479573"
+                  ],
+                  "tagFiringOption": "oncePerEvent",
+                  "tagManagerUrl": "https://tagmanager.google.com/#/container/accounts/6366862687/containers/258760891/workspaces/6/tags/3?apiLink=tag",
+                  "monitoringMetadata": {
+                    "type": "map"
+                  },
+                  "consentSettings": {
+                    "consentStatus": "notSet"
+                  }
+                }
+              ],
+              "triggers": [
+                {
+                  "path": "accounts/6366862687/containers/258760891/workspaces/6/triggers/7",
+                  "accountId": "6366862687",
+                  "containerId": "258760891",
+                  "workspaceId": "6",
+                  "triggerId": "7",
+                  "name": "WhatsApp Click",
+                  "type": "linkClick",
+                  "waitForTags": {
+                    "type": "boolean",
+                    "value": "false"
+                  },
+                  "checkValidation": {
+                    "type": "boolean",
+                    "value": "false"
+                  },
+                  "waitForTagsTimeout": {
+                    "type": "template",
+                    "value": "2000"
+                  },
+                  "uniqueTriggerId": {
+                    "type": "template"
+                  },
+                  "fingerprint": "1784459257678",
+                  "tagManagerUrl": "https://tagmanager.google.com/#/container/accounts/6366862687/containers/258760891/workspaces/6/triggers/7?apiLink=trigger"
+                },
+                {
+                  "path": "accounts/6366862687/containers/258760891/workspaces/6/triggers/5",
+                  "accountId": "6366862687",
+                  "containerId": "258760891",
+                  "workspaceId": "6",
+                  "triggerId": "5",
+                  "name": "Phone Click",
+                  "type": "linkClick",
+                  "filter": [
+                    {
+                      "type": "startsWith",
+                      "parameter": [
+                        {
+                          "type": "template",
+                          "key": "arg0",
+                          "value": "{{Click URL}}"
+                        },
+                        {
+                          "type": "template",
+                          "key": "arg1",
+                          "value": "tel:"
+                        }
+                      ]
+                    }
+                  ],
+                  "waitForTags": {
+                    "type": "boolean",
+                    "value": "false"
+                  },
+                  "checkValidation": {
+                    "type": "boolean",
+                    "value": "false"
+                  },
+                  "waitForTagsTimeout": {
+                    "type": "template",
+                    "value": "2000"
+                  },
+                  "uniqueTriggerId": {
+                    "type": "template"
+                  },
+                  "fingerprint": "1784457726157",
+                  "tagManagerUrl": "https://tagmanager.google.com/#/container/accounts/6366862687/containers/258760891/workspaces/6/triggers/5?apiLink=trigger"
+                }
+              ],
+              "variables": [],
+              "built_in_variables": [
+                {
+                  "path": "accounts/6366862687/containers/258760891/workspaces/6/built_in_variables",
+                  "accountId": "6366862687",
+                  "containerId": "258760891",
+                  "workspaceId": "6",
+                  "type": "clickElement",
+                  "name": "Click Element"
+                },
+                {
+                  "path": "accounts/6366862687/containers/258760891/workspaces/6/built_in_variables",
+                  "accountId": "6366862687",
+                  "containerId": "258760891",
+                  "workspaceId": "6",
+                  "type": "clickClasses",
+                  "name": "Click Classes"
+                },
+                {
+                  "path": "accounts/6366862687/containers/258760891/workspaces/6/built_in_variables",
+                  "accountId": "6366862687",
+                  "containerId": "258760891",
+                  "workspaceId": "6",
+                  "type": "clickId",
+                  "name": "Click ID"
+                },
+                {
+                  "path": "accounts/6366862687/containers/258760891/workspaces/6/built_in_variables",
+                  "accountId": "6366862687",
+                  "containerId": "258760891",
+                  "workspaceId": "6",
+                  "type": "clickTarget",
+                  "name": "Click Target"
+                },
+                {
+                  "path": "accounts/6366862687/containers/258760891/workspaces/6/built_in_variables",
+                  "accountId": "6366862687",
+                  "containerId": "258760891",
+                  "workspaceId": "6",
+                  "type": "clickUrl",
+                  "name": "Click URL"
+                },
+                {
+                  "path": "accounts/6366862687/containers/258760891/workspaces/6/built_in_variables",
+                  "accountId": "6366862687",
+                  "containerId": "258760891",
+                  "workspaceId": "6",
+                  "type": "clickText",
+                  "name": "Click Text"
+                },
+                {
+                  "path": "accounts/6366862687/containers/258760891/workspaces/6/built_in_variables",
+                  "accountId": "6366862687",
+                  "containerId": "258760891",
+                  "workspaceId": "6",
+                  "type": "pageUrl",
+                  "name": "Page URL"
+                },
+                {
+                  "path": "accounts/6366862687/containers/258760891/workspaces/6/built_in_variables",
+                  "accountId": "6366862687",
+                  "containerId": "258760891",
+                  "workspaceId": "6",
+                  "type": "event",
+                  "name": "Event"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

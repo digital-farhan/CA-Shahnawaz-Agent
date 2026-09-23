@@ -1,0 +1,77 @@
+{
+  "auditDate": "2026-08-28",
+  "dataEnd": "2026-08-25",
+  "gsc": {
+    "exports": {
+      "90d_date": 90,
+      "90d_query": 9363,
+      "90d_page": 174,
+      "90d_query-page": 10033,
+      "90d_device": 3,
+      "90d_country": 199,
+      "90d_searchAppearance": 4,
+      "16m_date": 116,
+      "16m_query": 9635,
+      "16m_page": 184,
+      "16m_query-page": 10326,
+      "16m_device": 3,
+      "16m_country": 200,
+      "16m_searchAppearance": 4
+    },
+    "site_count": 1,
+    "inspection_count": 14
+  },
+  "ga4": {
+    "daily-16m": {
+      "rows": 38,
+      "status": "ok"
+    },
+    "channels-90d": {
+      "rows": 6,
+      "status": "ok"
+    },
+    "organic-landing-pages-90d": {
+      "rows": 81,
+      "status": "ok"
+    },
+    "organic-devices-90d": {
+      "rows": 3,
+      "status": "ok"
+    },
+    "organic-countries-90d": {
+      "rows": 28,
+      "status": "ok"
+    },
+    "organic-cities-90d": {
+      "rows": 311,
+      "status": "ok"
+    },
+    "events-90d": {
+      "rows": 13,
+      "status": "ok"
+    },
+    "organic-events-90d": {
+      "rows": 13,
+      "status": "ok"
+    },
+    "organic-pages-90d": {
+      "rows": 111,
+      "status": "ok"
+    }
+  },
+  "gtm": {
+    "account_count": 1,
+    "containers": [
+      {
+        "account_name": "Shahnawaz And Associates",
+        "container_name": "cashahnawaz.com",
+        "public_id": "GTM-N2LHGRCX",
+        "live_version": "5",
+        "live_tags": 4,
+        "live_triggers": 2,
+        "live_variables": 0,
+        "workspace_count": 1
+      }
+    ]
+  }
+}

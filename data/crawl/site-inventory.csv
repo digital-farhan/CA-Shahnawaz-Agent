@@ -1,0 +1,112 @@
+URL,Page Type,Discovery Source,Likely Priority,Indexability Signal,Notes
+https://cashahnawaz.com/,Homepage,XML Sitemap + Main Navigation,Tier 1,200; no noindex detected (individually fetched),lastmod 2026-08-19; primary entry point
+https://cashahnawaz.com/gst-registration-online/,Service Page (GST),XML Sitemap + Main Navigation + Footer,Tier 1,200; individually fetched; title confirmed 'GST Registration Online In Mumbai | Expert CA Consultant',lastmod 2026-06-18
+https://cashahnawaz.com/gst-return-filing/,Service Page (GST),XML Sitemap + Main Navigation + Footer,Tier 1,200; individually fetched; title confirmed 'GST Filing Services In Mumbai | Professional CA Support',lastmod 2026-07-22
+https://cashahnawaz.com/income-tax-return-filing-in-mumbai/,Service Page (Income Tax),XML Sitemap + Main Navigation,Tier 1,200; individually fetched; title confirmed,lastmod 2026-07-22
+https://cashahnawaz.com/itr-filing-for-nri-guide-for-non-resident-taxation/,Service Page (Income Tax - NRI Taxation),XML Sitemap + Main Navigation,Tier 1,Listed in XML sitemap (not individually verified),lastmod 2026-07-09
+https://cashahnawaz.com/accounting-services/,Service Page (Accounting),XML Sitemap + Main Navigation + Footer,Tier 1,200; individually fetched; title confirmed,lastmod 2026-06-23
+https://cashahnawaz.com/audit-services/,Service Page (Audit),XML Sitemap + Main Navigation + Footer,Tier 1,200; individually fetched; title confirmed,lastmod 2026-07-29
+https://cashahnawaz.com/startup-registration-india/,Service Page (Registration & Compliance),XML Sitemap + Main Navigation,Tier 1,200; individually fetched; title confirmed,lastmod 2026-08-10
+https://cashahnawaz.com/section-8-company-registration/,Service Page (Registration & Compliance - NGO adjacent),XML Sitemap + Main Navigation,Tier 1,200; individually fetched; title confirmed,lastmod 2026-07-22
+https://cashahnawaz.com/public-limited-company/,Service Page (Registration & Compliance),XML Sitemap + Main Navigation + Footer,Tier 1,200; individually fetched; title confirmed,lastmod 2026-06-09
+https://cashahnawaz.com/llp-annual-filing/,Service Page (Registration & Compliance - ROC Compliance),XML Sitemap + Footer,Tier 1,200; individually fetched; title confirmed,lastmod 2026-06-18
+https://cashahnawaz.com/tds-return-filing-services/,Service Page (GST/Tax Compliance),XML Sitemap + Main Navigation,Tier 1,Listed in XML sitemap (not individually verified),lastmod 2026-07-22
+https://cashahnawaz.com/12a-or-12aa-or-80g-registration-new-scheme/,Service Page (Registration & Compliance - NGO Registration),XML Sitemap + Main Navigation + Footer,Tier 1,Listed in XML sitemap (not individually verified),lastmod 2026-07-22
+https://cashahnawaz.com/about-us/,About,XML Sitemap + Main Navigation + Footer,Tier 2,200; individually fetched,lastmod 2026-06-27
+https://cashahnawaz.com/contact-us/,Contact,XML Sitemap + Main Navigation + Footer,Tier 2,200; individually fetched,lastmod 2026-07-22
+https://cashahnawaz.com/trademark-registration/,Service Page (Other - Trademark),XML Sitemap + Main Navigation + Footer,Tier 2,Listed in XML sitemap (not individually verified),"lastmod 2026-07-22 (page); NOTE: identical URL also listed in category-sitemap.xml with lastmod 2026-05-06 - possible page/taxonomy slug collision"
+https://cashahnawaz.com/blogs/,Other (Blog Index),XML Sitemap + Main Navigation,Tier 2,Listed in XML sitemap (not individually verified),lastmod 2026-06-05
+https://cashahnawaz.com/tax-guides/,Other (Tax Guides Index),XML Sitemap + Main Navigation,Tier 2,Listed in XML sitemap (not individually verified),lastmod 2026-08-19
+https://cashahnawaz.com/tax-case-law/,Other (Case Law Index),XML Sitemap,Tier 2,Listed in XML sitemap (not individually verified),lastmod 2026-08-21
+https://cashahnawaz.com/itr-filing-for-healthcare-industry/,Service Page (Income Tax - Industry Segment),XML Sitemap + Main Navigation,Tier 2,Listed in XML sitemap (not individually verified),lastmod 2026-07-19
+https://cashahnawaz.com/itr-filing-for-beauty-wellness-industry/,Service Page (Income Tax - Industry Segment),XML Sitemap + Main Navigation,Tier 2,Listed in XML sitemap (not individually verified),lastmod 2026-07-09
+https://cashahnawaz.com/itr-filing-for-e-commerce-industry/,Service Page (Income Tax - Industry Segment),XML Sitemap + Main Navigation,Tier 2,Listed in XML sitemap (not individually verified),lastmod 2026-07-09
+https://cashahnawaz.com/itr-filing-for-real-estate-construction/,Service Page (Income Tax - Industry Segment),XML Sitemap + Main Navigation,Tier 2,Listed in XML sitemap (not individually verified),lastmod 2026-07-09
+https://cashahnawaz.com/itr-filing-for-wholesale-retail-trade-industry/,Service Page (Income Tax - Industry Segment),XML Sitemap + Main Navigation,Tier 2,Listed in XML sitemap (not individually verified),lastmod 2026-07-09
+https://cashahnawaz.com/itr-filing-for-crypto-trading-in-india/,Service Page (Income Tax - Industry Segment),XML Sitemap + Main Navigation,Tier 2,Listed in XML sitemap (not individually verified),lastmod 2026-07-09
+https://cashahnawaz.com/itr-filing-for-food-and-beverage-industry/,Service Page (Income Tax - Industry Segment),XML Sitemap + Main Navigation,Tier 2,Listed in XML sitemap (not individually verified),lastmod 2026-07-09
+https://cashahnawaz.com/itr-filing-for-event-management-and-entertainment-professionals/,Service Page (Income Tax - Industry Segment),XML Sitemap + Main Navigation,Tier 2,Listed in XML sitemap (not individually verified),lastmod 2026-07-09
+https://cashahnawaz.com/itr-filing-for-content-creators-influencers/,Service Page (Income Tax - Industry Segment),XML Sitemap + Main Navigation,Tier 2,Listed in XML sitemap (not individually verified),lastmod 2026-07-09
+https://cashahnawaz.com/privacy-and-policy/,Legal Page,XML Sitemap + Footer,Not Prioritized,Listed in XML sitemap (not individually verified),lastmod 2026-08-10
+https://cashahnawaz.com/career/,Other,XML Sitemap,Not Prioritized,Listed in XML sitemap (not individually verified),lastmod 2024-03-20
+https://cashahnawaz.com/trademark-classes/,Other,XML Sitemap,Not Prioritized,Listed in XML sitemap (not individually verified),lastmod 2024-01-09
+https://cashahnawaz.com/due-date/,Other (Compliance Calendar Tool),XML Sitemap,Not Prioritized,Listed in XML sitemap (not individually verified),lastmod 2026-08-10
+https://cashahnawaz.com/due-date/july/,Other (Compliance Calendar Tool),XML Sitemap,Not Prioritized,Listed in XML sitemap (not individually verified),lastmod 2026-08-06
+https://cashahnawaz.com/due-date/august/,Other (Compliance Calendar Tool),XML Sitemap,Not Prioritized,Listed in XML sitemap (not individually verified),lastmod 2026-08-06
+https://cashahnawaz.com/tax-guides/fast-ds-foreign-assets-disclosure-scheme/,Blog/Article (Tax Guide),XML Sitemap,Tier 3,Listed in XML sitemap (not individually verified),lastmod 2026-08-21
+https://cashahnawaz.com/tax-guides/capital-gains-pre-and-post-23rd-july/,Blog/Article (Tax Guide),XML Sitemap + Main Navigation,Tier 3,Listed in XML sitemap (not individually verified),lastmod 2026-08-11
+https://cashahnawaz.com/tax-guides/cbdt-aeoi-order-2026-foreign-assets-in-ais-form-26as/,Blog/Article (Tax Guide),XML Sitemap + Main Navigation,Tier 3,Listed in XML sitemap (not individually verified),lastmod 2026-08-06
+https://cashahnawaz.com/tax-guides/itr-7-filing-guide-trusts-ngos/,Blog/Article (Tax Guide),XML Sitemap + Main Navigation,Tier 3,Listed in XML sitemap (not individually verified),lastmod 2026-08-06
+https://cashahnawaz.com/tax-guides/gst-itc-relief-supplier/,Blog/Article (Tax Guide),XML Sitemap + Main Navigation,Tier 3,Listed in XML sitemap (not individually verified),lastmod 2026-08-06
+https://cashahnawaz.com/tax-guides/partnership-firm-registration-maharashtra/,Blog/Article (Tax Guide),XML Sitemap + Main Navigation,Tier 3,Listed in XML sitemap (not individually verified),lastmod 2026-08-06
+https://cashahnawaz.com/tax-guides/income-tax-on-redevelopment-of-tenancy-property/,Blog/Article (Tax Guide),XML Sitemap + Main Navigation,Tier 3,Listed in XML sitemap (not individually verified),lastmod 2026-08-06
+https://cashahnawaz.com/sachin-tendulkar-itat-section-80rr-case-study/,Blog/Article,XML Sitemap,Tier 3,Listed in XML sitemap (not individually verified),lastmod 2026-08-21
+https://cashahnawaz.com/what-is-an-mis-report-definition-types-importance-and-benefits/,Blog/Article,XML Sitemap,Tier 3,Listed in XML sitemap (not individually verified),lastmod 2026-07-22
+https://cashahnawaz.com/when-can-i-expect-my-itr-refund/,Blog/Article,XML Sitemap,Tier 3,Listed in XML sitemap (not individually verified),lastmod 2026-07-07
+https://cashahnawaz.com/form-10ab-delay-condonation-80g-approval/,Blog/Article,XML Sitemap,Tier 3,Listed in XML sitemap (not individually verified),lastmod 2026-07-06
+https://cashahnawaz.com/best-time-to-file-itr/,Blog/Article,XML Sitemap,Tier 3,Listed in XML sitemap (not individually verified),lastmod 2026-06-24
+https://cashahnawaz.com/gst-unsigned-orders-kerala-hc-2024/,Blog/Article (Case Law),XML Sitemap,Tier 3,Listed in XML sitemap (not individually verified),lastmod 2026-06-23
+https://cashahnawaz.com/madras-high-court-gst-notice-service-judgment/,Blog/Article (Case Law),XML Sitemap,Tier 3,Listed in XML sitemap (not individually verified),lastmod 2026-06-23
+https://cashahnawaz.com/kerala-high-court-ima-gst-mutuality-judgment/,Blog/Article (Case Law),XML Sitemap,Tier 3,Listed in XML sitemap (not individually verified),lastmod 2026-06-23
+https://cashahnawaz.com/patna-high-court-gst-itc-bill-to-ship-to-judgment-2025/,Blog/Article (Case Law),XML Sitemap,Tier 3,Listed in XML sitemap (not individually verified),lastmod 2026-06-23
+https://cashahnawaz.com/patanjali-gst-penalty-case-hc-examines-section-122/,Blog/Article (Case Law),XML Sitemap,Tier 3,Listed in XML sitemap (not individually verified),lastmod 2026-06-23
+https://cashahnawaz.com/bombay-hc-gst-bank-recovery-notice/,Blog/Article (Case Law),XML Sitemap,Tier 3,Listed in XML sitemap (not individually verified),lastmod 2026-06-23
+https://cashahnawaz.com/allahabad-hc-gst-assessment-quashed/,Blog/Article (Case Law),XML Sitemap,Tier 3,Listed in XML sitemap (not individually verified),lastmod 2026-06-23
+https://cashahnawaz.com/bombay-hc-cross-state-itc-transfer/,Blog/Article (Case Law),XML Sitemap,Tier 3,Listed in XML sitemap (not individually verified),lastmod 2026-06-23
+https://cashahnawaz.com/gujarat-hc-gst-demand-dissolved-company/,Blog/Article (Case Law),XML Sitemap,Tier 3,Listed in XML sitemap (not individually verified),lastmod 2026-06-23
+https://cashahnawaz.com/madras-hc-composite-gst-scn-judgment/,Blog/Article (Case Law),XML Sitemap,Tier 3,Listed in XML sitemap (not individually verified),lastmod 2026-06-23
+https://cashahnawaz.com/sikkim-hc-refund-itc-business-closure/,Blog/Article (Case Law),XML Sitemap,Tier 3,Listed in XML sitemap (not individually verified),lastmod 2026-06-23
+https://cashahnawaz.com/gst-cash-credit-account-relief-bombay-hc/,Blog/Article (Case Law),XML Sitemap,Tier 3,Listed in XML sitemap (not individually verified),lastmod 2026-06-23
+https://cashahnawaz.com/patna-high-court-section-77-gst-refund-wrong-head-tax-payment/,Blog/Article (Case Law),XML Sitemap,Tier 3,Listed in XML sitemap (not individually verified),lastmod 2026-06-23
+https://cashahnawaz.com/gujarat-high-court-gst-refund-compensation-cess-itc-coal-exports/,Blog/Article (Case Law),XML Sitemap,Tier 3,Listed in XML sitemap (not individually verified),lastmod 2026-06-23
+https://cashahnawaz.com/allahabad-high-court-gst-demand-beyond-show-cause-notice-quashed/,Blog/Article (Case Law),XML Sitemap,Tier 3,Listed in XML sitemap (not individually verified),lastmod 2026-06-23
+https://cashahnawaz.com/kerala-high-court-gst-itc-reporting-error-section-73-relief/,Blog/Article (Case Law),XML Sitemap,Tier 3,Listed in XML sitemap (not individually verified),lastmod 2026-06-23
+https://cashahnawaz.com/allahabad-high-court-gst-excess-stock-confiscation/,Blog/Article (Case Law),XML Sitemap,Tier 3,Listed in XML sitemap (not individually verified),lastmod 2026-06-23
+https://cashahnawaz.com/supreme-court-gst-summons-vs-proceedings-section-6-2b/,Blog/Article (Case Law),XML Sitemap,Tier 3,Listed in XML sitemap (not individually verified),lastmod 2026-06-23
+https://cashahnawaz.com/blog-the-ultimate-guide-to-form-10bd-ngo-compliance-rules-penalties-and-the-transition-to-form-113/,Blog/Article,XML Sitemap,Tier 3,Listed in XML sitemap (not individually verified),lastmod 2026-06-18
+https://cashahnawaz.com/the-ultimate-real-estate-tax-guide-for-buyers-in-india/,Blog/Article,XML Sitemap,Tier 3,Listed in XML sitemap (not individually verified),lastmod 2026-06-18
+https://cashahnawaz.com/allotment-letter-and-bank-payment-saves-from-addition-under-section-562x/,Blog/Article,XML Sitemap,Tier 3,Listed in XML sitemap (not individually verified),lastmod 2026-06-18
+https://cashahnawaz.com/dos-and-donts-for-salaried-persons-itr/,Blog/Article,XML Sitemap,Tier 3,Listed in XML sitemap (not individually verified),lastmod 2026-06-18
+https://cashahnawaz.com/june-2026-important-due-dates/,Blog/Article,XML Sitemap,Tier 3,Listed in XML sitemap (not individually verified),lastmod 2026-06-15
+https://cashahnawaz.com/key-recommendations-of-45th-gst-council-meeting/,Blog/Article,XML Sitemap,Tier 3,Listed in XML sitemap (not individually verified),lastmod 2026-06-07
+https://cashahnawaz.com/gst-new-update-due-dates-for-october-2021/,Blog/Article,XML Sitemap,Tier 3,Listed in XML sitemap (not individually verified),lastmod 2026-05-14
+https://cashahnawaz.com/blog-bank-transaction-limits-tax-rules-every-mumbai-freelancer-must-know-2026/,Blog/Article,XML Sitemap,Tier 3,Listed in XML sitemap (not individually verified),lastmod 2026-05-11
+https://cashahnawaz.com/tds-chart-for-fy-2026-27/,Blog/Article,XML Sitemap,Tier 3,Listed in XML sitemap (not individually verified),lastmod 2026-05-11
+https://cashahnawaz.com/avoid-these-common-mistakes-in-writing-books-of-accounts/,Blog/Article,XML Sitemap,Tier 3,Listed in XML sitemap (not individually verified),lastmod 2026-05-06
+https://cashahnawaz.com/due-date-calendar-for-the-month-of-november-2022/,Blog/Article,XML Sitemap,Tier 3,Listed in XML sitemap (not individually verified),lastmod 2026-05-06
+https://cashahnawaz.com/the-best-accounting-software-for-small-businesses-in-2023/,Blog/Article,XML Sitemap,Tier 3,Listed in XML sitemap (not individually verified),lastmod 2026-05-06
+https://cashahnawaz.com/taxation-of-corporations-and-businesses/,Blog/Article,XML Sitemap,Tier 3,Listed in XML sitemap (not individually verified),lastmod 2026-05-06
+https://cashahnawaz.com/common-accounting-errors-and-how-to-prevent-them/,Blog/Article,XML Sitemap,Tier 3,Listed in XML sitemap (not individually verified),lastmod 2026-05-06
+https://cashahnawaz.com/important-accounting-concepts-to-ensure-proper-accounting-of-financial-data/,Blog/Article,XML Sitemap,Tier 3,Listed in XML sitemap (not individually verified),lastmod 2026-05-06
+https://cashahnawaz.com/9-principles-of-accounting-while-writing-books/,Blog/Article,XML Sitemap,Tier 3,Listed in XML sitemap (not individually verified),lastmod 2026-05-06
+https://cashahnawaz.com/memorandum-explaining-the-provisions-in-the-finance-bill-2023/,Blog/Article,XML Sitemap,Tier 3,Listed in XML sitemap (not individually verified),lastmod 2026-05-06
+https://cashahnawaz.com/gst-amnesty-scheme-2023/,Blog/Article,XML Sitemap,Tier 3,Listed in XML sitemap (not individually verified),lastmod 2026-05-06
+https://cashahnawaz.com/huf-hindu-undivided-family/,Blog/Article,XML Sitemap,Tier 3,Listed in XML sitemap (not individually verified),lastmod 2026-05-06
+https://cashahnawaz.com/old-vs-new-tax-regime-which-tax-system-is-better-for-salaried-employees/,Blog/Article,XML Sitemap,Tier 3,Listed in XML sitemap (not individually verified),lastmod 2026-05-06
+https://cashahnawaz.com/guidance-note-on-provisions-of-direct-tax-vivad-se-vishwas-scheme-2024/,Blog/Article,XML Sitemap,Tier 3,Listed in XML sitemap (not individually verified),lastmod 2026-05-06
+https://cashahnawaz.com/cbdt-condones-80p-deduction-ay-23-24/,Blog/Article,XML Sitemap,Tier 3,Listed in XML sitemap (not individually verified),lastmod 2026-05-06
+https://cashahnawaz.com/cbdt-sets-monetary-limit-of-the-authority-in-reduction-waiver-of-interest-under-section-2202-of-the-income-tax-act/,Blog/Article,XML Sitemap,Tier 3,Listed in XML sitemap (not individually verified),lastmod 2026-05-06
+https://cashahnawaz.com/waiver-of-late-fees-for-gst-annual-return/,Blog/Article,XML Sitemap,Tier 3,Listed in XML sitemap (not individually verified),lastmod 2026-05-06
+https://cashahnawaz.com/new-income-tax-rules-for-non-residents-operating-cruise-ships-in-india/,Blog/Article,XML Sitemap,Tier 3,Listed in XML sitemap (not individually verified),lastmod 2026-05-06
+https://cashahnawaz.com/dematerialization-of-shares/,Blog/Article,XML Sitemap,Tier 3,Listed in XML sitemap (not individually verified),lastmod 2026-05-06
+https://cashahnawaz.com/notes-section-8-company-and-trust/,Blog/Article,XML Sitemap,Tier 3,Listed in XML sitemap (not individually verified),lastmod 2026-05-06
+https://cashahnawaz.com/sebi-interim-order-gensol-engineering-ltd-2025/,Blog/Article,XML Sitemap,Tier 3,Listed in XML sitemap (not individually verified),lastmod 2026-05-06
+https://cashahnawaz.com/finance-bill-2026-analysis/,Blog/Article,XML Sitemap,Tier 3,Listed in XML sitemap (not individually verified),lastmod 2026-05-06
+https://cashahnawaz.com/charitable-trusts-alert-its-time-reapply-for-tax-exemption-before-30th-sep/,Blog/Article,XML Sitemap,Tier 3,Listed in XML sitemap (not individually verified),lastmod 2025-09-18
+https://cashahnawaz.com/big-relief-for-taxpayers-whose-gst-number-got-canceled-due-to-non-filing-of-gst-returns/,Blog/Article,XML Sitemap,Tier 3,Listed in XML sitemap (not individually verified),lastmod 2023-04-08
+https://cashahnawaz.com/what-is-the-role-of-accounting-within-a-company/,Blog/Article,XML Sitemap,Tier 3,Listed in XML sitemap (not individually verified),lastmod 2023-02-01
+https://cashahnawaz.com/what-is-business-accounting-21-tips-for-business-owners/,Blog/Article,XML Sitemap,Tier 3,Listed in XML sitemap (not individually verified),lastmod 2022-12-09
+https://cashahnawaz.com/central-board-of-direct-taxes-releases-draft-of-common-income-tax-return-form-for-public-consultation/,Blog/Article,XML Sitemap,Tier 3,Listed in XML sitemap (not individually verified),lastmod 2022-11-04
+https://cashahnawaz.com/how-to-file-gst-registration-process-benefits-penalty/,Blog/Article,XML Sitemap,Tier 3,Listed in XML sitemap (not individually verified),lastmod 2022-10-31
+https://cashahnawaz.com/finalisation-of-accounts-9-things-you-must-never-miss-out/,Blog/Article,XML Sitemap,Tier 3,Listed in XML sitemap (not individually verified),lastmod 2022-08-26
+https://cashahnawaz.com/income-tax/,Category Archive,XML Sitemap,Not Prioritized,wp-system/taxonomy archive - not individually verified,lastmod 2026-07-22
+https://cashahnawaz.com/gst/,Category Archive,XML Sitemap,Not Prioritized,wp-system/taxonomy archive - not individually verified,lastmod 2026-06-15
+https://cashahnawaz.com/mca/,Category Archive,XML Sitemap,Not Prioritized,wp-system/taxonomy archive - not individually verified,lastmod 2026-05-06
+https://cashahnawaz.com/accounting-services-blog/,Category Archive,XML Sitemap,Not Prioritized,wp-system/taxonomy archive - not individually verified,lastmod 2026-07-22
+https://cashahnawaz.com/trademark-registration/,Category Archive,XML Sitemap,Not Prioritized,"wp-system/taxonomy archive - not individually verified; DUPLICATE URL of the Service Page row above (same slug used by both a page and a category-sitemap entry)",lastmod 2026-05-06
+https://cashahnawaz.com/others/,Category Archive,XML Sitemap,Not Prioritized,wp-system/taxonomy archive - not individually verified,lastmod 2026-05-06
+https://cashahnawaz.com/donation/,Category Archive,XML Sitemap,Not Prioritized,wp-system/taxonomy archive - not individually verified,lastmod 2026-05-13
+https://cashahnawaz.com/gst-case-law/,Category Archive,XML Sitemap,Not Prioritized,wp-system/taxonomy archive - not individually verified,lastmod 2026-06-23
+http://cashahnawaz.com/project-business/trademark-registration/,Other,Footer,Not Prioritized,"Not found in XML sitemap; path differs from the sitemap's /trademark-registration/; not individually verified; candidate outdated/broken footer link",no lastmod available
+http://cashahnawaz.com/income-tax-return-filling-in-mumbai/,Other,Footer,Not Prioritized,"Not found in XML sitemap; note double-L 'filling' typo vs. sitemap's income-tax-return-filing-in-mumbai; not individually verified; candidate outdated/broken footer link",no lastmod available
+http://cashahnawaz.com/online-tds-return-filing/,Other,Footer,Not Prioritized,"Not found in XML sitemap; differs from sitemap's /tds-return-filing-services/; not individually verified; candidate outdated/broken footer link",no lastmod available

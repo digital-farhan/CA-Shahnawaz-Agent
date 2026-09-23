@@ -1,0 +1,225 @@
+{
+  "audit_date": "2026-08-28",
+  "sitemap": {
+    "robots_status": 200,
+    "sitemaps": [
+      {
+        "url": "https://cashahnawaz.com/sitemap_index.xml",
+        "status": 200,
+        "type": "index",
+        "entries": 3
+      },
+      {
+        "url": "https://cashahnawaz.com/post-sitemap.xml",
+        "status": 200,
+        "type": "urlset",
+        "entries": 238
+      },
+      {
+        "url": "https://cashahnawaz.com/page-sitemap.xml",
+        "status": 200,
+        "type": "urlset",
+        "entries": 176
+      },
+      {
+        "url": "https://cashahnawaz.com/category-sitemap.xml",
+        "status": 200,
+        "type": "urlset",
+        "entries": 8
+      }
+    ]
+  },
+  "sitemap_url_count": 108,
+  "crawled_url_count": 175,
+  "status_counts": {
+    "200": 167,
+    "404": 8
+  },
+  "indexable_count": 166,
+  "missing_canonical": [
+    "https://cashahnawaz.com/?jkit-ajax-request=jkit_elements",
+    "https://cashahnawaz.com/page/2/?jkit-ajax-request=jkit_elements",
+    "https://cashahnawaz.com/wp-content/uploads/2022/11/common-itr.pdf",
+    "https://cashahnawaz.com/wp-content/uploads/2023/10/If-You-have-income-other-than-salary.png",
+    "https://cashahnawaz.com/wp-content/uploads/2023/10/If-you-have-salary-income.png",
+    "https://cashahnawaz.com/wp-content/uploads/2024/10/cbdt-income-tax-circular-13-2023.pdf",
+    "https://cashahnawaz.com/wp-content/uploads/2024/10/circular-12-2024.docx",
+    "https://cashahnawaz.com/wp-content/uploads/2025/03/MJL-Dematerialization-of-Shares.pdf",
+    "https://cashahnawaz.com/wp-content/uploads/2025/06/MJL-Gensol-Interim-Order-by-SEBI.pdf",
+    "https://cashahnawaz.com/wp-content/uploads/2025/08/Galaxy-International_HC_Bombay.pdf",
+    "https://cashahnawaz.com/wp-content/uploads/2025/03/Notes-Section-8-Company-and-Trust.pdf",
+    "https://cashahnawaz.com/wp-content/uploads/2025/08/Patna-HC-ITC-Allowed-Even-Without-Physical-Receipt.pdf",
+    "https://cashahnawaz.com/wp-content/uploads/2025/08/Patanjali-Ayurved-Ltd_HC_Allahabad.pdf",
+    "https://cashahnawaz.com/wp-content/uploads/2025/09/Allahabad-HC-Quashes-GST-Assessment.pdf",
+    "https://cashahnawaz.com/wp-content/uploads/2025/09/Umicore-Autocat-India-Private-Limited_HC_Bombay.pdf",
+    "https://cashahnawaz.com/wp-content/uploads/2025/09/atul-limited-hc-gujarat.pdf",
+    "https://cashahnawaz.com/wp-content/uploads/2025/09/j-t-steel-traders-hc-allahbad.pdf",
+    "https://cashahnawaz.com/wp-content/uploads/2025/09/rejimon-padickapparambil-alex-hc-kerala.pdf",
+    "https://cashahnawaz.com/wp-content/uploads/2025/09/pratik-surendrakumar-shah-vs-state-of-gujarat_hc_gujarat.pdf",
+    "https://cashahnawaz.com/wp-content/uploads/2025/09/sicpa-india-private-limited-hc-sikkim.pdf",
+    "https://cashahnawaz.com/wp-content/uploads/2025/09/skytech-rolling-mill-pvt-ltd-hc-bombay.pdf",
+    "https://cashahnawaz.com/wp-content/uploads/2026/07/circular-no-06-2026.pdf",
+    "https://cashahnawaz.com/wp-content/uploads/2025/09/armour-security-india-ltd-sc.pdf",
+    "https://cashahnawaz.com/wp-content/uploads/2026/05/1771391228-crq5N6-1-TO.pdf",
+    "https://cashahnawaz.com/wp-content/uploads/2025/09/vrinda-automation-hc-allahbad.pdf"
+  ],
+  "nonself_canonical": [
+    {
+      "url": "https://cashahnawaz.com/blogs/2/",
+      "canonical": "https://cashahnawaz.com/blogs/"
+    },
+    {
+      "url": "https://cashahnawaz.com/blogs/3/",
+      "canonical": "https://cashahnawaz.com/blogs/"
+    },
+    {
+      "url": "https://cashahnawaz.com/blogs/19/",
+      "canonical": "https://cashahnawaz.com/blogs/"
+    },
+    {
+      "url": "https://cashahnawaz.com/gst/page/2/",
+      "canonical": "https://cashahnawaz.com/gst/"
+    },
+    {
+      "url": "https://cashahnawaz.com/income-tax/page/2/",
+      "canonical": "https://cashahnawaz.com/income-tax/"
+    },
+    {
+      "url": "https://cashahnawaz.com/others/page/2/",
+      "canonical": "https://cashahnawaz.com/others/"
+    }
+  ],
+  "missing_title": [
+    "https://cashahnawaz.com/wp-content/uploads/2022/11/common-itr.pdf",
+    "https://cashahnawaz.com/wp-content/uploads/2023/10/If-You-have-income-other-than-salary.png",
+    "https://cashahnawaz.com/wp-content/uploads/2023/10/If-you-have-salary-income.png",
+    "https://cashahnawaz.com/wp-content/uploads/2024/10/cbdt-income-tax-circular-13-2023.pdf",
+    "https://cashahnawaz.com/wp-content/uploads/2024/10/circular-12-2024.docx",
+    "https://cashahnawaz.com/wp-content/uploads/2025/03/MJL-Dematerialization-of-Shares.pdf",
+    "https://cashahnawaz.com/wp-content/uploads/2025/06/MJL-Gensol-Interim-Order-by-SEBI.pdf",
+    "https://cashahnawaz.com/wp-content/uploads/2025/08/Galaxy-International_HC_Bombay.pdf",
+    "https://cashahnawaz.com/wp-content/uploads/2025/03/Notes-Section-8-Company-and-Trust.pdf",
+    "https://cashahnawaz.com/wp-content/uploads/2025/08/Patna-HC-ITC-Allowed-Even-Without-Physical-Receipt.pdf",
+    "https://cashahnawaz.com/wp-content/uploads/2025/08/Patanjali-Ayurved-Ltd_HC_Allahabad.pdf",
+    "https://cashahnawaz.com/wp-content/uploads/2025/09/Allahabad-HC-Quashes-GST-Assessment.pdf",
+    "https://cashahnawaz.com/wp-content/uploads/2025/09/Umicore-Autocat-India-Private-Limited_HC_Bombay.pdf",
+    "https://cashahnawaz.com/wp-content/uploads/2025/09/atul-limited-hc-gujarat.pdf",
+    "https://cashahnawaz.com/wp-content/uploads/2025/09/j-t-steel-traders-hc-allahbad.pdf",
+    "https://cashahnawaz.com/wp-content/uploads/2025/09/rejimon-padickapparambil-alex-hc-kerala.pdf",
+    "https://cashahnawaz.com/wp-content/uploads/2025/09/pratik-surendrakumar-shah-vs-state-of-gujarat_hc_gujarat.pdf",
+    "https://cashahnawaz.com/wp-content/uploads/2025/09/sicpa-india-private-limited-hc-sikkim.pdf",
+    "https://cashahnawaz.com/wp-content/uploads/2025/09/skytech-rolling-mill-pvt-ltd-hc-bombay.pdf",
+    "https://cashahnawaz.com/wp-content/uploads/2026/07/circular-no-06-2026.pdf",
+    "https://cashahnawaz.com/wp-content/uploads/2025/09/armour-security-india-ltd-sc.pdf",
+    "https://cashahnawaz.com/wp-content/uploads/2026/05/1771391228-crq5N6-1-TO.pdf",
+    "https://cashahnawaz.com/wp-content/uploads/2025/09/vrinda-automation-hc-allahbad.pdf"
+  ],
+  "missing_meta": [
+    "https://cashahnawaz.com/?jkit-ajax-request=jkit_elements",
+    "https://cashahnawaz.com/career/",
+    "https://cashahnawaz.com/gst-case-law/",
+    "https://cashahnawaz.com/gst-case-law/page/2/",
+    "https://cashahnawaz.com/page/2/?jkit-ajax-request=jkit_elements",
+    "https://cashahnawaz.com/wp-content/uploads/2022/11/common-itr.pdf",
+    "https://cashahnawaz.com/wp-content/uploads/2023/10/If-You-have-income-other-than-salary.png",
+    "https://cashahnawaz.com/wp-content/uploads/2023/10/If-you-have-salary-income.png",
+    "https://cashahnawaz.com/wp-content/uploads/2024/10/cbdt-income-tax-circular-13-2023.pdf",
+    "https://cashahnawaz.com/wp-content/uploads/2024/10/circular-12-2024.docx",
+    "https://cashahnawaz.com/wp-content/uploads/2025/03/MJL-Dematerialization-of-Shares.pdf",
+    "https://cashahnawaz.com/wp-content/uploads/2025/06/MJL-Gensol-Interim-Order-by-SEBI.pdf",
+    "https://cashahnawaz.com/wp-content/uploads/2025/08/Galaxy-International_HC_Bombay.pdf",
+    "https://cashahnawaz.com/wp-content/uploads/2025/03/Notes-Section-8-Company-and-Trust.pdf",
+    "https://cashahnawaz.com/wp-content/uploads/2025/08/Patna-HC-ITC-Allowed-Even-Without-Physical-Receipt.pdf",
+    "https://cashahnawaz.com/wp-content/uploads/2025/08/Patanjali-Ayurved-Ltd_HC_Allahabad.pdf",
+    "https://cashahnawaz.com/wp-content/uploads/2025/09/Allahabad-HC-Quashes-GST-Assessment.pdf",
+    "https://cashahnawaz.com/wp-content/uploads/2025/09/Umicore-Autocat-India-Private-Limited_HC_Bombay.pdf",
+    "https://cashahnawaz.com/wp-content/uploads/2025/09/atul-limited-hc-gujarat.pdf",
+    "https://cashahnawaz.com/wp-content/uploads/2025/09/j-t-steel-traders-hc-allahbad.pdf",
+    "https://cashahnawaz.com/wp-content/uploads/2025/09/rejimon-padickapparambil-alex-hc-kerala.pdf",
+    "https://cashahnawaz.com/wp-content/uploads/2025/09/pratik-surendrakumar-shah-vs-state-of-gujarat_hc_gujarat.pdf",
+    "https://cashahnawaz.com/wp-content/uploads/2025/09/sicpa-india-private-limited-hc-sikkim.pdf",
+    "https://cashahnawaz.com/wp-content/uploads/2025/09/skytech-rolling-mill-pvt-ltd-hc-bombay.pdf",
+    "https://cashahnawaz.com/wp-content/uploads/2026/07/circular-no-06-2026.pdf",
+    "https://cashahnawaz.com/wp-content/uploads/2025/09/armour-security-india-ltd-sc.pdf",
+    "https://cashahnawaz.com/wp-content/uploads/2026/05/1771391228-crq5N6-1-TO.pdf",
+    "https://cashahnawaz.com/wp-content/uploads/2025/09/vrinda-automation-hc-allahbad.pdf"
+  ],
+  "missing_h1": [
+    "https://cashahnawaz.com/career/",
+    "https://cashahnawaz.com/privacy-and-policy/",
+    "https://cashahnawaz.com/when-can-i-expect-my-itr-refund/",
+    "https://cashahnawaz.com/wp-content/uploads/2022/11/common-itr.pdf",
+    "https://cashahnawaz.com/wp-content/uploads/2023/10/If-You-have-income-other-than-salary.png",
+    "https://cashahnawaz.com/wp-content/uploads/2023/10/If-you-have-salary-income.png",
+    "https://cashahnawaz.com/wp-content/uploads/2024/10/cbdt-income-tax-circular-13-2023.pdf",
+    "https://cashahnawaz.com/wp-content/uploads/2024/10/circular-12-2024.docx",
+    "https://cashahnawaz.com/wp-content/uploads/2025/03/MJL-Dematerialization-of-Shares.pdf",
+    "https://cashahnawaz.com/wp-content/uploads/2025/06/MJL-Gensol-Interim-Order-by-SEBI.pdf",
+    "https://cashahnawaz.com/wp-content/uploads/2025/08/Galaxy-International_HC_Bombay.pdf",
+    "https://cashahnawaz.com/wp-content/uploads/2025/03/Notes-Section-8-Company-and-Trust.pdf",
+    "https://cashahnawaz.com/wp-content/uploads/2025/08/Patna-HC-ITC-Allowed-Even-Without-Physical-Receipt.pdf",
+    "https://cashahnawaz.com/wp-content/uploads/2025/08/Patanjali-Ayurved-Ltd_HC_Allahabad.pdf",
+    "https://cashahnawaz.com/wp-content/uploads/2025/09/Allahabad-HC-Quashes-GST-Assessment.pdf",
+    "https://cashahnawaz.com/wp-content/uploads/2025/09/Umicore-Autocat-India-Private-Limited_HC_Bombay.pdf",
+    "https://cashahnawaz.com/wp-content/uploads/2025/09/atul-limited-hc-gujarat.pdf",
+    "https://cashahnawaz.com/wp-content/uploads/2025/09/j-t-steel-traders-hc-allahbad.pdf",
+    "https://cashahnawaz.com/wp-content/uploads/2025/09/rejimon-padickapparambil-alex-hc-kerala.pdf",
+    "https://cashahnawaz.com/wp-content/uploads/2025/09/pratik-surendrakumar-shah-vs-state-of-gujarat_hc_gujarat.pdf",
+    "https://cashahnawaz.com/wp-content/uploads/2025/09/sicpa-india-private-limited-hc-sikkim.pdf",
+    "https://cashahnawaz.com/wp-content/uploads/2025/09/skytech-rolling-mill-pvt-ltd-hc-bombay.pdf",
+    "https://cashahnawaz.com/wp-content/uploads/2026/07/circular-no-06-2026.pdf",
+    "https://cashahnawaz.com/wp-content/uploads/2025/09/armour-security-india-ltd-sc.pdf",
+    "https://cashahnawaz.com/wp-content/uploads/2026/05/1771391228-crq5N6-1-TO.pdf",
+    "https://cashahnawaz.com/wp-content/uploads/2025/09/vrinda-automation-hc-allahbad.pdf"
+  ],
+  "multiple_h1": [
+    "https://cashahnawaz.com/accounting-services-blog/",
+    "https://cashahnawaz.com/?jkit-ajax-request=jkit_elements",
+    "https://cashahnawaz.com/best-time-to-file-itr/",
+    "https://cashahnawaz.com/blog-the-ultimate-guide-to-form-10bd-ngo-compliance-rules-penalties-and-the-transition-to-form-113/",
+    "https://cashahnawaz.com/gst-case-law/",
+    "https://cashahnawaz.com/gst/",
+    "https://cashahnawaz.com/income-tax/",
+    "https://cashahnawaz.com/others/",
+    "https://cashahnawaz.com/gst/page/2/",
+    "https://cashahnawaz.com/gst-case-law/page/2/",
+    "https://cashahnawaz.com/income-tax/page/2/",
+    "https://cashahnawaz.com/others/page/2/",
+    "https://cashahnawaz.com/page/2/?jkit-ajax-request=jkit_elements"
+  ],
+  "duplicate_titles": {
+    "Blogs & The Knowledge Hub | Shahnawaz and Associates": 4,
+    "Easiest Way To Save & Tax Filing | Contact Us | Shahnawaz and Associates": 2,
+    "GST Case Law - Shahnawaz And Associates": 2,
+    "GST Related Blogs - Shahnawaz and Associates Consultancy Services": 2,
+    "How To Complete Your Income Tax Filing Quickly And Easily": 2,
+    "ITR Filing For Content Creators & Influencers | Shahnawaz And Associates": 2,
+    "Income Tax Return Filing In Mumbai | ITR Filing Services": 2,
+    "Amnesty Scheme Income Tax | Shahnawaz and Associates": 2,
+    "How To Register Your Trademark And Protect Your Property": 2,
+    "TDS Return Filing Services In Mumbai | Expert CA Support": 2
+  },
+  "duplicate_descriptions": {
+    "Shahnawaz and Associates is a legal knowledgebase center for all types of entrepreneurs to providing authentic information about your business registrations, itr services , taxation and startups.": 4,
+    "Contact Shahnawaz And Associates for your tax related enquiries. Our experts are always available for you.": 2,
+    "Find the best GST blogs and news sources for GST in India. Here, you will find the most comprehensive list of GST blogs and websites.": 2,
+    "Get your taxes done right the first time and avoid stress. This article helps you avoid common errors, and provide information on tax deductions.": 2,
+    "Complete guide to ITR filing for Content Creators & Influencers. Learn about presumptive taxation, GST on AdSense, TDS on brand deals, and tax-saving tips. File Today.": 2,
+    "Looking for Income Tax return filing in Mumbai? Shahnawaz and Associates is helping 1000+ happy business owners to file their ITR on time. Service starts at @1499. Call Now!": 2,
+    "Amnesty Scheme income tax is one of the most popular income tax schemes in India. Find out more about this scheme, eligibility, process and benefits.": 2,
+    "Trademark registration is a legal process, If you want to claim ownership of your business name or logo. it's best to consult with an attorney before proceeding": 2,
+    "TDS Return Filing services is easy, smoothest and fastest with Shahnawaz and Associates. To know more about TDS return filing services & forms, Contact us at +919820444477 or ca.shahnawazshaikh@gmail.com": 2
+  },
+  "sitemap_not_200": [],
+  "sitemap_noindex": [],
+  "orphan_sitemap_urls": [],
+  "plugin_fingerprints": {
+    "elementor_pages": 152,
+    "rankmath_pages": 152,
+    "yoast_pages": 0,
+    "aioseo_pages": 0,
+    "litespeed_pages": 145,
+    "contact_form_7_pages": 147,
+    "wpforms_pages": 147
+  }
+}

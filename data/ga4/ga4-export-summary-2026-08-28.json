@@ -1,0 +1,38 @@
+{
+  "daily-16m": {
+    "rows": 38,
+    "status": "ok"
+  },
+  "channels-90d": {
+    "rows": 6,
+    "status": "ok"
+  },
+  "organic-landing-pages-90d": {
+    "rows": 81,
+    "status": "ok"
+  },
+  "organic-devices-90d": {
+    "rows": 3,
+    "status": "ok"
+  },
+  "organic-countries-90d": {
+    "rows": 28,
+    "status": "ok"
+  },
+  "organic-cities-90d": {
+    "rows": 311,
+    "status": "ok"
+  },
+  "events-90d": {
+    "rows": 13,
+    "status": "ok"
+  },
+  "organic-events-90d": {
+    "rows": 13,
+    "status": "ok"
+  },
+  "organic-pages-90d": {
+    "rows": 111,
+    "status": "ok"
+  }
+}
