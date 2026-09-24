@@ -1,0 +1,19 @@
+# Python dependencies for the scripts in tools/
+# Install with:  pip install -r requirements.txt
+
+# Site crawling (tools/crawl_site.py, inspect_priority_urls.py)
+requests
+beautifulsoup4
+
+# Report rendering (tools/render_report.py)
+markdown
+
+# Browser tests + PDF export (tools/browser_audit.py, export_report_pdf.py)
+# After installing, also run:  playwright install chromium
+playwright
+
+# Google Search Console + GA4 pulls (tools/pull_google_data.py)
+# Only needed if you have a Google service-account key
+google-auth
+google-api-python-client
+google-analytics-data

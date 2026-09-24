@@ -2,6 +2,111 @@
 
 Evidence-based SEO audit and reporting workspace for **https://cashahnawaz.com/**, a WordPress-based CA / tax / compliance services website.
 
+---
+
+## Quick Start — how to run this project
+
+This is a **Claude Code agent project**. Most of the work is done by asking Claude, not by running scripts. The scripts in `tools/` are optional helpers.
+
+### Step 1 — Install what you need
+
+| Need | Install |
+|---|---|
+| Python 3.10+ | [python.org/downloads](https://www.python.org/downloads/) |
+| Claude Code | [claude.com/claude-code](https://claude.com/claude-code) |
+| Git | [git-scm.com](https://git-scm.com/downloads) |
+
+### Step 2 — Get the project
+
+```bash
+git clone https://github.com/digital-farhan/CA-Shahnawaz-Agent.git
+cd CA-Shahnawaz-Agent
+```
+
+### Step 3 — Install Python packages
+
+```bash
+pip install -r requirements.txt
+playwright install chromium
+```
+
+> `playwright install chromium` is only needed for speed tests and PDF export.
+
+### Step 4 — Open with Claude Code
+
+```bash
+claude
+```
+
+Claude reads `CLAUDE.md` automatically — that file contains all the project rules.
+
+### Step 5 — Ask for an audit
+
+Just talk to it in plain English. Examples:
+
+```
+Audit the GST registration page in depth
+Run a backlink opportunity hunt
+Check which pages have outdated tax content
+Create a client report as PPTX
+```
+
+Claude picks the right playbook from `skills/` on its own.
+
+---
+
+### Optional — connect Google Search Console / GA4
+
+Only needed for real traffic data. Without it, Claude marks those figures `DATA NOT AVAILABLE` instead of guessing.
+
+1. Create a **service account** in [Google Cloud Console](https://console.cloud.google.com/) and download the JSON key.
+2. Grant that service-account email read access in Search Console and GA4.
+3. Point the project at the key:
+
+```bash
+# Windows (PowerShell)
+$env:GOOGLE_APPLICATION_CREDENTIALS = "C:\path\to\key.json"
+
+# macOS / Linux
+export GOOGLE_APPLICATION_CREDENTIALS="/path/to/key.json"
+```
+
+4. Pull the data:
+
+```bash
+python tools/pull_google_data.py
+```
+
+---
+
+### Optional — run the tools directly
+
+```bash
+python tools/crawl_site.py          # crawl the site      → data/crawl/
+python tools/browser_audit.py       # speed + screenshots → data/performance/
+python tools/validate_schema.py     # check schema markup
+python tools/render_report.py       # Markdown report     → HTML
+python tools/export_report_pdf.py   # HTML report         → PDF
+```
+
+---
+
+### Where things go
+
+| Folder | What's inside |
+|---|---|
+| `skills/` | The playbooks Claude follows |
+| `data/` | Evidence — crawls, exports, backlinks |
+| `reports/` | Finished reports you can send |
+| `implementation/` | Fixes to make, tracked by severity |
+| `automations/` | Recurring routines |
+
+### One rule to know
+
+**Claude never changes the live website.** It audits, finds issues and writes step-by-step instructions — you make the actual changes yourself. See the Implementation Policy in [CLAUDE.md](CLAUDE.md).
+
+---
+
 ## What this project is — and is NOT
 
 This is an **audit and reporting project only**. Claude's role here is SEO Auditor / Technical SEO Analyst / Website Researcher / Data Analyst / SEO Strategist / Audit Report Generator — never an implementer. Claude never makes live changes of any kind (WordPress pages/posts, Rank Math or Elementor settings, theme files, plugins, hosting, DNS, robots.txt, `.htaccess`, sitemap config, GSC/GA4/GTM configuration, or any other production system), **even if access to those systems becomes available.** The user implements every approved recommendation manually; Claude's job ends at handing over clear, correct, step-by-step manual guidance.
